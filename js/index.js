@@ -7,6 +7,7 @@ const MENUFEATURES     = document.getElementById("menuFeatures");
 const MENUABOUT        = document.getElementById("menuAbout");
 const MENUTEAM         = document.getElementById("menuTeam");
 const MENUDOC          = document.getElementById("menuDoc");
+const MENUCONTACT      = document.getElementById("menuContact");
 const LANGDOWN         = document.getElementById("langDown");
 const LANGGAMEVERS     = document.getElementById("langGameVers");
 const LANGDOWNWIN      = document.getElementById("langDownWin");
@@ -257,6 +258,7 @@ function printLang(id){
     MENUABOUT.innerHTML = lang.menu.about;
     MENUTEAM.innerHTML = lang.menu.team;
     MENUDOC.innerHTML = lang.menu.doc;
+    MENUCONTACT.innerHTML = lang.menu.contact;
     LANGDOWN.innerHTML = lang.langDown;
     LANGGAMEVERS.innerHTML = lang.langGameVers;
     LANGDOWNWIN.innerHTML = lang.langDownWin;
