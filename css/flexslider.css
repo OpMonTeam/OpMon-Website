@@ -114,7 +114,7 @@ html[xmlns] .flexslider .slides {
   overflow: hidden;
   opacity: 0;
   cursor: pointer;
-  color: #ffffff;
+  color: black;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -126,7 +126,7 @@ html[xmlns] .flexslider .slides {
   font-size: 36px;
   display: inline-block;
   content: '\f001';
-  color: #ffffff;
+  color: black;
 }
 .flex-direction-nav a.flex-next:before {
   content: '\f002';
