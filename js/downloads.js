@@ -1,11 +1,6 @@
 function linuxDown(){
     goTo("https://github.com/OpMonTeam/OpMon/releases/download/alpha-v" + version + "/OpMon-" + version  + "-Linux.deb");
 }
-function macDown(){
-	alert("Warning : 0.15 is not released on MacOS yet. You can download the 0.14 by clicking on \"Other versions\"\nAttention : La 0.15 n'est pas encore sortie sur MacOS. Vous pouvez télécharger la 0.14 en cliquant sur \"Autres versions\"");
-    //goTo("https://github.com/OpMonTeam/OpMon/releases/download/alpha-v" + version + "/OpMon-Mac_" + version + ".dmg");
-}
-
 
 const MENUDOWN         = document.getElementById("menuDown");
 const MENUFEATURES     = document.getElementById("menuFeatures");
@@ -50,7 +45,7 @@ var textFr = {
     langSubTitle : "Jeu en version Alpha " + version + date,
     winDown : "Télécharger pour Windows",
     winNIDown : '<a href="https://github.com/OpMonTeam/OpMon/releases/download/alpha-v' + version + '/OpMon-Win_NoInstall.zip" class="wow fadeInUp btn btn-default hvr-bounce-to-top smoothScroll" data-wow-delay="1.3s" id="winNIDown">Télécharger pour Windows (Sans installation)</a>',
-    macDown : '<a href="javascript:macDown();" class="wow fadeInUp btn btn-default hvr-bounce-to-top smoothScroll" data-wow-delay="1.3s"> Télécharger la <b>0.14</b> pour macOS</a>',
+    macDown : '<a href="javascript:macDown();" class="wow fadeInUp btn btn-default hvr-bounce-to-top smoothScroll" data-wow-delay="1.3s"> Télécharger la <b>0.16 (version de dev)</b> pour macOS</a>',
     debDown : '<a href="javascript:linuxDown();"  class="wow fadeInUp btn btn-default hvr-bounce-to-top smoothScroll" data-wow-delay="1.3s"> Télécharger pour Debian 9/Ubuntu 18.04/Linux Mint 19</a>',
     debDown2 : '<a href="javascript:linuxDownScript();"  class="wow fadeInUp btn btn-default hvr-bounce-to-top smoothScroll" data-wow-delay="1.3s">Télécharger script d\'installation (Pour tout Debian ou dérivés)</a>',
     linDown : '<a href="https://github.com/OpMonTeam/OpMon/releases/download/alpha-v' + version + '/OpMon-Linux_NoInstall.zip" class="wow fadeInUp btn btn-default hvr-bounce-to-top smoothScroll" data-wow-delay="1.3s"> Télécharger pour Linux (SFML 2.5)</a>',
@@ -79,7 +74,7 @@ var textEn = {
     langSubTitle : "Game version : Alpha " + version + date,
     winDown : "Download for Windows",
     winNIDown : '<a href="https://github.com/OpMonTeam/OpMon/releases/download/alpha-v' + version + '/OpMon-Win_NoInstall.zip" class="wow fadeInUp btn btn-default hvr-bounce-to-top smoothScroll" data-wow-delay="1.3s" id="winNIDown">Download for Windows (Without installation)</a>',
-    macDown : '<a href="javascript:macDown();"  class="wow fadeInUp btn btn-default hvr-bounce-to-top smoothScroll" data-wow-delay="1.3s"> Download <b>0.14</b> for macOS</a>',
+    macDown : '<a href="javascript:macDown();"  class="wow fadeInUp btn btn-default hvr-bounce-to-top smoothScroll" data-wow-delay="1.3s"> Download <b>0.16 (dev version)</b> for macOS</a>',
     debDown : '<a href="javascript:linuxDown();"  class="wow fadeInUp btn btn-default hvr-bounce-to-top smoothScroll" data-wow-delay="1.3s">Download for Debian 9/Ubuntu 18.04/Linux Mint 19</a>',
     debDown2 : '<a href="javascript:linuxDownScript()"  class="wow fadeInUp btn btn-default hvr-bounce-to-top smoothScroll" data-wow-delay="1.3s">Download installation script (All Debian based distros)</a>',
     linDown : '<a href="https://github.com/OpMonTeam/OpMon/releases/download/alpha-v' + version + '/OpMon-Linux_NoInstall.zip" class="wow fadeInUp btn btn-default hvr-bounce-to-top smoothScroll" data-wow-delay="1.3s">Download for Linux (SFML 2.5)</a>',
@@ -106,7 +101,7 @@ var textEs = {
     langSubTitle : "Version del juego : Alpha " + version + date,
     winDown : "Download for Windows",
     winNIDown : '<a href="https://github.com/OpMonTeam/OpMon/releases/download/alpha-v' + version + '/OpMon-Win_NoInstall.zip" class="wow fadeInUp btn btn-default hvr-bounce-to-top smoothScroll" data-wow-delay="1.3s" id="winNIDown">Download for Windows (Without installation)</a>',
-    macDown : '<a href="javascript:macDown();"  class="wow fadeInUp btn btn-default hvr-bounce-to-top smoothScroll" data-wow-delay="1.3s">Download <b>0.14</b> for macOS</a>',
+    macDown : '<a href="javascript:macDown();"  class="wow fadeInUp btn btn-default hvr-bounce-to-top smoothScroll" data-wow-delay="1.3s">Download <b>0.16 (dev version)</b> for macOS</a>',
     debDown : '<a href="javascript:linuxDown();"  class="wow fadeInUp btn btn-default hvr-bounce-to-top smoothScroll" data-wow-delay="1.3s">Download for Debian 9/Ubuntu 18.04/Linux Mint 19</a>',
     debDown2 : '<a href="javascript:linuxDownScript();"  class="wow fadeInUp btn btn-default hvr-bounce-to-top smoothScroll" data-wow-delay="1.3s">Download installation script (All Debian based distros)</a>',
     linDown : '<a href="https://github.com/OpMonTeam/OpMon/releases/download/alpha-v' + version + '/OpMon-Linux_NoInstall.zip" class="wow fadeInUp btn btn-default hvr-bounce-to-top smoothScroll" data-wow-delay="1.3s">Download for Linux (SFML 2.5)</a>',
