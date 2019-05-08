@@ -11,7 +11,7 @@ function linuxDown(){
 }
 function macDown(){
 	alert("Warning : You are now downloading a development version, since it's the only version currently avilable on mac. It's only temporary, but there can be many bugs.\nAttention : Vous vous apprêtez à télécharger une version de développement, car c'est la seule version actuellement disponible pour mac. C'est seulement temporaire, mais il peut y avoir beaucoup de bugs.");
-    goTo("https://github.com/OpMonTeam/OpMon/releases/download/alpha-v" + version + "/OpMon-Mac.dmg");
+    goTo("https://github.com/OpMonTeam/OpMon/releases/download/alpha-v" + version + "/OpMon-Mac.zip");
 }
 function linuxDownScript(){
     goTo("https://github.com/OpMonTeam/OpMon/releases/download/alpha-v" + version + "/source.sh");
