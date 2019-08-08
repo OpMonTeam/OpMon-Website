@@ -32,9 +32,10 @@ const DEMOTEXT         = document.getElementById("demoText");
 const GOTOYOUTUBE      = document.getElementById("goToYoutube");
 const TEAMTITLE        = document.getElementById("teamTitle");
 const TEAMSUBTITLE     = document.getElementById("teamSubTitle");
-const JLPPCDESC        = document.getElementById("jlppcDesc");
+const CYDESC        = document.getElementById("cyDesc");
 const NAVET56DESC      = document.getElementById("navet56Desc");
 const GITHUBHELP       = document.getElementById("githubHelp");
+const VIEWGITHUB       = document.getElementById("viewGithub");
 const CREDITSTITLE     = document.getElementById("creditsTitle");
 const FULLCREDITS      = document.getElementById("fullCredits");
 const ALLCAT           = document.getElementById("allCat");
@@ -46,7 +47,7 @@ const REPORTBUGS       = document.getElementById("reportBugs");
 const GOISSUES         = document.getElementById("goIssues");
 const SEEISSUES        = document.getElementById("seeIssues");
 const CREATEISSUE      = document.getElementById("createIssue");
-const JLPPCROLE        = document.getElementById("jlppcRole");
+const CYROLE        = document.getElementById("cyRole");
 const NAVET56ROLE      = document.getElementById("navet56Role");
 const LINKS            = document.getElementById("links");
 const LOOKGITHUB       = document.getElementById("lookGithub");
@@ -94,9 +95,10 @@ var textFr = {
     goToYoutube : "Accéder à la page YouTube :",
     teamTitle : "L'équipe de developpement du jeu",
     teamSubTitle : "(Sans compter les contributeurs occasionels, que vous retrouverez sur Github)",
-    jlppcDesc : "Création, initiation du projet et programmation du jeu",
-    navet56Desc : "Co-Création, game-design et graphismes",
+    cyDesc : "Créatrice et programmatrice du jeu",
+    navet56Desc : "Co-Créateur, game-designer et graphiste",
     githubHelp : "Nous avons besoin d'aide, et même si vous n'avez aucunes connaissances en programmation, vous pouvez quand même nous aider, en nous faisant part des bugs que vous avez trouvé, ou en nous suggerant des améliorations!",
+    viewGithub : "Voir sur Github",
     creditsTitle : "Crédits entiers",
     fullCredits : 'Voir les crédits entiers : <a href="https://github.com/OpMonTeam/OpMon/blob/master/Credits.md">Crédits</a>',
     allCat : "Toutes catégories",
@@ -114,14 +116,14 @@ var textFr = {
     goIssues : "Allez sur Github section Issues !",
     seeIssues : "Voir les Issues sur Github",
     createIssue : "Créer une Issue sur Github",
-    jlppcRole : "Programmation et aide sur le projet",
+    cyRole : "Programmation et aide sur le projet",
     navet56Role : "Aide graphique, fan-arts"
     
 };
 
 var textEn = {
     langTitle : "A game inspired by Pokemon !",
-    langDesc : "Go for an adventure with exploration and many monsters, in the wonderful region of Regimys !",
+    langDesc : "Go on an adventure with exploration and many monsters, in the wonderful region of Regimys !",
     langDownTitle : "Download the game",
 	contactTitle : "Contact (Discord / IRC / Github)",
     menu : {
@@ -157,9 +159,10 @@ var textEn = {
     goToYoutube : "Go to the Youtube Channel",
     teamTitle : "The OPMon Team",
     teamSubTitle : '(all other contributors are on Github, see them <a href="https://github.com/OpMonTeam/OpMon/blob/master/Credits.md">here</a>',
-    jlppcDesc : "Foundation and programming",
-    navet56Desc : "Co-foundation, game-design and graphic design",
-    githubHelp : "We need help, and even if you have not any knowledge in programmation, you can help us anyway by telling us the bugs you have found, or by proposing us enhancements!",
+    cyDesc : "Founder and Programmer",
+    navet56Desc : "Co-Founder, Game Designer and Graphic Designer",
+    githubHelp : "We need your help, no prior coding knowledge required! Help us find bugs or suggest new ideas!",
+    viewGithub : "View on Github",
     creditsTitle : "Crédits entiers",
     fullCredits : 'Full credits : <a href="https://github.com/OpMonTeam/OpMon/blob/master/Credits.md">Credits</a>',
     allCat : "All screenshots",
@@ -177,7 +180,7 @@ var textEn = {
     goIssues : "Go on Github Issues",
     seeIssues : "See all OpMon's Issues on Github",
     createIssue : "Create an Issue on Github",
-    jlppcRole : "Programmation and questions about the project",
+    cyRole : "Programmation and questions about the project",
     navet56Role : "Game-designer and graphist"
 };
 
@@ -219,9 +222,10 @@ var textEs = {
     goToYoutube : "La pagina Youtube:",
     teamTitle : "El equipo que ha creado el juego",
     teamSubTitle : '(no hay los contribuyentes, que estan en la pagina Github)',
-    jlppcDesc : "Creación del juego",
+    cyDesc : "Creación del juego",
     navet56Desc : "Gráficos del juego",
     githubHelp : "Necesitamos su ayuda, si no tiene conocimientos de programación también puede ayudarnosn puede dar consejos para mejorar el juego",
+    viewGithub : "Ver en github",
     creditsTitle : "Contribuyentes",
     fullCredits : 'Ver todos los contribuyentes : <a href="https://github.com/OpMonTeam/OpMon/blob/master/Credits.md">contribuyente',
     allCat : "All screenshots",
@@ -239,7 +243,7 @@ var textEs = {
     goIssues : "Ir a la pagina de los issues",
     seeIssues : "Ver todos los issues de OpMon en Github",
     createIssue : "Crear un issue en Github",
-    jlppcRole : "Programación y preguntas sobre el proyecto",
+    cyRole : "Programación y preguntas sobre el proyecto",
     navet56Role : "Diseñador de juegos y grafista"
 };
  
@@ -280,9 +284,10 @@ function printLang(id){
     GOTOYOUTUBE.innerHTML = lang.goToYoutube;
     ABOUTTITLE.innerHTML = lang.aboutTitle;
     ABOUTTEXT.innerHTML = lang.aboutText;
-    JLPPCDESC.innerHTML = lang.jlppcDesc;
+    CYDESC.innerHTML = lang.cyDesc;
     NAVET56DESC.innerHTML = lang.navet56Desc;
     GITHUBHELP.innerHTML = lang.githubHelp;
+    VIEWGITHUB.innerHTML = lang.viewGithub;
     CREDITSTITLE.innerHTML = lang.creditsTitle;
     FULLCREDITS.innerHTML = lang.fullCredits;
     ALLCAT.innerHTML = lang.allCat;
@@ -294,7 +299,7 @@ function printLang(id){
     GOISSUES.innerHTML = lang.goIssues;
     SEEISSUES.innerHTML = lang.seeIssues;
     CREATEISSUE.innerHTML = lang.createIssue;
-    JLPPCROLE.innerHTML = lang.jlppcRole;
+    CYROLE.innerHTML = lang.cyRole;
     NAVET56ROLE.innerHTML = lang.navet56Role;
     LOOKGITHUB.innerHTML = lang.lookGithub;
     LINKS.innerHTML = lang.links;
