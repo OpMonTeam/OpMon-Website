@@ -58,7 +58,7 @@ const LOOKDOC          = document.getElementById("lookDoc");
 const DISCLAMER        = document.getElementById("disclamer");
 
 var textFr = {
-    langTitle : "Le jeu inspiré de Pokémon !",
+    langTitle : "Le jeu libre inspiré de Pokémon !",
     langDesc : "Prenez place dans cette aventure faite de monstres et d'explorations, dans la jolie région de Regimys !",
     langDownTitle : "Télécharger le jeu",
 	contactTitle : "Contact (Discord / IRC / Github)",
@@ -89,9 +89,9 @@ var textFr = {
     feature3 : "Le jeu regeorge(ra) de petits Easters Eggs et clins d'oeils à l'univers de Nintendo et médiavisuel tout en ajoutant des nouveautés qui redonnent un vent de fraicheur à la license.",
     aboutTitle : "Jeu totalement gratuit et libre de droit",
     aboutText : "Le jeu a été imaginé en 2012 et concrétisé en 2016 par une toute petite équipe de fans, le jeu est libre, le code source est ouvert à tous, vous pouvez donc venir nous aider et améliorer le jeu.",
-    news : "<h2>Les news du jeu</h2><p>Voici les dernières infos sur le développement du jeu!</p><ul><li>04/11/18 - La version Alpha 0.15.1 est sortie !</li><li>13/08/18 - La version Alpha 0.15 est sortie : c'est l'ajout du premier combat !</li></ul>",
+    news : "<h2>Les news du jeu</h2><p>Voici les dernières infos sur le développement du jeu!</p><ul><li>15/08/19 - La version Alpha 0.16 est sortie !</li><li>04/11/18 - La version Alpha 0.15.1 est sortie !</li><li>13/08/18 - La version Alpha 0.15 est sortie : c'est l'ajout du premier combat !</li></ul>",
     demoTitle : "Démo d'OPMon",
-    demoText : "Voici une brève presentation en action du jeu, c'est la ville de départ du personnage principal. Une demo sortira a chaques grosses nouvelles version (0.1, 0.2, 0.3 etc.. jusqu'a la version 1.0)",
+    demoText : "Voici une brève presentation en action du jeu, c'est la ville de départ du personnage principal. La démo est déjà assez âgée, alors n'hésitez pas à tester le jeu pour voir plus de choses !",
     goToYoutube : "Accéder à la page YouTube :",
     teamTitle : "L'équipe de developpement du jeu",
     teamSubTitle : "(Sans compter les contributeurs occasionels, que vous retrouverez sur Github)",
@@ -122,7 +122,7 @@ var textFr = {
 };
 
 var textEn = {
-    langTitle : "A game inspired by Pokemon !",
+    langTitle : "An open source game inspired by Pokemon !",
     langDesc : "Go on an adventure with exploration and many monsters, in the wonderful region of Regimys !",
     langDownTitle : "Download the game",
 	contactTitle : "Contact (Discord / IRC / Github)",
@@ -153,9 +153,9 @@ var textEn = {
     feature3 : "The game contains plenty of small Easters Eggs to the universe of Nintendo and mediavisual while adding new features that give a wind of freshness to the license.",
     aboutTitle : "Game totally free",
     aboutText : "The game was imagined in 2012 and made concrete in 2016 by a very small team of fans, the game is free, the source code is open to all, so you can come and help us and improve the game.",
-    news : "<h2>Game development news!</h2><p>The last news on the game's development!</p><ul><li>04/11/18 - The 0.15.1 is now out !</li></ul>",
+    news : "<h2>Game development news!</h2><p>The last news on the game's development!</p><ul><li>15/08/19 - The 0.16 is finally out!</li><li>04/11/18 - The 0.15.1 is now out!</li></ul>",
     demoTitle : "OPMon demo",
-    demoText : "A video showing the Alpha 0.1 version of the game!",
+    demoText : "A video showing the Alpha 0.1 version of the game! It is quite old, you should test the game to see the new features!",
     goToYoutube : "Go to the Youtube Channel",
     teamTitle : "The OPMon Team",
     teamSubTitle : '(all other contributors are on Github, see them <a href="https://github.com/OpMonTeam/OpMon/blob/master/Credits.md">here</a>',
@@ -216,7 +216,7 @@ var textEs = {
     feature3 : "El juego esconde muchos sorpresas ocultas y referencias al universo de Nintendo y medios visuales agregando novedades que dan una gran cantidad de cambios a la licencia.",
     aboutTitle : "Juego totalemente gratís y libre de derechos",
     aboutText : "El juego fue imaginado en 2012 y hecho en 2016 , el código del juego esta abierto a todos, podéis venir ayudarnos y mejorar el juego.",
-    news : "<h2>Las noticias del juego</h2><p>aqui tiene las últimas informaciones del juego!</p><ul><li>04/11/18 - La versión Alpha 0.15.1 salió!</li></ul>",
+    news : "<h2>Las noticias del juego</h2><p>aqui tiene las últimas informaciones del juego!</p><ul><li>15/08/19 - La versión Alpha 0.16 salió!</li><li>04/11/18 - La versión Alpha 0.15.1 salió!</li></ul>",
     demoTitle : "Demo de OPMon",
     demoText : "Demo de la versión Alpha 0.1",
     goToYoutube : "La pagina Youtube:",
