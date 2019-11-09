@@ -1,3 +1,7 @@
+---
+title: "Contact"
+---
+
 ### Questions regarding the code or the project in general
 
  [jlppcprog@ntymail.com](jlppcprog@ntymail.com)

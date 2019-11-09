@@ -4,13 +4,13 @@ title: "Download"
 
 ## Windows
 
-![](../icon-windows.png) [0.16 - Installer version](https://opmon-game.ga/last.html)
+[0.16 - Installer version](https://opmon-game.ga/last.html)
 
-![](../icon-windows.png) [0.16 - Portable version](https://github.com/OpMonTeam/OpMon/releases/download/alpha-v0.16/OpMon-Win_NoInstall.zip)
+[0.16 - Portable version](https://github.com/OpMonTeam/OpMon/releases/download/alpha-v0.16/OpMon-Win_NoInstall.zip)
 
 ## macOS
 
-![](../icon-apple.png) [0.15]([https://github.com/OpMonTeam/OpMon/releases/download/alpha-v0.15.1/OpMon-Mac.zip)
+[0.15]([https://github.com/OpMonTeam/OpMon/releases/download/alpha-v0.15.1/OpMon-Mac.zip)
 
 ## Linux
 
