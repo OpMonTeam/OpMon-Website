@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on OpMon</title>
+    <link>https://example.com/post/</link>
+    <description>Recent content in Posts on OpMon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Example 1</title>
+      <link>https://example.com/example1/</link>
+      <pubDate>Thu, 27 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/example1/</guid>
+      <description>This is an example post.</description>
+    </item>
+    
+    <item>
+      <title>Example 2</title>
+      <link>https://example.com/example2/</link>
+      <pubDate>Thu, 27 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/example2/</guid>
+      <description>This is another example post.</description>
+    </item>
+    
+  </channel>
+</rss>
