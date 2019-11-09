@@ -2,12 +2,6 @@ body {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-.nested-img {
-    width: initial;
-    height: initial;
-    display: initial;
-}
-
 .measure-wide {
     max-width: 50em;
     text-align: left;
