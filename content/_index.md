@@ -11,12 +11,12 @@ come help us and improve the game!
 
 # Features
 
-* OpMon is developed by a team exclusively composed of volunteers. As such, the
+* **Developed by a team exclusively composed of volunteers.** As such, the
   game is distributed for free. We ask for nothing but your hapiness!
-* OpMon is entirely open source (under the **GPL-3.0** license), and we even use
-  open source software to create it: Linux, Code::Blocks, Gimp, Git and many
+* **Entirely open source under the GPL-3.0 license.** We even use
+  open-source software to create it: Linux, Code::Blocks, Gimp, Git and many
   others!
-* OpMon is developed by fans, for fans. The game contains plenty of small Easter
+* **Developed by fans, for fans.** The game contains plenty of small Easter
   eggs in reference to the Nintendo universe while adding new features that give
   a breath of fresh air to the license.
 
