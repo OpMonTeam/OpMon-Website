@@ -6,3 +6,12 @@ body {
     max-width: 50em;
     text-align: left;
 }
+
+.custom-footer-class {
+    background-color: #f4f4f4;
+}
+
+.custom-small-text-class {
+    font-size: smaller;
+    color: #555;
+}
