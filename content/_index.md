@@ -1,3 +1,7 @@
+---
+description: "A Pokemon inspired open-source game"
+---
+
 **OpMon** is a Pokemon inspired open-source game. Go on an adventure filled with
 exploration and various monsters in the wonderful region of Regimys!
 
