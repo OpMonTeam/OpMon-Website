@@ -1,0 +1,17 @@
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.measure-wide {
+    max-width: 50em;
+    text-align: left;
+}
+
+.custom-footer-class {
+    background-color: #f4f4f4;
+}
+
+.custom-small-text-class {
+    font-size: smaller;
+    color: #555;
+}
