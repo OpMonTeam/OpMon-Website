@@ -1,9 +1,9 @@
 var dir_f97d99dea8803ce002570979cb26223e =
 [
-    [ "ATranslatable.hpp", "_a_translatable_8hpp.html", [
-      [ "ATranslatable", "class_op_mon_1_1_i18n_1_1_a_translatable.html", "class_op_mon_1_1_i18n_1_1_a_translatable" ]
+    [ "ATranslatable.hpp", "db/dc9/ATranslatable_8hpp.html", [
+      [ "ATranslatable", "de/dfe/classOpMon_1_1I18n_1_1ATranslatable.html", "de/dfe/classOpMon_1_1I18n_1_1ATranslatable" ]
     ] ],
-    [ "Translator.hpp", "_translator_8hpp.html", [
-      [ "Translator", "class_op_mon_1_1_i18n_1_1_translator.html", "class_op_mon_1_1_i18n_1_1_translator" ]
+    [ "Translator.hpp", "d2/d70/Translator_8hpp.html", [
+      [ "Translator", "d6/daa/classOpMon_1_1I18n_1_1Translator.html", "d6/daa/classOpMon_1_1I18n_1_1Translator" ]
     ] ]
 ];

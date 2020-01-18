@@ -1,0 +1,15 @@
+<map id="OpMon::Model::AttackData" name="OpMon::Model::AttackData">
+<area shape="rect" id="node1" title="Contains all the necessary data to create an Attack." alt="" coords="1291,136,1488,163"/>
+<area shape="rect" id="node2" title=" " alt="" coords="934,72,1119,99"/>
+<area shape="rect" id="node3" title="STL class." alt="" coords="653,16,740,43"/>
+<area shape="rect" id="node4" title="STL class." alt="" coords="322,9,461,50"/>
+<area shape="rect" id="node5" href="$dd/d1b/classOpMon_1_1Model_1_1AttackEffect.html" title=" " alt="" coords="925,136,1129,163"/>
+<area shape="rect" id="node6" title=" " alt="" coords="939,187,1115,229"/>
+<area shape="rect" id="node7" href="$d2/dc8/classOpMon_1_1View_1_1Transformation.html" title="Transformation class uses sf::Transform to create animations following parametric formulas." alt="" coords="589,195,804,221"/>
+<area shape="rect" id="node8" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Transform.php.html" title=" " alt="" coords="338,136,445,163"/>
+<area shape="rect" id="node9" href="$de/dda/structOpMon_1_1View_1_1ScaleData.html" title="A structure containing information about a scaling." alt="" coords="300,187,483,213"/>
+<area shape="rect" id="node10" title=" " alt="" coords="5,232,171,259"/>
+<area shape="rect" id="node11" href="$d3/d95/structOpMon_1_1View_1_1RotationData.html" title="A structure containing information about a rotation." alt="" coords="290,237,493,264"/>
+<area shape="rect" id="node12" href="$d7/dbd/structOpMon_1_1View_1_1MovementData.html" title="A structure containing information about a translation." alt="" coords="283,289,500,316"/>
+<area shape="rect" id="node13" title=" " alt="" coords="917,253,1136,280"/>
+</map>

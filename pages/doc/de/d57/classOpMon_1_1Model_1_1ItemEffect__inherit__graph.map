@@ -1,0 +1,4 @@
+<map id="OpMon::Model::ItemEffect" name="OpMon::Model::ItemEffect">
+<area shape="rect" id="node1" title="Defines the effect of an item. \warn Work in progress." alt="" coords="5,5,197,32"/>
+<area shape="rect" id="node2" href="$de/d24/classOpMon_1_1Model_1_1Items_1_1HpHealEffect.html" title=" " alt="" coords="21,80,182,121"/>
+</map>

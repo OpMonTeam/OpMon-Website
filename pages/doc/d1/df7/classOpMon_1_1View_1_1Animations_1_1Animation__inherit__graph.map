@@ -1,0 +1,5 @@
+<map id="OpMon::View::Animations::Animation" name="OpMon::View::Animations::Animation">
+<area shape="rect" id="node1" title=" " alt="" coords="112,5,303,47"/>
+<area shape="rect" id="node2" href="$d8/d91/classOpMon_1_1View_1_1Animations_1_1WinAnim.html" title="Animation played as a transition between the professor&#39;s dialog and the name input screen." alt="" coords="5,95,196,136"/>
+<area shape="rect" id="node3" href="$da/d99/classOpMon_1_1View_1_1Animations_1_1WooshAnim.html" title="A simple sliding transition." alt="" coords="220,95,411,136"/>
+</map>

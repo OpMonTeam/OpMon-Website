@@ -3,7 +3,7 @@ var searchData=
   ['fileinputstream_1942',['FileInputStream',['https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1FileInputStream.php.html#a9a321e273f41ff7f187899061fcae9be',1,'sf::FileInputStream']]],
   ['find_1943',['find',['https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1String.php.html#aa189ec8656854106ab8d2e935fd9cbcc',1,'sf::String']]],
   ['findcharacterpos_1944',['findCharacterPos',['https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Text.php.html#a2e252d8dcae3eb61c6c962c0bc674b12',1,'sf::Text']]],
-  ['findnamekeycode_1945',['findNameKeyCode',['../struct_op_mon_1_1_model_1_1_key_data.html#a446d024a0515123c70a2de85966da997',1,'OpMon::Model::KeyData']]],
+  ['findnamekeycode_1945',['findNameKeyCode',['../d5/da8/structOpMon_1_1Model_1_1KeyData.html#a446d024a0515123c70a2de85966da997',1,'OpMon::Model::KeyData']]],
   ['fliphorizontally_1946',['flipHorizontally',['https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Image.php.html#a57168e7bc29190e08bbd6c9c19f4bb2c',1,'sf::Image']]],
   ['flipvertically_1947',['flipVertically',['https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Image.php.html#a78a702a7e49d1de2dec9894da99d279c',1,'sf::Image']]],
   ['font_1948',['Font',['https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Font.php.html#a506404655b8869ed60d1e7709812f583',1,'sf::Font::Font()'],['https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Font.php.html#a72d7322b355ee2f1be4500f530e98081',1,'sf::Font::Font(const Font &amp;copy)']]],

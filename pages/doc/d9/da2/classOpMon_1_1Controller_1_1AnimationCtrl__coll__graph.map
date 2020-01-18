@@ -1,0 +1,12 @@
+<map id="OpMon::Controller::AnimationCtrl" name="OpMon::Controller::AnimationCtrl">
+<area shape="rect" id="node1" title="A special game screen able to call any type of animation." alt="" coords="1012,77,1160,119"/>
+<area shape="rect" id="node2" href="$d7/ddf/classOpMon_1_1Controller_1_1AGameScreen.html" title="Interface of all first&#45;level controllers." alt="" coords="679,19,827,60"/>
+<area shape="rect" id="node3" title=" " alt="" coords="981,5,1191,47"/>
+<area shape="rect" id="node4" title=" " alt="" coords="636,97,871,139"/>
+<area shape="rect" id="node5" href="$d7/d8b/classOpMon_1_1View_1_1Animations_1_1Animation.html" title=" " alt="" coords="375,97,565,139"/>
+<area shape="rect" id="node6" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Texture.php.html" title=" " alt="" coords="189,74,279,101"/>
+<area shape="rect" id="node7" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1GlResource.php.html" title=" " alt="" coords="15,74,130,101"/>
+<area shape="rect" id="node8" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Sprite.php.html" title=" " alt="" coords="195,134,273,161"/>
+<area shape="rect" id="node9" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Drawable.php.html" title=" " alt="" coords="21,129,124,155"/>
+<area shape="rect" id="node10" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Transformable.php.html" title=" " alt="" coords="5,179,140,206"/>
+</map>

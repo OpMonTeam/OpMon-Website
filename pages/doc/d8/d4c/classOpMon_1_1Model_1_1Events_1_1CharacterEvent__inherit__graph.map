@@ -1,0 +1,6 @@
+<map id="OpMon::Model::Events::CharacterEvent" name="OpMon::Model::Events::CharacterEvent">
+<area shape="rect" id="node1" title="Defines a npc." alt="" coords="5,80,173,121"/>
+<area shape="rect" id="node3" href="$d3/ddd/classOpMon_1_1Model_1_1Events_1_1TalkingCharaEvent.html" title="An npc that talks." alt="" coords="5,169,173,211"/>
+<area shape="rect" id="node2" href="$da/df2/classOpMon_1_1Model_1_1Event.html" title="Defines an event." alt="" coords="9,5,170,32"/>
+<area shape="rect" id="node4" href="$de/d85/classOpMon_1_1Model_1_1Events_1_1TrainerEvent.html" title="A trainer." alt="" coords="5,259,173,300"/>
+</map>

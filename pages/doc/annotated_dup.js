@@ -1,5 +1,5 @@
 var annotated_dup =
 [
-    [ "OpMon", "namespace_op_mon.html", "namespace_op_mon" ],
-    [ "Utils", "namespace_utils.html", "namespace_utils" ]
+    [ "OpMon", "d6/de6/namespaceOpMon.html", "d6/de6/namespaceOpMon" ],
+    [ "Utils", "d4/d3d/namespaceUtils.html", "d4/d3d/namespaceUtils" ]
 ];

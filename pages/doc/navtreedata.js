@@ -23,8 +23,8 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "OpMon", "index.html", [
-    [ "Todo List", "todo.html", null ],
-    [ "Deprecated List", "deprecated.html", null ],
+    [ "Todo List", "dd/da0/todo.html", null ],
+    [ "Deprecated List", "da/d58/deprecated.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -58,12 +58,12 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"_player_ctrl_8hpp.html",
-"class_op_mon_1_1_model_1_1_attack.html#ab096fd547c4e1ee9a4772ceaeeb5bdc0",
-"class_op_mon_1_1_model_1_1_map.html#a60e28cd3abbff58b7e272ac924674ac1",
-"class_op_mon_1_1_model_1_1_position.html#a24a21737e9368d885aa351704f64ba2b",
-"class_op_mon_1_1_view_1_1_main_menu.html#a4235d8230a0025a3d0d4f42dddc81e53",
-"evolutions_8hpp_source.html"
+"d1/da9/classOpMon_1_1Controller_1_1MainMenuCtrl.html#ac8baa0892e6cc9f103d6fbb5efa0031a",
+"d4/d0d/AGameScreen_8hpp.html",
+"d6/daa/classOpMon_1_1I18n_1_1Translator.html#abd1d98ebc24622966041aba2f69ef88d",
+"da/d90/classOpMon_1_1Controller_1_1StartSceneCtrl.html#afd27112daf09646fb5d3c40248988cb5",
+"dd/d76/Attacks_8hpp.html",
+"de/dfe/classOpMon_1_1View_1_1OptionsMenu.html#a2133fa9c32203628cdfe0b73e42c158a"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,0 +1,9 @@
+<map id="OpMon::View::Animations::WinAnim" name="OpMon::View::Animations::WinAnim">
+<area shape="rect" id="node1" title="Animation played as a transition between the professor&#39;s dialog and the name input screen." alt="" coords="5,276,196,317"/>
+<area shape="rect" id="node2" href="$d7/d8b/classOpMon_1_1View_1_1Animations_1_1Animation.html" title=" " alt="" coords="135,185,325,227"/>
+<area shape="rect" id="node3" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Texture.php.html" title=" " alt="" coords="43,81,132,108"/>
+<area shape="rect" id="node4" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1GlResource.php.html" title=" " alt="" coords="30,5,145,32"/>
+<area shape="rect" id="node5" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Sprite.php.html" title=" " alt="" coords="191,81,269,108"/>
+<area shape="rect" id="node6" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Drawable.php.html" title=" " alt="" coords="175,5,277,32"/>
+<area shape="rect" id="node7" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Transformable.php.html" title=" " alt="" coords="301,5,436,32"/>
+</map>

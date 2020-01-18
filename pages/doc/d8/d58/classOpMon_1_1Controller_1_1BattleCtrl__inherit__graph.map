@@ -1,0 +1,4 @@
+<map id="OpMon::Controller::BattleCtrl" name="OpMon::Controller::BattleCtrl">
+<area shape="rect" id="node1" title="Manages a battle." alt="" coords="5,95,153,136"/>
+<area shape="rect" id="node2" href="$d7/ddf/classOpMon_1_1Controller_1_1AGameScreen.html" title="Interface of all first&#45;level controllers." alt="" coords="5,5,153,47"/>
+</map>

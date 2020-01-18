@@ -1,0 +1,10 @@
+<map id="OpMon::Controller::AGameScreen" name="OpMon::Controller::AGameScreen">
+<area shape="rect" id="node1" title="Interface of all first&#45;level controllers." alt="" coords="5,201,153,243"/>
+<area shape="rect" id="node2" href="$d1/d92/classOpMon_1_1Controller_1_1AnimationCtrl.html" title="A special game screen able to call any type of animation." alt="" coords="201,5,349,47"/>
+<area shape="rect" id="node3" href="$dc/dd0/classOpMon_1_1Controller_1_1BattleCtrl.html" title="Manages a battle." alt="" coords="201,71,349,112"/>
+<area shape="rect" id="node4" href="$dd/d58/classOpMon_1_1Controller_1_1GameMenuCtrl.html" title="Controller of the in&#45;game menu." alt="" coords="201,136,349,177"/>
+<area shape="rect" id="node5" href="$d1/da9/classOpMon_1_1Controller_1_1MainMenuCtrl.html" title="Manages the main menu of the game." alt="" coords="201,201,349,243"/>
+<area shape="rect" id="node6" href="$d5/dab/classOpMon_1_1Controller_1_1OptionsMenuCtrl.html" title=" " alt="" coords="201,267,349,308"/>
+<area shape="rect" id="node7" href="$d0/dc6/classOpMon_1_1Controller_1_1OverworldCtrl.html" title="Manages the overworld." alt="" coords="201,332,349,373"/>
+<area shape="rect" id="node8" href="$da/d90/classOpMon_1_1Controller_1_1StartSceneCtrl.html" title="Manages the introduction scene and its three phases." alt="" coords="201,397,349,439"/>
+</map>

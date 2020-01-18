@@ -1,0 +1,10 @@
+<map id="OpMon::I18n::ATranslatable" name="OpMon::I18n::ATranslatable">
+<area shape="rect" id="node1" title="Base class for any element requiring to reload when the lang changes." alt="" coords="5,129,207,155"/>
+<area shape="rect" id="node2" href="$d8/dc8/classOpMon_1_1Model_1_1Events_1_1TalkingEvent.html" title="An event starting a dialog." alt="" coords="272,37,440,79"/>
+<area shape="rect" id="node6" href="$df/dc0/classOpMon_1_1View_1_1MainMenu.html" title="The view printing the main menu showing at the start of the game." alt="" coords="264,103,448,130"/>
+<area shape="rect" id="node7" href="$de/dfe/classOpMon_1_1View_1_1OptionsMenu.html" title="The screen of the settings." alt="" coords="255,154,457,181"/>
+<area shape="rect" id="node8" href="$d1/d39/classOpMon_1_1View_1_1StartScene.html" title="View managing the introduction scene." alt="" coords="263,205,449,231"/>
+<area shape="rect" id="node3" href="$d9/daa/classOpMon_1_1Model_1_1Events_1_1LockedDoorEvent.html" title="A locked door (unimplemented yet)." alt="" coords="505,5,673,47"/>
+<area shape="rect" id="node4" href="$d3/ddd/classOpMon_1_1Model_1_1Events_1_1TalkingCharaEvent.html" title="An npc that talks." alt="" coords="505,71,673,112"/>
+<area shape="rect" id="node5" href="$de/d85/classOpMon_1_1Model_1_1Events_1_1TrainerEvent.html" title="A trainer." alt="" coords="721,71,889,112"/>
+</map>
