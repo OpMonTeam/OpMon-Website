@@ -1,0 +1,10 @@
+<map id="/home/cyrielle/Bureau/OpMon/src/opmon/view/Dialog.hpp" name="/home/cyrielle/Bureau/OpMon/src/opmon/view/Dialog.hpp">
+<area shape="rect" id="node1" title=" " alt="" coords="323,5,501,61"/>
+<area shape="rect" id="node2" href="$_battle_8hpp.html" title=" " alt="" coords="104,109,283,165"/>
+<area shape="rect" id="node4" href="$_overworld_8hpp.html" title=" " alt="" coords="323,109,501,165"/>
+<area shape="rect" id="node7" href="$_start_scene_8hpp.html" title=" " alt="" coords="659,109,837,165"/>
+<area shape="rect" id="node3" href="$_battle_ctrl_8hpp.html" title=" " alt="" coords="5,213,216,269"/>
+<area shape="rect" id="node5" href="$_overworld_ctrl_8hpp.html" title=" " alt="" coords="240,213,451,269"/>
+<area shape="rect" id="node6" href="$_player_ctrl_8hpp.html" title=" " alt="" coords="475,213,685,269"/>
+<area shape="rect" id="node8" href="$_start_scene_ctrl_8hpp.html" title=" " alt="" coords="709,213,920,269"/>
+</map>

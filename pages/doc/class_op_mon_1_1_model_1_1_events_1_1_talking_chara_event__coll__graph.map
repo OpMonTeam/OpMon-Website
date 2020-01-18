@@ -1,0 +1,22 @@
+<map id="OpMon::Model::Events::TalkingCharaEvent" name="OpMon::Model::Events::TalkingCharaEvent">
+<area shape="rect" id="node1" title="An npc that talks." alt="" coords="1323,203,1491,245"/>
+<area shape="rect" id="node2" href="$class_op_mon_1_1_model_1_1_events_1_1_character_event.html" title="Defines a npc." alt="" coords="1105,275,1273,317"/>
+<area shape="rect" id="node3" href="$class_op_mon_1_1_model_1_1_event.html" title="Defines an event." alt="" coords="793,283,955,309"/>
+<area shape="rect" id="node14" href="$class_op_mon_1_1_model_1_1_events_1_1_talking_event.html" title="An event starting a dialog." alt="" coords="1105,143,1273,185"/>
+<area shape="rect" id="node4" href="$class_op_mon_1_1_model_1_1_position.html" title="Class managing the position of an entity (player or event) and it&#39;s movement." alt="" coords="448,247,624,273"/>
+<area shape="rect" id="node5" title=" " alt="" coords="463,298,609,339"/>
+<area shape="rect" id="node6" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Sprite.php.html" title=" " alt="" coords="219,305,298,332"/>
+<area shape="rect" id="node7" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Drawable.php.html" title=" " alt="" coords="21,259,124,285"/>
+<area shape="rect" id="node8" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Transformable.php.html" title=" " alt="" coords="5,309,140,336"/>
+<area shape="rect" id="node9" title=" " alt="" coords="442,364,630,391"/>
+<area shape="rect" id="node10" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Texture.php.html" title=" " alt="" coords="214,364,303,391"/>
+<area shape="rect" id="node11" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1GlResource.php.html" title=" " alt="" coords="15,364,130,391"/>
+<area shape="rect" id="node12" title=" " alt="" coords="799,363,949,389"/>
+<area shape="rect" id="node13" title=" " alt="" coords="511,415,561,441"/>
+<area shape="rect" id="node15" href="$class_op_mon_1_1_i18n_1_1_a_translatable.html" title="Base class for any element requiring to reload when the lang changes." alt="" coords="773,5,975,32"/>
+<area shape="rect" id="node16" href="$class_utils_1_1_op_string.html" title="A string with an empty space to complete using StringKeys." alt="" coords="816,151,932,177"/>
+<area shape="rect" id="node17" title=" " alt="" coords="441,107,631,133"/>
+<area shape="rect" id="node18" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1String.php.html" title=" " alt="" coords="219,77,298,104"/>
+<area shape="rect" id="node19" title="STL class." alt="" coords="493,157,579,184"/>
+<area shape="rect" id="node20" title="STL class." alt="" coords="189,150,328,191"/>
+</map>

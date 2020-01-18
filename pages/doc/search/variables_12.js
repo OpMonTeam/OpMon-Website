@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['r_2978',['r',['https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Color.php.html#a6a5256ca24a4f9f0e0808f6fc23e01e1',1,'sf::Color::r()'],['https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Joystick.php.html#a48db337092c2e263774f94de6d50baa7aeebbcdb0828850f4d69e6a084801fab8',1,'sf::Joystick::R()'],['https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Keyboard.php.html#acb4cacd7cc5802dec45724cf3314a142add852cadaa6fff2d982bbab3551c31d0',1,'sf::Keyboard::R()']]],
+  ['ralt_2979',['RAlt',['https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Keyboard.php.html#acb4cacd7cc5802dec45724cf3314a142a21dcf098233296462bc7c632b93369cc',1,'sf::Keyboard']]],
+  ['range_2980',['range',['../class_utils_1_1_cycle_counter.html#ac66a6fb4384e1cce4a6495485d6e71d1',1,'Utils::CycleCounter']]],
+  ['rangenotsatisfiable_2981',['RangeNotSatisfiable',['https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Http_1_1Response.php.html#a663e071978e30fbbeb20ed045be874d8a12533d00093b190e6d4c0076577e2239',1,'sf::Http::Response']]],
+  ['rbracket_2982',['RBracket',['https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Keyboard.php.html#acb4cacd7cc5802dec45724cf3314a142a578253a70b48e61830aa08292d44680f',1,'sf::Keyboard']]],
+  ['rcontrol_2983',['RControl',['https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Keyboard.php.html#acb4cacd7cc5802dec45724cf3314a142a275d3fd207a9c0b22ce404012c71dc17',1,'sf::Keyboard']]],
+  ['rd_2984',['rd',['../class_op_mon_1_1_view_1_1_transformation.html#ae874e0b6ce053b398f9be96e43667246',1,'OpMon::View::Transformation']]],
+  ['reboot_2985',['reboot',['../namespace_op_mon.html#a9c797c711842bdc7e38d09a0a1a39284',1,'OpMon']]],
+  ['red_2986',['Red',['https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Color.php.html#a127dbf55db9c07d0fa8f4bfcbb97594a',1,'sf::Color']]],
+  ['regular_2987',['Regular',['https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Text.php.html#aa8add4aef484c6e6b20faff07452bd82a2af9ae5e1cda126570f744448e0caa32',1,'sf::Text']]],
+  ['relative_2988',['relative',['../struct_op_mon_1_1_view_1_1_movement_data.html#adfe81c33c2acb6e5418edcbc116e7d9a',1,'OpMon::View::MovementData']]],
+  ['resetcontent_2989',['ResetContent',['https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Http_1_1Response.php.html#a663e071978e30fbbeb20ed045be874d8a77327cc2a5e34cc64030b322e61d12a8',1,'sf::Http::Response']]],
+  ['resize_2990',['Resize',['https://www.sfml-dev.org/documentation/2.5.1/group__window.php.html#gga97d7ee508bea4507ab40271518c732ffaccff967648ebcd5db2007eff7352b50f',1,]]],
+  ['resized_2991',['Resized',['https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Event.php.html#af41fa9ed45c02449030699f671331d4aa67fd26d7e520bc6722db3ff47ef24941',1,'sf::Event']]],
+  ['restartmarkerreply_2992',['RestartMarkerReply',['https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Ftp_1_1Response.php.html#af81738f06b6f571761696291276acb3ba07e06d3326ba2d078583bef93930d909',1,'sf::Ftp::DirectoryResponse::RestartMarkerReply()'],['https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Ftp_1_1Response.php.html#af81738f06b6f571761696291276acb3ba07e06d3326ba2d078583bef93930d909',1,'sf::Ftp::ListingResponse::RestartMarkerReply()'],['https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Ftp_1_1Response.php.html#af81738f06b6f571761696291276acb3ba07e06d3326ba2d078583bef93930d909',1,'sf::Ftp::Response::RestartMarkerReply()']]],
+  ['return_2993',['Return',['https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Keyboard.php.html#acb4cacd7cc5802dec45724cf3314a142ac291de81bdee518d636bc359f2ca77de',1,'sf::Keyboard']]],
+  ['reversesubtract_2994',['ReverseSubtract',['https://www.sfml-dev.org/documentation/2.5.1/structsf_1_1BlendMode.php.html#a7bce470e2e384c4f9c8d9595faef7c32a2d04acf59e91811128e7d0ef076f65f0',1,'sf::BlendMode']]],
+  ['right_2995',['Right',['https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Keyboard.php.html#acb4cacd7cc5802dec45724cf3314a142a2aeb083dea103a8e36b6850b51ef3632',1,'sf::Keyboard::Right()'],['https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Mouse.php.html#a4fb128be433f9aafe66bc0c605daaa90af2cff24ab6c26daf079b11189f982fc4',1,'sf::Mouse::Right()']]],
+  ['rshift_2996',['RShift',['https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Keyboard.php.html#acb4cacd7cc5802dec45724cf3314a142a5be69e3b2f25bd5f4eed75d063f42b90',1,'sf::Keyboard']]],
+  ['rsystem_2997',['RSystem',['https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Keyboard.php.html#acb4cacd7cc5802dec45724cf3314a142ac1b3fd7424feeda242cedbb64f3f5a7f',1,'sf::Keyboard']]]
+];

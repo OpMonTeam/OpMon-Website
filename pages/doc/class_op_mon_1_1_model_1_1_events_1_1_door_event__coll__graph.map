@@ -1,0 +1,15 @@
+<map id="OpMon::Model::Events::DoorEvent" name="OpMon::Model::Events::DoorEvent">
+<area shape="rect" id="node1" title="An TPEvent doing an animation when the player enters it." alt="" coords="1183,178,1351,219"/>
+<area shape="rect" id="node2" href="$class_op_mon_1_1_model_1_1_events_1_1_t_p_event.html" title="Defines an event that teleports the player." alt="" coords="965,134,1133,175"/>
+<area shape="rect" id="node3" href="$class_op_mon_1_1_model_1_1_event.html" title="Defines an event." alt="" coords="723,107,884,133"/>
+<area shape="rect" id="node4" href="$class_op_mon_1_1_model_1_1_position.html" title="Class managing the position of an entity (player or event) and it&#39;s movement." alt="" coords="398,44,574,71"/>
+<area shape="rect" id="node5" title=" " alt="" coords="413,95,559,137"/>
+<area shape="rect" id="node6" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Sprite.php.html" title=" " alt="" coords="195,103,273,129"/>
+<area shape="rect" id="node7" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Drawable.php.html" title=" " alt="" coords="21,56,124,83"/>
+<area shape="rect" id="node8" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Transformable.php.html" title=" " alt="" coords="5,107,140,133"/>
+<area shape="rect" id="node9" title=" " alt="" coords="392,161,580,188"/>
+<area shape="rect" id="node10" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Texture.php.html" title=" " alt="" coords="189,161,279,188"/>
+<area shape="rect" id="node11" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1GlResource.php.html" title=" " alt="" coords="15,161,130,188"/>
+<area shape="rect" id="node12" title="STL class." alt="" coords="760,201,847,228"/>
+<area shape="rect" id="node13" title="STL class." alt="" coords="417,213,555,254"/>
+</map>
