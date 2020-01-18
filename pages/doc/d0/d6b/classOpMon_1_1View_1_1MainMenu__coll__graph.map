@@ -1,7 +1,7 @@
 <map id="OpMon::View::MainMenu" name="OpMon::View::MainMenu">
-<area shape="rect" id="node1" title="The view printing the main menu showing at the start of the game." alt="" coords="2429,457,2613,484"/>
-<area shape="rect" id="node2" href="$de/dfe/classOpMon_1_1I18n_1_1ATranslatable.html" title="Base class for any element requiring to reload when the lang changes." alt="" coords="2083,317,2285,344"/>
-<area shape="rect" id="node3" href="$d4/dca/classOpMon_1_1Model_1_1MainMenuData.html" title="Contains the data for the main menu of the game." alt="" coords="2073,368,2295,395"/>
+<area shape="rect" id="node1" title="The view printing the main menu showing at the start of the game." alt="" coords="2475,457,2659,484"/>
+<area shape="rect" id="node2" href="$de/dfe/classOpMon_1_1I18n_1_1ATranslatable.html" title="Base class for any element requiring to reload when the lang changes." alt="" coords="2095,317,2297,344"/>
+<area shape="rect" id="node3" href="$d4/dca/classOpMon_1_1Model_1_1MainMenuData.html" title="Contains the data for the main menu of the game." alt="" coords="2085,368,2307,395"/>
 <area shape="rect" id="node4" href="$d1/d74/classOpMon_1_1Model_1_1UiData.html" title="Contains the data needed for the user interface and the game in general." alt="" coords="1774,284,1943,311"/>
 <area shape="rect" id="node5" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Texture.php.html" title=" " alt="" coords="779,109,869,136"/>
 <area shape="rect" id="node14" title=" " alt="" coords="1287,127,1444,169"/>
@@ -26,7 +26,7 @@
 <area shape="rect" id="node24" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1SoundSource.php.html" title=" " alt="" coords="169,585,295,612"/>
 <area shape="rect" id="node25" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1AlResource.php.html" title=" " alt="" coords="5,585,120,612"/>
 <area shape="rect" id="node26" title=" " alt="" coords="1479,445,1642,486"/>
-<area shape="rect" id="node28" title=" " alt="" coords="2064,534,2304,575"/>
+<area shape="rect" id="node28" title=" " alt="" coords="2076,534,2316,575"/>
 <area shape="rect" id="node29" href="$da/d3b/structOpMon_1_1View_1_1MainMenu_1_1OptionMenu.html" title="Stucture representing an option in the menu." alt="" coords="1767,579,1951,621"/>
 <area shape="rect" id="node30" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Text.php.html" title=" " alt="" coords="1527,684,1595,711"/>
 <area shape="rect" id="node31" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Drawable.php.html" title=" " alt="" coords="1102,727,1205,753"/>

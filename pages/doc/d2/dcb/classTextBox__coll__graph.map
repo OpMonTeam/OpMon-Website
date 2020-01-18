@@ -1,0 +1,9 @@
+<map id="TextBox" name="TextBox">
+<area shape="rect" id="node1" title="A class used to draw a UI box that can contain text or other elements." alt="" coords="103,171,178,197"/>
+<area shape="rect" id="node2" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Drawable.php.html" title=" " alt="" coords="5,5,108,32"/>
+<area shape="rect" id="node5" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1VertexArray.php.html" title=" " alt="" coords="23,81,141,108"/>
+<area shape="rect" id="node6" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Text.php.html" title=" " alt="" coords="165,81,233,108"/>
+<area shape="rect" id="node3" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Texture.php.html" title=" " alt="" coords="283,81,372,108"/>
+<area shape="rect" id="node4" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1GlResource.php.html" title=" " alt="" coords="291,5,406,32"/>
+<area shape="rect" id="node7" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Transformable.php.html" title=" " alt="" coords="132,5,267,32"/>
+</map>

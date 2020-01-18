@@ -42,7 +42,8 @@ var hierarchy =
     [ "Utils::CycleCounter", "d9/dc1/classUtils_1_1CycleCounter.html", null ],
     [ "OpMon::View::Dialog", "d0/d11/classOpMon_1_1View_1_1Dialog.html", null ],
     [ "sf::Drawable", "https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Drawable.php.html", [
-      [ "OpMon::View::MapLayer", "d9/da4/classOpMon_1_1View_1_1MapLayer.html", null ]
+      [ "OpMon::View::MapLayer", "d9/da4/classOpMon_1_1View_1_1MapLayer.html", null ],
+      [ "TextBox", "d2/d68/classTextBox.html", null ]
     ] ],
     [ "OpMon::Model::Event", "da/df2/classOpMon_1_1Model_1_1Event.html", [
       [ "OpMon::Model::Events::CharacterEvent", "db/d2f/classOpMon_1_1Model_1_1Events_1_1CharacterEvent.html", [

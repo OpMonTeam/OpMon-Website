@@ -23,6 +23,7 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "OpMon", "index.html", [
+    [ "README", "db/d42/md__home_cyrielle_Bureau_OpMon_src_opmon_view_ui_README.html", null ],
     [ "Todo List", "dd/da0/todo.html", null ],
     [ "Deprecated List", "da/d58/deprecated.html", null ],
     [ "Namespaces", "namespaces.html", [
@@ -59,11 +60,11 @@ var NAVTREEINDEX =
 [
 ".html",
 "d1/da9/classOpMon_1_1Controller_1_1MainMenuCtrl.html#ac8baa0892e6cc9f103d6fbb5efa0031a",
-"d4/d0d/AGameScreen_8hpp.html",
-"d6/daa/classOpMon_1_1I18n_1_1Translator.html#abd1d98ebc24622966041aba2f69ef88d",
-"da/d90/classOpMon_1_1Controller_1_1StartSceneCtrl.html#afd27112daf09646fb5d3c40248988cb5",
-"dd/d76/Attacks_8hpp.html",
-"de/dfe/classOpMon_1_1View_1_1OptionsMenu.html#a2133fa9c32203628cdfe0b73e42c158a"
+"d3/df4/classOpMon_1_1Model_1_1Species.html#ac3973f6de7c90adc70b4bfae5abfd578",
+"d6/d50/classOpMon_1_1View_1_1Battle.html#afa9c9b695cdf8740e6db296522f20d77",
+"da/d90/classOpMon_1_1Controller_1_1StartSceneCtrl.html",
+"dd/d58/classOpMon_1_1Controller_1_1GameMenuCtrl.html#a043ee45e07e33cd6a2505abd3ab35216",
+"de/dfe/classOpMon_1_1View_1_1OptionsMenu.html#a0c6b7360b25f0fae5e93ddddd7555501"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
