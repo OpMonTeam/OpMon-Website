@@ -59,12 +59,12 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"d1/da9/classOpMon_1_1Controller_1_1MainMenuCtrl.html#ac8baa0892e6cc9f103d6fbb5efa0031a",
-"d3/df4/classOpMon_1_1Model_1_1Species.html#ac3973f6de7c90adc70b4bfae5abfd578",
-"d6/d50/classOpMon_1_1View_1_1Battle.html#afa9c9b695cdf8740e6db296522f20d77",
-"da/d90/classOpMon_1_1Controller_1_1StartSceneCtrl.html",
-"dd/d58/classOpMon_1_1Controller_1_1GameMenuCtrl.html#a043ee45e07e33cd6a2505abd3ab35216",
-"de/dfe/classOpMon_1_1View_1_1OptionsMenu.html#a0c6b7360b25f0fae5e93ddddd7555501"
+"d1/da9/classOpMon_1_1Controller_1_1MainMenuCtrl.html#adb0d474e911011b3c7c8759b6d467669",
+"d3/df4/classOpMon_1_1Model_1_1Species.html#abc3d94347c9886dfa9b46d67d28c5e6e",
+"d6/d50/classOpMon_1_1View_1_1Battle.html#acab6e7db037b0905958da77528afa842",
+"da/d58/deprecated.html",
+"dd/d39/Elements_8hpp.html#abd89c822a9ab3b1a2015fc288a7ac99b",
+"de/dfe/classOpMon_1_1I18n_1_1ATranslatable.html#a45157723dd0bf303082f5e5113b5f83f"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

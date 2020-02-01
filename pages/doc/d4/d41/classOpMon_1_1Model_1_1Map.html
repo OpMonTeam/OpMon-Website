@@ -88,6 +88,7 @@ $(document).ready(function(){initNavTree('d4/d41/classOpMon_1_1Model_1_1Map.html
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="../../de/dfa/classOpMon_1_1Model_1_1Map-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">OpMon::Model::Map Class Reference</div>  </div>
@@ -238,10 +239,16 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d41/classOpMon_1_1Model_1_1Map.html#a1c6dc21756fb2680ed541a4a7c56e851">w</a></td></tr>
 <tr class="memdesc:a1c6dc21756fb2680ed541a4a7c56e851"><td class="mdescLeft">&#160;</td><td class="mdescRight">Width of the map. <br /></td></tr>
 <tr class="separator:a1c6dc21756fb2680ed541a4a7c56e851"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:ae8689445f9595dcc778ebe9c949d4d67"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d41/classOpMon_1_1Model_1_1Map.html#ae8689445f9595dcc778ebe9c949d4d67">colTile</a> [4096]</td></tr>
+<tr class="memdesc:ae8689445f9595dcc778ebe9c949d4d67"><td class="mdescLeft">&#160;</td><td class="mdescRight">The collisions for each tile.  <a href="../../d4/d41/classOpMon_1_1Model_1_1Map.html#ae8689445f9595dcc778ebe9c949d4d67">More...</a><br /></td></tr>
+<tr class="separator:ae8689445f9595dcc778ebe9c949d4d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Defines a specific place in a game, containing the event, the animated objects and the map layers. </p>
-<p>To lower the loading time, a map object can be created without initialisation. The data of the map is stored in <a class="el" href="../../d4/d41/classOpMon_1_1Model_1_1Map.html#a2038c13e9a4d5e573a31e82223a22f2e" title="The map in json for the initialisation.">Map::jsonData</a>, and the map can then be loaded by calling <a class="el" href="../../d4/d41/classOpMon_1_1Model_1_1Map.html#adc44574b7b7ec810761f79b67f5e4197" title="Loads the map and returns it.">Map::loadMap</a>. Using an unloaded map will crash the game. </p><dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000018">Todo:</a></b></dt><dd>Separate the class into MapBuilder (The unloaded map) and <a class="el" href="../../d4/d41/classOpMon_1_1Model_1_1Map.html" title="Defines a specific place in a game, containing the event, the animated objects and the map layers.">Map</a>. </dd></dl>
+<p>To lower the loading time, a map object can be created without initialisation. The data of the map is stored in <a class="el" href="../../d4/d41/classOpMon_1_1Model_1_1Map.html#a2038c13e9a4d5e573a31e82223a22f2e" title="The map in json for the initialisation.">Map::jsonData</a>, and the map can then be loaded by calling <a class="el" href="../../d4/d41/classOpMon_1_1Model_1_1Map.html#adc44574b7b7ec810761f79b67f5e4197" title="Loads the map and returns it.">Map::loadMap</a>. Using an unloaded map will crash the game. </p><dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000017">Todo:</a></b></dt><dd>Separate the class into MapBuilder (The unloaded map) and <a class="el" href="../../d4/d41/classOpMon_1_1Model_1_1Map.html" title="Defines a specific place in a game, containing the event, the animated objects and the map layers.">Map</a>. </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a285a7923649ff84a664c3dc9533523a3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a285a7923649ff84a664c3dc9533523a3">&#9670;&nbsp;</a></span>Map()</h2>
@@ -486,6 +493,33 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../..
 
 <p>Contains the animated elements of the map. </p>
 <p>An animated element is an animation put on the top of the map. For exemple, the wind turbine of Fauxbourg Euvi. </p>
+
+</div>
+</div>
+<a id="ae8689445f9595dcc778ebe9c949d4d67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8689445f9595dcc778ebe9c949d4d67">&#9670;&nbsp;</a></span>colTile</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OpMon::Model::Map::colTile</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The collisions for each tile. </p>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000018">Todo:</a></b></dt><dd><p class="startdd">Add description of each number/collision type. </p>
+<p class="enddd">Move this in a json file and add multiple tileset support. </p>
+</dd></dl>
 
 </div>
 </div>

@@ -25,6 +25,7 @@ var classOpMon_1_1Model_1_1Map =
     [ "updateElements", "d4/d41/classOpMon_1_1Model_1_1Map.html#a7d93d5228de71de88d503af82f625b41", null ],
     [ "animatedElements", "d4/d41/classOpMon_1_1Model_1_1Map.html#abb312a643bfbf5b55e421d6211c2422d", null ],
     [ "bg", "d4/d41/classOpMon_1_1Model_1_1Map.html#a14317359d51d08aa6a5976c2a17dff94", null ],
+    [ "colTile", "d4/d41/classOpMon_1_1Model_1_1Map.html#ae8689445f9595dcc778ebe9c949d4d67", null ],
     [ "events", "d4/d41/classOpMon_1_1Model_1_1Map.html#a339c0d4543b11a9dcda070c05c9ed05e", null ],
     [ "h", "d4/d41/classOpMon_1_1Model_1_1Map.html#abe89e7abe16c3ba1fa7c69ccd1860999", null ],
     [ "indoor", "d4/d41/classOpMon_1_1Model_1_1Map.html#a33a00214f3648c8a9b3952056dd1547f", null ],
