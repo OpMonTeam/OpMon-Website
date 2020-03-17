@@ -1,0 +1,6 @@
+<map id="OpMon::Elements::Events::TPEvent" name="OpMon::Elements::Events::TPEvent">
+<area shape="rect" id="node1" title="Defines an event that teleports the player." alt="" coords="5,80,195,121"/>
+<area shape="rect" id="node3" href="$de/df3/classOpMon_1_1Elements_1_1Events_1_1DoorEvent.html" title="An TPEvent doing an animation when the player enters it." alt="" coords="5,169,195,211"/>
+<area shape="rect" id="node2" href="$d7/dda/classOpMon_1_1Elements_1_1Event.html" title="Defines an event." alt="" coords="9,5,191,32"/>
+<area shape="rect" id="node4" href="$d6/d06/classOpMon_1_1Elements_1_1Events_1_1LockedDoorEvent.html" title="A locked door (unimplemented yet)." alt="" coords="5,259,195,300"/>
+</map>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>OpMon: /home/cyrielle/Bureau/OpMon/src/opmon/start/Core.hpp Source File</title>
+<title>OpMon: /home/cyrielle/Bureau/OpMon/src/opmon/core/Core.hpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -94,33 +94,25 @@ $(document).ready(function(){initNavTree('d7/d38/Core_8hpp_source.html','../../'
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;../../utils/defines.hpp&quot;</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../db/da3/GameStatus_8hpp.html">GameStatus.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d6/de6/namespaceOpMon.html">OpMon</a> {</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d6/de6/namespaceOpMon.html#a111b35fdbefbb51a10980a4ce679f702">handleError</a>(std::string <span class="keyword">const</span> &amp;errorName, <span class="keywordtype">bool</span> fatal = <span class="keyword">false</span>);</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d6/de6/namespaceOpMon.html#a39511006dae924c76dc390fd4b3eb932">quit</a>(<span class="keywordtype">int</span> <span class="keyword">const</span> &amp;returns);</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keyword">extern</span> <span class="keywordtype">bool</span> <a class="code" href="../../d6/de6/namespaceOpMon.html#a6c3b30464395f142fe3468b09cde24ce">debugMode</a>;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keyword">extern</span> <span class="keywordtype">bool</span> <a class="code" href="../../d6/de6/namespaceOpMon.html#a9303f5918befdf96ca805d115375f15f">debugCol</a>;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keyword">extern</span> <span class="keywordtype">bool</span> <a class="code" href="../../d6/de6/namespaceOpMon.html#a9c797c711842bdc7e38d09a0a1a39284">reboot</a>;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;} <span class="comment">// namespace OpMon</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d6/de6/namespaceOpMon.html">OpMon</a> {</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d6/de6/namespaceOpMon.html#ab165657c8b443ca929579249840394ca">handleError</a>(std::string <span class="keyword">const</span> &amp;errorName, <span class="keywordtype">bool</span> fatal = <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d6/de6/namespaceOpMon.html#ae65a8ffa88b3e33ebbab45eb1b855a00">quit</a>(<span class="keywordtype">int</span> <span class="keyword">const</span> &amp;returns);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;} <span class="comment">// namespace OpMon</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="anamespaceOpMon_html_a9303f5918befdf96ca805d115375f15f"><div class="ttname"><a href="../../d6/de6/namespaceOpMon.html#a9303f5918befdf96ca805d115375f15f">OpMon::debugCol</a></div><div class="ttdeci">bool debugCol</div><div class="ttdoc">If true, the collision debug mode is activated.</div><div class="ttdef"><b>Definition:</b> Core.cpp:26</div></div>
-<div class="ttc" id="anamespaceOpMon_html"><div class="ttname"><a href="../../d6/de6/namespaceOpMon.html">OpMon</a></div><div class="ttdoc">Base namespace of the program.</div><div class="ttdef"><b>Definition:</b> AGameScreen.hpp:14</div></div>
-<div class="ttc" id="anamespaceOpMon_html_a6c3b30464395f142fe3468b09cde24ce"><div class="ttname"><a href="../../d6/de6/namespaceOpMon.html#a6c3b30464395f142fe3468b09cde24ce">OpMon::debugMode</a></div><div class="ttdeci">bool debugMode</div><div class="ttdoc">If true, the game is in debug mode.</div><div class="ttdef"><b>Definition:</b> Core.cpp:25</div></div>
-<div class="ttc" id="anamespaceOpMon_html_a9c797c711842bdc7e38d09a0a1a39284"><div class="ttname"><a href="../../d6/de6/namespaceOpMon.html#a9c797c711842bdc7e38d09a0a1a39284">OpMon::reboot</a></div><div class="ttdeci">bool reboot</div><div class="ttdoc">Indicates to OpMon::starts() if the game has to reboot or to close.</div><div class="ttdef"><b>Definition:</b> Core.cpp:28</div></div>
-<div class="ttc" id="anamespaceOpMon_html_a39511006dae924c76dc390fd4b3eb932"><div class="ttname"><a href="../../d6/de6/namespaceOpMon.html#a39511006dae924c76dc390fd4b3eb932">OpMon::quit</a></div><div class="ttdeci">int quit(int const &amp;returns)</div><div class="ttdoc">Function quitting the game, deleting the resources.</div><div class="ttdef"><b>Definition:</b> Core.cpp:54</div></div>
+<div class="ttc" id="anamespaceOpMon_html"><div class="ttname"><a href="../../d6/de6/namespaceOpMon.html">OpMon</a></div><div class="ttdoc">Base namespace of the program.</div><div class="ttdef"><b>Definition:</b> Core.cpp:19</div></div>
+<div class="ttc" id="anamespaceOpMon_html_ab165657c8b443ca929579249840394ca"><div class="ttname"><a href="../../d6/de6/namespaceOpMon.html#ab165657c8b443ca929579249840394ca">OpMon::handleError</a></div><div class="ttdeci">void handleError(std::string const &amp;errorName, bool fatal)</div><div class="ttdoc">Function handling errors on the program.</div><div class="ttdef"><b>Definition:</b> Core.cpp:26</div></div>
+<div class="ttc" id="anamespaceOpMon_html_ae65a8ffa88b3e33ebbab45eb1b855a00"><div class="ttname"><a href="../../d6/de6/namespaceOpMon.html#ae65a8ffa88b3e33ebbab45eb1b855a00">OpMon::quit</a></div><div class="ttdeci">int quit(int const &amp;returns)</div><div class="ttdoc">Function quitting the game, deleting the resources.</div><div class="ttdef"><b>Definition:</b> Core.cpp:47</div></div>
 <div class="ttc" id="aGameStatus_8hpp_html"><div class="ttname"><a href="../../db/da3/GameStatus_8hpp.html">GameStatus.hpp</a></div></div>
-<div class="ttc" id="anamespaceOpMon_html_a111b35fdbefbb51a10980a4ce679f702"><div class="ttname"><a href="../../d6/de6/namespaceOpMon.html#a111b35fdbefbb51a10980a4ce679f702">OpMon::handleError</a></div><div class="ttdeci">void handleError(std::string const &amp;errorName, bool fatal)</div><div class="ttdoc">Function handling errors on the program.</div><div class="ttdef"><b>Definition:</b> Core.cpp:33</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_43e0a1f539e00dcfa1a6bc4d4fee4fc2.html">home</a></li><li class="navelem"><a class="el" href="../../dir_7e1e432be7d1bb66448c457c8892f186.html">cyrielle</a></li><li class="navelem"><a class="el" href="../../dir_541888d0fbb694331306c2df57f6f611.html">Bureau</a></li><li class="navelem"><a class="el" href="../../dir_77a20b1394476325f9c0364510b2168d.html">OpMon</a></li><li class="navelem"><a class="el" href="../../dir_819c0e4025601de6d5ada492afc37be0.html">src</a></li><li class="navelem"><a class="el" href="../../dir_a2240d2a659c77f798c9fe4175de63c6.html">opmon</a></li><li class="navelem"><a class="el" href="../../dir_6df93be58decbc75965a185e5e67ac70.html">start</a></li><li class="navelem"><a class="el" href="../../d7/d38/Core_8hpp.html">Core.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_43e0a1f539e00dcfa1a6bc4d4fee4fc2.html">home</a></li><li class="navelem"><a class="el" href="../../dir_7e1e432be7d1bb66448c457c8892f186.html">cyrielle</a></li><li class="navelem"><a class="el" href="../../dir_541888d0fbb694331306c2df57f6f611.html">Bureau</a></li><li class="navelem"><a class="el" href="../../dir_77a20b1394476325f9c0364510b2168d.html">OpMon</a></li><li class="navelem"><a class="el" href="../../dir_819c0e4025601de6d5ada492afc37be0.html">src</a></li><li class="navelem"><a class="el" href="../../dir_a2240d2a659c77f798c9fe4175de63c6.html">opmon</a></li><li class="navelem"><a class="el" href="../../dir_14ff4b20fe3e85005431dc989f37a086.html">core</a></li><li class="navelem"><a class="el" href="../../d7/d38/Core_8hpp.html">Core.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.17 </li>

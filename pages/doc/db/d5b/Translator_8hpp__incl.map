@@ -1,6 +1,6 @@
-<map id="/home/cyrielle/Bureau/OpMon/src/opmon/start/i18n/Translator.hpp" name="/home/cyrielle/Bureau/OpMon/src/opmon/start/i18n/Translator.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="20,5,199,61"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,109,56,136"/>
-<area shape="rect" id="node3" title=" " alt="" coords="80,109,139,136"/>
-<area shape="rect" id="node4" title=" " alt="" coords="163,109,277,136"/>
+<map id="src/utils/i18n/Translator.hpp" name="src/utils/i18n/Translator.hpp">
+<area shape="rect" id="node1" title=" " alt="" coords="8,5,211,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,56,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="80,80,139,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="163,80,277,107"/>
 </map>

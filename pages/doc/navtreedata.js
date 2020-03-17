@@ -23,7 +23,8 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "OpMon", "index.html", [
-    [ "README", "db/d42/md__home_cyrielle_Bureau_OpMon_src_opmon_view_ui_README.html", null ],
+    [ "readme", "db/d0e/md_src_opmon_core_readme.html", null ],
+    [ "readme", "d2/d8f/md_src_utils_readme.html", null ],
     [ "Todo List", "dd/da0/todo.html", null ],
     [ "Deprecated List", "da/d58/deprecated.html", null ],
     [ "Namespaces", "namespaces.html", [
@@ -59,12 +60,12 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"d1/da9/classOpMon_1_1Controller_1_1MainMenuCtrl.html#adb0d474e911011b3c7c8759b6d467669",
-"d3/df4/classOpMon_1_1Model_1_1Species.html#abc3d94347c9886dfa9b46d67d28c5e6e",
-"d6/d50/classOpMon_1_1View_1_1Battle.html#acab6e7db037b0905958da77528afa842",
-"da/d58/deprecated.html",
-"dd/d39/Elements_8hpp.html#abd89c822a9ab3b1a2015fc288a7ac99b",
-"de/dfe/classOpMon_1_1I18n_1_1ATranslatable.html#a45157723dd0bf303082f5e5113b5f83f"
+"d3/d0e/classOpMon_1_1Battle.html#a35ef140beab4c7f1082c2c7484a23c7a",
+"d6/d29/namespaceOpMon_1_1Animations.html",
+"d9/dc1/classUtils_1_1CycleCounter.html#a3cdac41df4c186d8f6165add1fee379d",
+"db/da3/GameStatus_8hpp.html#a8d5824ffd8ecab8bfe042ef611839a18a2f453cfe638e57e27bb0c9512436111e",
+"dd/d9f/classOpMon_1_1OpMon.html#a76f243e653b0431f426ddd5ad3fd7f09",
+"de/d8e/classOpMon_1_1UiData.html#af4b223c10d1d5fec2df783e852350f76"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

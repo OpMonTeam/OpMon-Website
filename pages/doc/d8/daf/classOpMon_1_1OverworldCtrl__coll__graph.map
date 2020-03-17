@@ -1,0 +1,52 @@
+<map id="OpMon::OverworldCtrl" name="OpMon::OverworldCtrl">
+<area shape="rect" id="node1" title="Manages the overworld." alt="" coords="2735,1705,2901,1731"/>
+<area shape="rect" id="node2" href="$d1/d1f/classOpMon_1_1AGameScreen.html" title="Interface of all first&#45;level controllers." alt="" coords="2449,2243,2617,2270"/>
+<area shape="rect" id="node3" title=" " alt="" coords="2728,2259,2908,2300"/>
+<area shape="rect" id="node4" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Texture.php.html" title=" " alt="" coords="299,1695,389,1722"/>
+<area shape="rect" id="node16" href="$df/d6f/classOpMon_1_1OverworldData.html" title="Contains the data used for the Overworld." alt="" coords="2171,990,2345,1017"/>
+<area shape="rect" id="node17" href="$de/d8e/classOpMon_1_1UiData.html" title="Contains the data needed for the game in general." alt="" coords="1371,1557,1493,1583"/>
+<area shape="rect" id="node18" title=" " alt="" coords="739,1740,896,1781"/>
+<area shape="rect" id="node20" title=" " alt="" coords="527,1201,715,1227"/>
+<area shape="rect" id="node27" href="$d2/dbc/classOpMon_1_1GameMenuData.html" title="Contains the data of the in&#45;game menu used by View::GameMenu and Controller::GameMenuCtrl." alt="" coords="1747,1325,1930,1351"/>
+<area shape="rect" id="node48" href="$d0/d32/classOpMon_1_1Ui_1_1MapLayer.html" title="A map layer." alt="" coords="1351,1930,1513,1957"/>
+<area shape="rect" id="node5" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1GlResource.php.html" title=" " alt="" coords="24,1695,139,1722"/>
+<area shape="rect" id="node6" href="$d2/d4d/classOpMon_1_1Player.html" title="Contains information about the player." alt="" coords="1373,729,1491,755"/>
+<area shape="rect" id="node7" title=" " alt="" coords="545,188,697,229"/>
+<area shape="rect" id="node14" href="$da/dbc/classOpMon_1_1OpTeam.html" title="Defines an OpMon team, used by the player and trainers." alt="" coords="959,365,1088,391"/>
+<area shape="rect" id="node8" href="$dd/d9f/classOpMon_1_1OpMon.html" title="Class defining an OpMon. To see the class defining a species, see Species." alt="" coords="283,387,405,414"/>
+<area shape="rect" id="node9" title=" " alt="" coords="5,380,157,421"/>
+<area shape="rect" id="node10" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1String.php.html" title=" " alt="" coords="42,1070,121,1097"/>
+<area shape="rect" id="node29" title=" " alt="" coords="942,1135,1105,1176"/>
+<area shape="rect" id="node46" href="$d1/d33/classOpMon_1_1Ui_1_1Dialog.html" title=" " alt="" coords="1769,2054,1909,2081"/>
+<area shape="rect" id="node11" title=" " alt="" coords="942,561,1105,603"/>
+<area shape="rect" id="node12" title="STL class." alt="" coords="577,517,664,543"/>
+<area shape="rect" id="node25" title=" " alt="" coords="1351,383,1513,424"/>
+<area shape="rect" id="node26" title=" " alt="" coords="1151,249,1313,291"/>
+<area shape="rect" id="node28" title=" " alt="" coords="1551,888,1713,929"/>
+<area shape="rect" id="node30" title=" " alt="" coords="1737,269,1940,311"/>
+<area shape="rect" id="node31" href="$df/d21/classOpMon_1_1Elements_1_1Map.html" title="Defines a specific place in a game, containing the event, the animated objects and the map layers." alt="" coords="1345,967,1519,994"/>
+<area shape="rect" id="node33" title=" " alt="" coords="930,967,1117,994"/>
+<area shape="rect" id="node34" title=" " alt="" coords="920,496,1127,537"/>
+<area shape="rect" id="node35" title=" " alt="" coords="931,415,1115,471"/>
+<area shape="rect" id="node41" href="$db/d0d/classUtils_1_1OpString.html" title="A string with an empty space to complete using StringKeys." alt="" coords="965,110,1081,137"/>
+<area shape="rect" id="node42" title=" " alt="" coords="1757,1781,1920,1823"/>
+<area shape="rect" id="node13" title="STL class." alt="" coords="275,509,413,551"/>
+<area shape="rect" id="node39" href="$d1/d6b/classOpMon_1_1Elements_1_1Events_1_1TrainerEvent.html" title="A trainer." alt="" coords="1337,119,1527,160"/>
+<area shape="rect" id="node15" href="$d6/d43/classOpMon_1_1Elements_1_1Position.html" title="Class managing the position of an entity (player or event) and it&#39;s movement." alt="" coords="925,729,1122,755"/>
+<area shape="rect" id="node37" href="$de/d30/classOpMon_1_1Overworld.html" title="The overworld." alt="" coords="2462,1705,2605,1731"/>
+<area shape="rect" id="node19" title=" " alt="" coords="936,1512,1111,1553"/>
+<area shape="rect" id="node21" href="$d6/dee/classOpMon_1_1Ui_1_1Jukebox.html" title="Class managing the audio in the game." alt="" coords="949,1461,1098,1487"/>
+<area shape="rect" id="node22" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Font.php.html" title=" " alt="" coords="989,1578,1058,1605"/>
+<area shape="rect" id="node23" title=" " alt="" coords="933,1629,1114,1671"/>
+<area shape="rect" id="node24" title=" " alt="" coords="942,1395,1105,1436"/>
+<area shape="rect" id="node32" title=" " alt="" coords="942,1069,1105,1111"/>
+<area shape="rect" id="node36" title=" " alt="" coords="531,53,711,95"/>
+<area shape="rect" id="node38" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Drawable.php.html" title=" " alt="" coords="972,2023,1075,2050"/>
+<area shape="rect" id="node43" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Sprite.php.html" title=" " alt="" coords="1393,1865,1471,1891"/>
+<area shape="rect" id="node50" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Text.php.html" title=" " alt="" coords="1398,1814,1466,1841"/>
+<area shape="rect" id="node40" href="$db/d93/classOpMon_1_1Elements_1_1Events_1_1TalkingCharaEvent.html" title="An npc that talks." alt="" coords="929,5,1118,47"/>
+<area shape="rect" id="node44" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Transformable.php.html" title=" " alt="" coords="956,1859,1091,1886"/>
+<area shape="rect" id="node45" title=" " alt="" coords="2168,2047,2348,2088"/>
+<area shape="rect" id="node47" title=" " alt="" coords="1964,1900,2144,1941"/>
+<area shape="rect" id="node49" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1View.php.html" title=" " alt="" coords="2221,1158,2295,1185"/>
+</map>

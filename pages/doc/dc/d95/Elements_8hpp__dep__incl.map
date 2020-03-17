@@ -1,12 +1,11 @@
-<map id="/home/cyrielle/Bureau/OpMon/src/opmon/view/Elements.hpp" name="/home/cyrielle/Bureau/OpMon/src/opmon/view/Elements.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="357,5,536,61"/>
-<area shape="rect" id="node2" href="$d4/da0/Attack_8hpp.html" title=" " alt="" coords="240,109,429,165"/>
-<area shape="rect" id="node5" href="$d8/de7/Battle_8hpp.html" title=" " alt="" coords="29,109,208,165"/>
-<area shape="rect" id="node6" href="$df/d26/Overworld_8hpp.html" title=" " alt="" coords="469,109,648,165"/>
-<area shape="rect" id="node9" href="$df/dfd/OptionsMenu_8hpp.html" title=" " alt="" coords="805,109,984,165"/>
-<area shape="rect" id="node3" href="$dd/dca/BattleCtrl_8hpp.html" title=" " alt="" coords="5,213,216,269"/>
-<area shape="rect" id="node4" href="$dd/d76/Attacks_8hpp.html" title=" " alt="" coords="240,213,429,269"/>
-<area shape="rect" id="node7" href="$d6/d30/OverworldCtrl_8hpp.html" title=" " alt="" coords="453,213,664,269"/>
-<area shape="rect" id="node8" href="$de/dcd/PlayerCtrl_8hpp.html" title=" " alt="" coords="688,213,899,269"/>
-<area shape="rect" id="node10" href="$df/df5/OptionsMenuCtrl_8hpp.html" title=" " alt="" coords="923,213,1133,269"/>
+<map id="src/opmon/view/ui/Elements.hpp" name="src/opmon/view/ui/Elements.hpp">
+<area shape="rect" id="node1" title=" " alt="" coords="339,5,573,32"/>
+<area shape="rect" id="node2" href="$d4/da0/Attack_8hpp.html" title=" " alt="" coords="11,87,221,114"/>
+<area shape="rect" id="node5" href="$d8/de7/Battle_8hpp.html" title=" " alt="" coords="245,80,432,121"/>
+<area shape="rect" id="node6" href="$df/dfd/OptionsMenu_8hpp.html" title=" " alt="" coords="457,80,690,121"/>
+<area shape="rect" id="node8" href="$df/d26/Overworld_8hpp.html" title=" " alt="" coords="715,80,928,121"/>
+<area shape="rect" id="node3" href="$dd/d76/Attacks_8hpp.html" title=" " alt="" coords="5,177,221,203"/>
+<area shape="rect" id="node4" href="$dd/dca/BattleCtrl_8hpp.html" title=" " alt="" coords="245,169,432,211"/>
+<area shape="rect" id="node7" href="$df/df5/OptionsMenuCtrl_8hpp.html" title=" " alt="" coords="457,169,690,211"/>
+<area shape="rect" id="node9" href="$d6/d30/OverworldCtrl_8hpp.html" title=" " alt="" coords="715,169,928,211"/>
 </map>

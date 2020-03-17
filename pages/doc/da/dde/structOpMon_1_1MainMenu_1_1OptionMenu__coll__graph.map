@@ -1,0 +1,6 @@
+<map id="OpMon::MainMenu::OptionMenu" name="OpMon::MainMenu::OptionMenu">
+<area shape="rect" id="node1" title="Stucture representing an option in the menu." alt="" coords="12,171,243,197"/>
+<area shape="rect" id="node2" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Text.php.html" title=" " alt="" coords="93,81,161,108"/>
+<area shape="rect" id="node3" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Drawable.php.html" title=" " alt="" coords="5,5,108,32"/>
+<area shape="rect" id="node4" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Transformable.php.html" title=" " alt="" coords="132,5,267,32"/>
+</map>

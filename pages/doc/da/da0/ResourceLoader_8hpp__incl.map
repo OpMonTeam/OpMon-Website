@@ -1,11 +1,14 @@
-<map id="/home/cyrielle/Bureau/OpMon/src/opmon/model/storage/ResourceLoader.hpp" name="/home/cyrielle/Bureau/OpMon/src/opmon/model/storage/ResourceLoader.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="258,5,469,61"/>
-<area shape="rect" id="node2" href="$db/df8/defines_8hpp.html" title=" " alt="" coords="5,184,172,211"/>
-<area shape="rect" id="node5" href="$d7/d38/Core_8hpp.html" title="The program core functions." alt="" coords="137,109,275,136"/>
-<area shape="rect" id="node7" title=" " alt="" coords="300,109,427,136"/>
-<area shape="rect" id="node8" title=" " alt="" coords="451,109,598,136"/>
-<area shape="rect" id="node9" title=" " alt="" coords="623,109,696,136"/>
-<area shape="rect" id="node3" title=" " alt="" coords="43,259,134,285"/>
-<area shape="rect" id="node4" title=" " alt="" coords="169,259,227,285"/>
-<area shape="rect" id="node6" href="$db/da3/GameStatus_8hpp.html" title=" " alt="" coords="247,184,378,211"/>
+<map id="src/utils/ResourceLoader.hpp" name="src/utils/ResourceLoader.hpp">
+<area shape="rect" id="node1" title=" " alt="" coords="404,5,613,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,132,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="157,80,303,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="328,80,399,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="423,80,496,107"/>
+<area shape="rect" id="node6" title=" " alt="" coords="521,80,598,107"/>
+<area shape="rect" id="node7" title=" " alt="" coords="623,80,685,107"/>
+<area shape="rect" id="node8" href="$da/d49/exceptions_8hpp.html" title=" " alt="" coords="709,80,831,107"/>
+<area shape="rect" id="node11" href="$d4/d3d/log_8hpp.html" title=" " alt="" coords="855,80,925,107"/>
+<area shape="rect" id="node9" title=" " alt="" coords="691,155,777,181"/>
+<area shape="rect" id="node10" title=" " alt="" coords="802,155,861,181"/>
+<area shape="rect" id="node12" title=" " alt="" coords="885,155,965,181"/>
 </map>

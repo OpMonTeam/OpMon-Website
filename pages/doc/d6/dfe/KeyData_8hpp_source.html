@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>OpMon: /home/cyrielle/Bureau/OpMon/src/opmon/model/storage/KeyData.hpp Source File</title>
+<title>OpMon: src/utils/KeyData.hpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -95,27 +95,25 @@ $(document).ready(function(){initNavTree('d6/dfe/KeyData_8hpp_source.html','../.
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;unordered_map&gt;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d6/de6/namespaceOpMon.html">OpMon</a> {</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">namespace </span>Model {</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../d5/da8/structOpMon_1_1Model_1_1KeyData.html">   18</a></span>&#160;        <span class="keyword">struct </span><a class="code" href="../../d5/da8/structOpMon_1_1Model_1_1KeyData.html">KeyData</a> {</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <span class="keyword">static</span> <span class="keyword">const</span> std::string &amp;<a class="code" href="../../d5/da8/structOpMon_1_1Model_1_1KeyData.html#a446d024a0515123c70a2de85966da997">findNameKeyCode</a>(<a class="codeRef" href="https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Keyboard.php#acb4cacd7cc5802dec45724cf3314a142">sf::Keyboard::Key</a> searchKeyCode);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="../../d5/da8/structOpMon_1_1Model_1_1KeyData.html#ae986f025a126e0f575e04e1e04ed4799">   29</a></span>&#160;            <span class="keyword">static</span> <span class="keyword">const</span> std::unordered_map&lt;std::string, sf::Keyboard::Key&gt; <a class="code" href="../../d5/da8/structOpMon_1_1Model_1_1KeyData.html#ae986f025a126e0f575e04e1e04ed4799">keysMap</a>;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        };</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    } <span class="comment">// namespace Model</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;} <span class="comment">// namespace OpMon</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d4/d3d/namespaceUtils.html">Utils</a> {</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="../../d8/d70/structUtils_1_1KeyData.html">   17</a></span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d8/d70/structUtils_1_1KeyData.html">KeyData</a> {</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keyword">static</span> <span class="keyword">const</span> std::string &amp;<a class="code" href="../../d8/d70/structUtils_1_1KeyData.html#a9c0a3813c7e391da32456a25dd967850">findNameKeyCode</a>(<a class="codeRef" href="https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Keyboard.php#acb4cacd7cc5802dec45724cf3314a142">sf::Keyboard::Key</a> searchKeyCode);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="../../d8/d70/structUtils_1_1KeyData.html#a962ddff82309c0be661e5e8c07aa24db">   28</a></span>&#160;        <span class="keyword">static</span> <span class="keyword">const</span> std::unordered_map&lt;std::string, sf::Keyboard::Key&gt; <a class="code" href="../../d8/d70/structUtils_1_1KeyData.html#a962ddff82309c0be661e5e8c07aa24db">keysMap</a>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    };</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;} <span class="comment">// namespace Utils</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="anamespaceOpMon_html"><div class="ttname"><a href="../../d6/de6/namespaceOpMon.html">OpMon</a></div><div class="ttdoc">Base namespace of the program.</div><div class="ttdef"><b>Definition:</b> AGameScreen.hpp:14</div></div>
-<div class="ttc" id="astructOpMon_1_1Model_1_1KeyData_html_a446d024a0515123c70a2de85966da997"><div class="ttname"><a href="../../d5/da8/structOpMon_1_1Model_1_1KeyData.html#a446d024a0515123c70a2de85966da997">OpMon::Model::KeyData::findNameKeyCode</a></div><div class="ttdeci">static const std::string &amp; findNameKeyCode(sf::Keyboard::Key searchKeyCode)</div><div class="ttdoc">Gets the code associated with a keyboard key.</div><div class="ttdef"><b>Definition:</b> KeyData.cpp:10</div></div>
-<div class="ttc" id="astructOpMon_1_1Model_1_1KeyData_html_ae986f025a126e0f575e04e1e04ed4799"><div class="ttname"><a href="../../d5/da8/structOpMon_1_1Model_1_1KeyData.html#ae986f025a126e0f575e04e1e04ed4799">OpMon::Model::KeyData::keysMap</a></div><div class="ttdeci">static const std::unordered_map&lt; std::string, sf::Keyboard::Key &gt; keysMap</div><div class="ttdoc">A map associating a code to some keys.</div><div class="ttdef"><b>Definition:</b> KeyData.hpp:29</div></div>
-<div class="ttc" id="astructOpMon_1_1Model_1_1KeyData_html"><div class="ttname"><a href="../../d5/da8/structOpMon_1_1Model_1_1KeyData.html">OpMon::Model::KeyData</a></div><div class="ttdoc">Used to link the keyboard keys to std::strings.</div><div class="ttdef"><b>Definition:</b> KeyData.hpp:18</div></div>
+<div class="ttc" id="astructUtils_1_1KeyData_html_a9c0a3813c7e391da32456a25dd967850"><div class="ttname"><a href="../../d8/d70/structUtils_1_1KeyData.html#a9c0a3813c7e391da32456a25dd967850">Utils::KeyData::findNameKeyCode</a></div><div class="ttdeci">static const std::string &amp; findNameKeyCode(sf::Keyboard::Key searchKeyCode)</div><div class="ttdoc">Gets the code associated with a keyboard key.</div><div class="ttdef"><b>Definition:</b> KeyData.cpp:12</div></div>
+<div class="ttc" id="astructUtils_1_1KeyData_html"><div class="ttname"><a href="../../d8/d70/structUtils_1_1KeyData.html">Utils::KeyData</a></div><div class="ttdoc">Used to link the keyboard keys to std::strings.</div><div class="ttdef"><b>Definition:</b> KeyData.hpp:17</div></div>
 <div class="ttc" id="aclasssf_1_1Keyboard.php_html_acb4cacd7cc5802dec45724cf3314a142"><div class="ttname"><a href="https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Keyboard.php#acb4cacd7cc5802dec45724cf3314a142">sf::Keyboard::Key</a></div><div class="ttdeci">Key</div></div>
+<div class="ttc" id="anamespaceUtils_html"><div class="ttname"><a href="../../d4/d3d/namespaceUtils.html">Utils</a></div><div class="ttdoc">Contains different utilities.</div></div>
+<div class="ttc" id="astructUtils_1_1KeyData_html_a962ddff82309c0be661e5e8c07aa24db"><div class="ttname"><a href="../../d8/d70/structUtils_1_1KeyData.html#a962ddff82309c0be661e5e8c07aa24db">Utils::KeyData::keysMap</a></div><div class="ttdeci">static const std::unordered_map&lt; std::string, sf::Keyboard::Key &gt; keysMap</div><div class="ttdoc">A map associating a code to some keys.</div><div class="ttdef"><b>Definition:</b> KeyData.hpp:28</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_43e0a1f539e00dcfa1a6bc4d4fee4fc2.html">home</a></li><li class="navelem"><a class="el" href="../../dir_7e1e432be7d1bb66448c457c8892f186.html">cyrielle</a></li><li class="navelem"><a class="el" href="../../dir_541888d0fbb694331306c2df57f6f611.html">Bureau</a></li><li class="navelem"><a class="el" href="../../dir_77a20b1394476325f9c0364510b2168d.html">OpMon</a></li><li class="navelem"><a class="el" href="../../dir_819c0e4025601de6d5ada492afc37be0.html">src</a></li><li class="navelem"><a class="el" href="../../dir_a2240d2a659c77f798c9fe4175de63c6.html">opmon</a></li><li class="navelem"><a class="el" href="../../dir_421ad8762620f02a03fb6eec28998e28.html">model</a></li><li class="navelem"><a class="el" href="../../dir_0fa8e7d261e62767a093b2cdfdf5ff79.html">storage</a></li><li class="navelem"><a class="el" href="../../d6/dfe/KeyData_8hpp.html">KeyData.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_313caf1132e152dd9b58bea13a4052ca.html">utils</a></li><li class="navelem"><a class="el" href="../../d6/dfe/KeyData_8hpp.html">KeyData.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.17 </li>

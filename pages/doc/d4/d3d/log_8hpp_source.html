@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>OpMon: /home/cyrielle/Bureau/OpMon/src/utils/log.hpp Source File</title>
+<title>OpMon: src/utils/log.hpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -89,13 +89,14 @@ $(document).ready(function(){initNavTree('d4/d3d/log_8hpp_source.html','../../')
 </div><!--header-->
 <div class="contents">
 <a href="../../d4/d3d/log_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#pragma once</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d4/d3d/namespaceUtils.html">Utils</a> {</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">namespace </span>Log {</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="../../d9/dbf/namespaceUtils_1_1Log.html#a92f61e1f817d57a76d66104d7b66a3f7">init</a>();</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="../../d9/dbf/namespaceUtils_1_1Log.html#a5d3481a7ae24189a4d48f150116d9559">init</a>(std::string path);</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="../../d9/dbf/namespaceUtils_1_1Log.html#aeeea790947d39d38540fa16ca5bdf48f">oplog</a>(<span class="keyword">const</span> std::string &amp;toSay, <span class="keywordtype">bool</span> error = <span class="keyword">false</span>);</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
@@ -104,14 +105,14 @@ $(document).ready(function(){initNavTree('d4/d3d/log_8hpp_source.html','../../')
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;} <span class="comment">// namespace Utils</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="anamespaceUtils_1_1Log_html_a60bdd7f33e3cee15dd7424f81e8028d6"><div class="ttname"><a href="../../d9/dbf/namespaceUtils_1_1Log.html#a60bdd7f33e3cee15dd7424f81e8028d6">Utils::Log::warn</a></div><div class="ttdeci">void warn(const std::string &amp;toSay)</div><div class="ttdoc">Add &quot;[WARN - &quot; to the parameter before calling oplog.</div><div class="ttdef"><b>Definition:</b> log.cpp:49</div></div>
-<div class="ttc" id="anamespaceUtils_1_1Log_html_a92f61e1f817d57a76d66104d7b66a3f7"><div class="ttname"><a href="../../d9/dbf/namespaceUtils_1_1Log.html#a92f61e1f817d57a76d66104d7b66a3f7">Utils::Log::init</a></div><div class="ttdeci">void init()</div><div class="ttdoc">Initialize the log streams.</div><div class="ttdef"><b>Definition:</b> log.cpp:24</div></div>
+<div class="ttc" id="anamespaceUtils_1_1Log_html_a60bdd7f33e3cee15dd7424f81e8028d6"><div class="ttname"><a href="../../d9/dbf/namespaceUtils_1_1Log.html#a60bdd7f33e3cee15dd7424f81e8028d6">Utils::Log::warn</a></div><div class="ttdeci">void warn(const std::string &amp;toSay)</div><div class="ttdoc">Add &quot;[WARN - &quot; to the parameter before calling oplog.</div><div class="ttdef"><b>Definition:</b> log.cpp:51</div></div>
+<div class="ttc" id="anamespaceUtils_1_1Log_html_a5d3481a7ae24189a4d48f150116d9559"><div class="ttname"><a href="../../d9/dbf/namespaceUtils_1_1Log.html#a5d3481a7ae24189a4d48f150116d9559">Utils::Log::init</a></div><div class="ttdeci">void init(std::string path)</div><div class="ttdoc">Initialize the log streams.</div><div class="ttdef"><b>Definition:</b> log.cpp:24</div></div>
 <div class="ttc" id="anamespaceUtils_1_1Log_html_aeeea790947d39d38540fa16ca5bdf48f"><div class="ttname"><a href="../../d9/dbf/namespaceUtils_1_1Log.html#aeeea790947d39d38540fa16ca5bdf48f">Utils::Log::oplog</a></div><div class="ttdeci">void oplog(const std::string &amp;toSay, bool error)</div><div class="ttdoc">Write a log message in a log file.</div><div class="ttdef"><b>Definition:</b> log.cpp:43</div></div>
 <div class="ttc" id="anamespaceUtils_html"><div class="ttname"><a href="../../d4/d3d/namespaceUtils.html">Utils</a></div><div class="ttdoc">Contains different utilities.</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_43e0a1f539e00dcfa1a6bc4d4fee4fc2.html">home</a></li><li class="navelem"><a class="el" href="../../dir_7e1e432be7d1bb66448c457c8892f186.html">cyrielle</a></li><li class="navelem"><a class="el" href="../../dir_541888d0fbb694331306c2df57f6f611.html">Bureau</a></li><li class="navelem"><a class="el" href="../../dir_77a20b1394476325f9c0364510b2168d.html">OpMon</a></li><li class="navelem"><a class="el" href="../../dir_819c0e4025601de6d5ada492afc37be0.html">src</a></li><li class="navelem"><a class="el" href="../../dir_72ebe921a66b4a7d152cdbf08f4d50c7.html">utils</a></li><li class="navelem"><a class="el" href="../../d4/d3d/log_8hpp.html">log.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_313caf1132e152dd9b58bea13a4052ca.html">utils</a></li><li class="navelem"><a class="el" href="../../d4/d3d/log_8hpp.html">log.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.17 </li>

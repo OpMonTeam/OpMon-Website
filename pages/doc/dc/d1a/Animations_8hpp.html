@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>OpMon: /home/cyrielle/Bureau/OpMon/src/opmon/view/Animations.hpp File Reference</title>
+<title>OpMon: src/opmon/screens/animation/Animations.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -93,19 +93,35 @@ $(document).ready(function(){initNavTree('dc/d1a/Animations_8hpp.html','../../')
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;SFML/Graphics.hpp&gt;</code><br />
+<code>#include &lt;SFML/Graphics/Drawable.hpp&gt;</code><br />
+<code>#include &lt;SFML/Graphics/RenderStates.hpp&gt;</code><br />
+<code>#include &lt;SFML/Graphics/RenderTexture.hpp&gt;</code><br />
+<code>#include &lt;SFML/Graphics/Sprite.hpp&gt;</code><br />
+<code>#include &lt;SFML/Graphics/Texture.hpp&gt;</code><br />
+<code>#include &lt;SFML/System/Vector2.hpp&gt;</code><br />
 <code>#include &lt;iostream&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../db/da3/GameStatus_8hpp_source.html">../start/GameStatus.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/da3/GameStatus_8hpp_source.html">src/opmon/core/GameStatus.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/df8/defines_8hpp_source.html">src/utils/defines.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for Animations.hpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../dc/dd9/Animations_8hpp__incl.png" border="0" usemap="#_2home_2cyrielle_2Bureau_2OpMon_2src_2opmon_2view_2Animations_8hpp" alt=""/></div>
-<map name="_2home_2cyrielle_2Bureau_2OpMon_2src_2opmon_2view_2Animations_8hpp" id="_2home_2cyrielle_2Bureau_2OpMon_2src_2opmon_2view_2Animations_8hpp">
-<area shape="rect" title=" " alt="" coords="127,5,305,61"/>
-<area shape="rect" title=" " alt="" coords="5,109,152,136"/>
-<area shape="rect" title=" " alt="" coords="176,109,256,136"/>
-<area shape="rect" href="../../db/da3/GameStatus_8hpp.html" title=" " alt="" coords="280,109,456,136"/>
+<div class="center"><img src="../../dc/dd9/Animations_8hpp__incl.png" border="0" usemap="#src_2opmon_2screens_2animation_2Animations_8hpp" alt=""/></div>
+<map name="src_2opmon_2screens_2animation_2Animations_8hpp" id="src_2opmon_2screens_2animation_2Animations_8hpp">
+<area shape="rect" title=" " alt="" coords="1037,5,1251,47"/>
+<area shape="rect" title=" " alt="" coords="5,95,152,121"/>
+<area shape="rect" title=" " alt="" coords="177,95,389,121"/>
+<area shape="rect" title=" " alt="" coords="412,95,649,121"/>
+<area shape="rect" title=" " alt="" coords="674,95,918,121"/>
+<area shape="rect" title=" " alt="" coords="942,95,1130,121"/>
+<area shape="rect" title=" " alt="" coords="1154,95,1353,121"/>
+<area shape="rect" title=" " alt="" coords="1377,95,1569,121"/>
+<area shape="rect" title=" " alt="" coords="1593,95,1673,121"/>
+<area shape="rect" href="../../db/da3/GameStatus_8hpp.html" title=" " alt="" coords="1697,95,1932,121"/>
+<area shape="rect" href="../../db/df8/defines_8hpp.html" title=" " alt="" coords="1955,95,2109,121"/>
+<area shape="rect" title=" " alt="" coords="1937,169,2028,196"/>
+<area shape="rect" title=" " alt="" coords="2052,169,2111,196"/>
 </map>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -113,10 +129,10 @@ $(document).ready(function(){initNavTree('dc/d1a/Animations_8hpp.html','../../')
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../d2/d58/Animations_8hpp__dep__incl.png" border="0" usemap="#_2home_2cyrielle_2Bureau_2OpMon_2src_2opmon_2view_2Animations_8hppdep" alt=""/></div>
-<map name="_2home_2cyrielle_2Bureau_2OpMon_2src_2opmon_2view_2Animations_8hppdep" id="_2home_2cyrielle_2Bureau_2OpMon_2src_2opmon_2view_2Animations_8hppdep">
-<area shape="rect" title=" " alt="" coords="21,5,200,61"/>
-<area shape="rect" href="../../de/d03/AnimationCtrl_8hpp.html" title=" " alt="" coords="5,109,216,165"/>
+<div class="center"><img src="../../d2/d58/Animations_8hpp__dep__incl.png" border="0" usemap="#src_2opmon_2screens_2animation_2Animations_8hppdep" alt=""/></div>
+<map name="src_2opmon_2screens_2animation_2Animations_8hppdep" id="src_2opmon_2screens_2animation_2Animations_8hppdep">
+<area shape="rect" title=" " alt="" coords="5,5,220,47"/>
+<area shape="rect" href="../../de/d03/AnimationCtrl_8hpp.html" title=" " alt="" coords="5,95,220,136"/>
 </map>
 </div>
 </div>
@@ -124,36 +140,30 @@ $(document).ready(function(){initNavTree('dc/d1a/Animations_8hpp.html','../../')
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8b/classOpMon_1_1View_1_1Animations_1_1Animation.html">OpMon::View::Animations::Animation</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d03/classOpMon_1_1Animations_1_1Animation.html">OpMon::Animations::Animation</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d91/classOpMon_1_1View_1_1Animations_1_1WinAnim.html">OpMon::View::Animations::WinAnim</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d7/d8b/classOpMon_1_1View_1_1Animations_1_1Animation.html">Animation</a> played as a transition between the professor's dialog and the name input screen.  <a href="../../d8/d91/classOpMon_1_1View_1_1Animations_1_1WinAnim.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db9/classOpMon_1_1Animations_1_1WinAnim.html">OpMon::Animations::WinAnim</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d2/d03/classOpMon_1_1Animations_1_1Animation.html">Animation</a> played as a transition between the professor's dialog and the name input screen.  <a href="../../d2/db9/classOpMon_1_1Animations_1_1WinAnim.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d99/classOpMon_1_1View_1_1Animations_1_1WooshAnim.html">OpMon::View::Animations::WooshAnim</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A simple sliding transition.  <a href="../../da/d99/classOpMon_1_1View_1_1Animations_1_1WooshAnim.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d71/classOpMon_1_1Animations_1_1WooshAnim.html">OpMon::Animations::WooshAnim</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A simple sliding transition.  <a href="../../dd/d71/classOpMon_1_1Animations_1_1WooshAnim.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:d6/de6/namespaceOpMon"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/namespaceOpMon.html">OpMon</a></td></tr>
-<tr class="memdesc:d6/de6/namespaceOpMon"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base namespace of the program. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d0/d88/namespaceOpMon_1_1View"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d88/namespaceOpMon_1_1View.html">OpMon::View</a></td></tr>
-<tr class="memdesc:d0/d88/namespaceOpMon_1_1View"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace containing the view part. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d2/dc8/namespaceOpMon_1_1View_1_1Animations"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc8/namespaceOpMon_1_1View_1_1Animations.html">OpMon::View::Animations</a></td></tr>
-<tr class="memdesc:d2/dc8/namespaceOpMon_1_1View_1_1Animations"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains the functions used for the majors animations. <br /></td></tr>
+<tr class="memitem:d6/d29/namespaceOpMon_1_1Animations"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d29/namespaceOpMon_1_1Animations.html">OpMon::Animations</a></td></tr>
+<tr class="memdesc:d6/d29/namespaceOpMon_1_1Animations"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains the functions used for the majors animations. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a3f164fd603ebab0ac63fa9f02bfb0730"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc8/namespaceOpMon_1_1View_1_1Animations.html#a3f164fd603ebab0ac63fa9f02bfb0730">OpMon::View::Animations::WooshDir</a> : int { <a class="el" href="../../d2/dc8/namespaceOpMon_1_1View_1_1Animations.html#a3f164fd603ebab0ac63fa9f02bfb0730afbaedde498cdead4f2780217646e9ba1">OpMon::View::Animations::WooshDir::UP</a> = 0, 
-<a class="el" href="../../d2/dc8/namespaceOpMon_1_1View_1_1Animations.html#a3f164fd603ebab0ac63fa9f02bfb0730ac4e0e4e3118472beeb2ae75827450f1f">OpMon::View::Animations::WooshDir::DOWN</a> = 1, 
-<a class="el" href="../../d2/dc8/namespaceOpMon_1_1View_1_1Animations.html#a3f164fd603ebab0ac63fa9f02bfb0730a684d325a7303f52e64011467ff5c5758">OpMon::View::Animations::WooshDir::LEFT</a> = 2, 
-<a class="el" href="../../d2/dc8/namespaceOpMon_1_1View_1_1Animations.html#a3f164fd603ebab0ac63fa9f02bfb0730a21507b40c80068eda19865706fdc2403">OpMon::View::Animations::WooshDir::RIGHT</a> = 3
+<tr class="memitem:a6508c6e0fd31b596a6f5983c41982cdd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d29/namespaceOpMon_1_1Animations.html#a6508c6e0fd31b596a6f5983c41982cdd">OpMon::Animations::WooshDir</a> : int { <a class="el" href="../../d6/d29/namespaceOpMon_1_1Animations.html#a6508c6e0fd31b596a6f5983c41982cddafbaedde498cdead4f2780217646e9ba1">OpMon::Animations::WooshDir::UP</a> = 0, 
+<a class="el" href="../../d6/d29/namespaceOpMon_1_1Animations.html#a6508c6e0fd31b596a6f5983c41982cddac4e0e4e3118472beeb2ae75827450f1f">OpMon::Animations::WooshDir::DOWN</a> = 1, 
+<a class="el" href="../../d6/d29/namespaceOpMon_1_1Animations.html#a6508c6e0fd31b596a6f5983c41982cdda684d325a7303f52e64011467ff5c5758">OpMon::Animations::WooshDir::LEFT</a> = 2, 
+<a class="el" href="../../d6/d29/namespaceOpMon_1_1Animations.html#a6508c6e0fd31b596a6f5983c41982cdda21507b40c80068eda19865706fdc2403">OpMon::Animations::WooshDir::RIGHT</a> = 3
  }</td></tr>
-<tr class="memdesc:a3f164fd603ebab0ac63fa9f02bfb0730"><td class="mdescLeft">&#160;</td><td class="mdescRight">The direction of the movement for WooshAnim.  <a href="../../d2/dc8/namespaceOpMon_1_1View_1_1Animations.html#a3f164fd603ebab0ac63fa9f02bfb0730">More...</a><br /></td></tr>
-<tr class="separator:a3f164fd603ebab0ac63fa9f02bfb0730"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:a6508c6e0fd31b596a6f5983c41982cdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The direction of the movement for WooshAnim.  <a href="../../d6/d29/namespaceOpMon_1_1Animations.html#a6508c6e0fd31b596a6f5983c41982cdd">More...</a><br /></td></tr>
+<tr class="separator:a6508c6e0fd31b596a6f5983c41982cdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Authors</dt><dd>Cyrielle </dd>
@@ -167,7 +177,7 @@ Navet56 </dd></dl>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_43e0a1f539e00dcfa1a6bc4d4fee4fc2.html">home</a></li><li class="navelem"><a class="el" href="../../dir_7e1e432be7d1bb66448c457c8892f186.html">cyrielle</a></li><li class="navelem"><a class="el" href="../../dir_541888d0fbb694331306c2df57f6f611.html">Bureau</a></li><li class="navelem"><a class="el" href="../../dir_77a20b1394476325f9c0364510b2168d.html">OpMon</a></li><li class="navelem"><a class="el" href="../../dir_819c0e4025601de6d5ada492afc37be0.html">src</a></li><li class="navelem"><a class="el" href="../../dir_a2240d2a659c77f798c9fe4175de63c6.html">opmon</a></li><li class="navelem"><a class="el" href="../../dir_671c8fb24a1b49f103255010b49296a7.html">view</a></li><li class="navelem"><a class="el" href="../../dc/d1a/Animations_8hpp.html">Animations.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_3ebfba3f7ddc15d5b253a07827990f8c.html">opmon</a></li><li class="navelem"><a class="el" href="../../dir_e1e84dcf58266c150a03e5533a08eed1.html">screens</a></li><li class="navelem"><a class="el" href="../../dir_905905c4ee601cc162fd308c7b46512c.html">animation</a></li><li class="navelem"><a class="el" href="../../dc/d1a/Animations_8hpp.html">Animations.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.17 </li>

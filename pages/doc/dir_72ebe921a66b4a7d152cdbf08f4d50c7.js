@@ -13,6 +13,8 @@ var dir_72ebe921a66b4a7d152cdbf08f4d50c7 =
     ] ],
     [ "path.hpp", "d1/d4c/path_8hpp.html", "d1/d4c/path_8hpp" ],
     [ "ResourcePath.hpp", "dd/d54/ResourcePath_8hpp_source.html", null ],
-    [ "StringKeys.hpp", "d1/d29/StringKeys_8hpp.html", "d1/d29/StringKeys_8hpp" ],
+    [ "StringKeys.hpp", "d1/d29/StringKeys_8hpp.html", [
+      [ "StringKeys", "d9/d82/classUtils_1_1StringKeys.html", "d9/d82/classUtils_1_1StringKeys" ]
+    ] ],
     [ "time.hpp", "de/d99/time_8hpp.html", "de/d99/time_8hpp" ]
 ];

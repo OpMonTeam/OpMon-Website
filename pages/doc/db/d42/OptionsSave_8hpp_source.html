@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>OpMon: /home/cyrielle/Bureau/OpMon/src/opmon/model/save/OptionsSave.hpp Source File</title>
+<title>OpMon: src/utils/OptionsSave.hpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -92,68 +92,68 @@ $(document).ready(function(){initNavTree('db/d42/OptionsSave_8hpp_source.html','
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef OPTIONSSAVE_HPP</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#define OPTIONSSAVE_HPP</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;../../../utils/StringKeys.hpp&quot;</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;fstream&gt;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;sstream&gt;</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../db/d42/OptionsSave_8hpp.html#ad83c8a633a652d237cd44f36f3a4c062">   19</a></span>&#160;<span class="preprocessor">#define addParam addOrModifParam</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;fstream&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;sstream&gt;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d1/d29/StringKeys_8hpp.html">StringKeys.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../db/d42/OptionsSave_8hpp.html#ad83c8a633a652d237cd44f36f3a4c062">   18</a></span>&#160;<span class="preprocessor">#define addParam addOrModifParam</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
 <div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../db/d42/OptionsSave_8hpp.html#a4cbaab144fea39504b0de0fb4c61da04">   23</a></span>&#160;<span class="preprocessor">#define modifyParam addOrModifParam</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d6/de6/namespaceOpMon.html">OpMon</a> {</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">namespace </span>Model {</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keyword">namespace </span>OptionsSave {</div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="../../da/d98/classOpMon_1_1Model_1_1OptionsSave_1_1Param.html">   35</a></span>&#160;            <span class="keyword">class </span><a class="code" href="../../da/d98/classOpMon_1_1Model_1_1OptionsSave_1_1Param.html">Param</a> {</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;              <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                std::string paramName;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                std::string value;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;              <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                <a class="code" href="../../da/d98/classOpMon_1_1Model_1_1OptionsSave_1_1Param.html#a08cc92eb24760317183f885f93338572">Param</a>(std::string name, std::string value);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                std::string getName() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                std::string getValue() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                <span class="keywordtype">void</span> setValue(std::string value);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            };</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            <span class="keyword">extern</span> std::vector&lt;Param&gt; <a class="code" href="../../d1/d3a/namespaceOpMon_1_1Model_1_1OptionsSave.html#a729f1fa1ff23120d3a103374b475743a">paramList</a>;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            <a class="code" href="../../da/d98/classOpMon_1_1Model_1_1OptionsSave_1_1Param.html">Param</a> <a class="code" href="../../d1/d3a/namespaceOpMon_1_1Model_1_1OptionsSave.html#a235130cc9d47d2e4241f146d86b03334">getParam</a>(std::string <span class="keyword">const</span> &amp;name);</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="../../d1/d3a/namespaceOpMon_1_1Model_1_1OptionsSave.html#a4d563554bc1afe513674b2cbcd1d9925">addOrModifParam</a>(std::string <span class="keyword">const</span> &amp;name, std::string <span class="keyword">const</span> &amp;value);</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            <a class="code" href="../../da/d98/classOpMon_1_1Model_1_1OptionsSave_1_1Param.html">Param</a> <a class="code" href="../../d1/d3a/namespaceOpMon_1_1Model_1_1OptionsSave.html#aa33ab72c4e1cabdfc3509aee41293656">deleteParam</a>(std::string <span class="keyword">const</span> &amp;name);</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            <span class="comment">//.CPP ONLY :</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            <span class="comment">//int searchParam(string name);</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="../../d1/d3a/namespaceOpMon_1_1Model_1_1OptionsSave.html#ac14cadecdb6435df5bba2eb17efceac6">saveParams</a>(std::string <span class="keyword">const</span> &amp;file);</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="../../d1/d3a/namespaceOpMon_1_1Model_1_1OptionsSave.html#a8e6c642a9ae338403350efaadd95d380">initParams</a>(std::string <span class="keyword">const</span> &amp;file);</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            <span class="keywordtype">bool</span> <a class="code" href="../../d1/d3a/namespaceOpMon_1_1Model_1_1OptionsSave.html#a43e80fc9c51d037c1b173f712101d520">checkParam</a>(std::string <span class="keyword">const</span> &amp;name);</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        } <span class="comment">// namespace OptionsSave</span></div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    }     <span class="comment">// namespace Model</span></div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;} <span class="comment">// namespace OpMon</span></div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="preprocessor">#endif // OPTIONSSAVE_HPP</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d4/d3d/namespaceUtils.html">Utils</a> {</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="../../d5/d71/classUtils_1_1Param.html">   29</a></span>&#160;    <span class="keyword">class </span><a class="code" href="../../d5/d71/classUtils_1_1Param.html">Param</a> {</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        std::string paramName;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        std::string value;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="../../d5/d71/classUtils_1_1Param.html#a7f82febafd897848c91bf4abcab4326c">Param</a>(std::string name, std::string value);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        std::string getName() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        std::string getValue() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordtype">void</span> setValue(std::string value);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    };</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="../../d8/d7b/classUtils_1_1OptionsSave.html">   50</a></span>&#160;    <span class="keyword">class </span><a class="code" href="../../d8/d7b/classUtils_1_1OptionsSave.html">OptionsSave</a> {</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="../../d8/d7b/classUtils_1_1OptionsSave.html#a06624aa04659426e68593ae7ca8f643a">   56</a></span>&#160;        <span class="keyword">static</span> std::vector&lt;Param&gt; <a class="code" href="../../d8/d7b/classUtils_1_1OptionsSave.html#a06624aa04659426e68593ae7ca8f643a">paramList</a>;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keyword">static</span> <a class="code" href="../../d5/d71/classUtils_1_1Param.html">Param</a> <a class="code" href="../../d8/d7b/classUtils_1_1OptionsSave.html#a662c778ae5a4d65967aa242695e3af6c">getParam</a>(std::string <span class="keyword">const</span> &amp;name);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="../../d8/d7b/classUtils_1_1OptionsSave.html#a381ef78e8729c87bcf077bfa4d4172f2">addOrModifParam</a>(std::string <span class="keyword">const</span> &amp;name, std::string <span class="keyword">const</span> &amp;value);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keyword">static</span> <a class="code" href="../../d5/d71/classUtils_1_1Param.html">Param</a> <a class="code" href="../../d8/d7b/classUtils_1_1OptionsSave.html#a71634a4f75fccf5e40f126d69b007c4d">deleteParam</a>(std::string <span class="keyword">const</span> &amp;name);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="../../d8/d7b/classUtils_1_1OptionsSave.html#ac247b2f3c2313fc0157a293fb8776ba9">saveParams</a>(std::string <span class="keyword">const</span> &amp;file);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="../../d8/d7b/classUtils_1_1OptionsSave.html#ac96dd76f7b666cae66e4e008c4aaf129">initParams</a>(std::string <span class="keyword">const</span> &amp;file);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="../../d8/d7b/classUtils_1_1OptionsSave.html#a06c8fc9d068bd91d5999005e0004e060">checkParam</a>(std::string <span class="keyword">const</span> &amp;name);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keyword">static</span> <span class="keywordtype">int</span> searchParam(std::string <span class="keyword">const</span> &amp;name);</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    };</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;} <span class="comment">// namespace Utils</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="preprocessor">#endif // OPTIONSSAVE_HPP</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="anamespaceOpMon_html"><div class="ttname"><a href="../../d6/de6/namespaceOpMon.html">OpMon</a></div><div class="ttdoc">Base namespace of the program.</div><div class="ttdef"><b>Definition:</b> AGameScreen.hpp:14</div></div>
-<div class="ttc" id="anamespaceOpMon_1_1Model_1_1OptionsSave_html_a729f1fa1ff23120d3a103374b475743a"><div class="ttname"><a href="../../d1/d3a/namespaceOpMon_1_1Model_1_1OptionsSave.html#a729f1fa1ff23120d3a103374b475743a">OpMon::Model::OptionsSave::paramList</a></div><div class="ttdeci">std::vector&lt; Param &gt; paramList</div><div class="ttdoc">The list of the different parameters.</div><div class="ttdef"><b>Definition:</b> OptionsSave.cpp:34</div></div>
-<div class="ttc" id="anamespaceOpMon_1_1Model_1_1OptionsSave_html_a43e80fc9c51d037c1b173f712101d520"><div class="ttname"><a href="../../d1/d3a/namespaceOpMon_1_1Model_1_1OptionsSave.html#a43e80fc9c51d037c1b173f712101d520">OpMon::Model::OptionsSave::checkParam</a></div><div class="ttdeci">bool checkParam(std::string const &amp;name)</div><div class="ttdoc">Checks if a parameters exists.</div><div class="ttdef"><b>Definition:</b> OptionsSave.cpp:114</div></div>
-<div class="ttc" id="anamespaceOpMon_1_1Model_1_1OptionsSave_html_ac14cadecdb6435df5bba2eb17efceac6"><div class="ttname"><a href="../../d1/d3a/namespaceOpMon_1_1Model_1_1OptionsSave.html#ac14cadecdb6435df5bba2eb17efceac6">OpMon::Model::OptionsSave::saveParams</a></div><div class="ttdeci">void saveParams(std::string const &amp;file)</div><div class="ttdoc">Saves the parameters.</div><div class="ttdef"><b>Definition:</b> OptionsSave.cpp:102</div></div>
-<div class="ttc" id="aclassOpMon_1_1Model_1_1OptionsSave_1_1Param_html"><div class="ttname"><a href="../../da/d98/classOpMon_1_1Model_1_1OptionsSave_1_1Param.html">OpMon::Model::OptionsSave::Param</a></div><div class="ttdoc">Defines a parameter.</div><div class="ttdef"><b>Definition:</b> OptionsSave.hpp:35</div></div>
-<div class="ttc" id="anamespaceOpMon_1_1Model_1_1OptionsSave_html_aa33ab72c4e1cabdfc3509aee41293656"><div class="ttname"><a href="../../d1/d3a/namespaceOpMon_1_1Model_1_1OptionsSave.html#aa33ab72c4e1cabdfc3509aee41293656">OpMon::Model::OptionsSave::deleteParam</a></div><div class="ttdeci">Param deleteParam(std::string const &amp;name)</div><div class="ttdoc">Deletes a parameter.</div><div class="ttdef"><b>Definition:</b> OptionsSave.cpp:52</div></div>
-<div class="ttc" id="anamespaceOpMon_1_1Model_1_1OptionsSave_html_a8e6c642a9ae338403350efaadd95d380"><div class="ttname"><a href="../../d1/d3a/namespaceOpMon_1_1Model_1_1OptionsSave.html#a8e6c642a9ae338403350efaadd95d380">OpMon::Model::OptionsSave::initParams</a></div><div class="ttdeci">void initParams(std::string const &amp;file)</div><div class="ttdoc">Loads the paramters.</div><div class="ttdef"><b>Definition:</b> OptionsSave.cpp:71</div></div>
-<div class="ttc" id="anamespaceOpMon_1_1Model_1_1OptionsSave_html_a235130cc9d47d2e4241f146d86b03334"><div class="ttname"><a href="../../d1/d3a/namespaceOpMon_1_1Model_1_1OptionsSave.html#a235130cc9d47d2e4241f146d86b03334">OpMon::Model::OptionsSave::getParam</a></div><div class="ttdeci">Param getParam(std::string const &amp;name)</div><div class="ttdef"><b>Definition:</b> OptionsSave.cpp:36</div></div>
-<div class="ttc" id="anamespaceOpMon_1_1Model_1_1OptionsSave_html_a4d563554bc1afe513674b2cbcd1d9925"><div class="ttname"><a href="../../d1/d3a/namespaceOpMon_1_1Model_1_1OptionsSave.html#a4d563554bc1afe513674b2cbcd1d9925">OpMon::Model::OptionsSave::addOrModifParam</a></div><div class="ttdeci">void addOrModifParam(std::string const &amp;name, std::string const &amp;value)</div><div class="ttdoc">Sets the parameter with the given name to the given value.</div><div class="ttdef"><b>Definition:</b> OptionsSave.cpp:44</div></div>
-<div class="ttc" id="aclassOpMon_1_1Model_1_1OptionsSave_1_1Param_html_a08cc92eb24760317183f885f93338572"><div class="ttname"><a href="../../da/d98/classOpMon_1_1Model_1_1OptionsSave_1_1Param.html#a08cc92eb24760317183f885f93338572">OpMon::Model::OptionsSave::Param::Param</a></div><div class="ttdeci">Param(std::string name, std::string value)</div><div class="ttdef"><b>Definition:</b> OptionsSave.cpp:17</div></div>
+<div class="ttc" id="aclassUtils_1_1OptionsSave_html_a71634a4f75fccf5e40f126d69b007c4d"><div class="ttname"><a href="../../d8/d7b/classUtils_1_1OptionsSave.html#a71634a4f75fccf5e40f126d69b007c4d">Utils::OptionsSave::deleteParam</a></div><div class="ttdeci">static Param deleteParam(std::string const &amp;name)</div><div class="ttdoc">Deletes a parameter.</div><div class="ttdef"><b>Definition:</b> OptionsSave.cpp:55</div></div>
+<div class="ttc" id="aclassUtils_1_1OptionsSave_html_a381ef78e8729c87bcf077bfa4d4172f2"><div class="ttname"><a href="../../d8/d7b/classUtils_1_1OptionsSave.html#a381ef78e8729c87bcf077bfa4d4172f2">Utils::OptionsSave::addOrModifParam</a></div><div class="ttdeci">static void addOrModifParam(std::string const &amp;name, std::string const &amp;value)</div><div class="ttdoc">Sets the parameter with the given name to the given value.</div><div class="ttdef"><b>Definition:</b> OptionsSave.cpp:47</div></div>
+<div class="ttc" id="aclassUtils_1_1Param_html"><div class="ttname"><a href="../../d5/d71/classUtils_1_1Param.html">Utils::Param</a></div><div class="ttdoc">Defines a parameter.</div><div class="ttdef"><b>Definition:</b> OptionsSave.hpp:29</div></div>
+<div class="ttc" id="aclassUtils_1_1OptionsSave_html_a06c8fc9d068bd91d5999005e0004e060"><div class="ttname"><a href="../../d8/d7b/classUtils_1_1OptionsSave.html#a06c8fc9d068bd91d5999005e0004e060">Utils::OptionsSave::checkParam</a></div><div class="ttdeci">static bool checkParam(std::string const &amp;name)</div><div class="ttdoc">Checks if a parameters exists.</div><div class="ttdef"><b>Definition:</b> OptionsSave.cpp:114</div></div>
+<div class="ttc" id="aclassUtils_1_1OptionsSave_html_ac247b2f3c2313fc0157a293fb8776ba9"><div class="ttname"><a href="../../d8/d7b/classUtils_1_1OptionsSave.html#ac247b2f3c2313fc0157a293fb8776ba9">Utils::OptionsSave::saveParams</a></div><div class="ttdeci">static void saveParams(std::string const &amp;file)</div><div class="ttdoc">Saves the parameters.</div><div class="ttdef"><b>Definition:</b> OptionsSave.cpp:102</div></div>
+<div class="ttc" id="aclassUtils_1_1OptionsSave_html_ac96dd76f7b666cae66e4e008c4aaf129"><div class="ttname"><a href="../../d8/d7b/classUtils_1_1OptionsSave.html#ac96dd76f7b666cae66e4e008c4aaf129">Utils::OptionsSave::initParams</a></div><div class="ttdeci">static void initParams(std::string const &amp;file)</div><div class="ttdoc">Loads the paramters.</div><div class="ttdef"><b>Definition:</b> OptionsSave.cpp:74</div></div>
+<div class="ttc" id="aStringKeys_8hpp_html"><div class="ttname"><a href="../../d1/d29/StringKeys_8hpp.html">StringKeys.hpp</a></div></div>
+<div class="ttc" id="aclassUtils_1_1OptionsSave_html_a662c778ae5a4d65967aa242695e3af6c"><div class="ttname"><a href="../../d8/d7b/classUtils_1_1OptionsSave.html#a662c778ae5a4d65967aa242695e3af6c">Utils::OptionsSave::getParam</a></div><div class="ttdeci">static Param getParam(std::string const &amp;name)</div><div class="ttdef"><b>Definition:</b> OptionsSave.cpp:39</div></div>
+<div class="ttc" id="aclassUtils_1_1OptionsSave_html_a06624aa04659426e68593ae7ca8f643a"><div class="ttname"><a href="../../d8/d7b/classUtils_1_1OptionsSave.html#a06624aa04659426e68593ae7ca8f643a">Utils::OptionsSave::paramList</a></div><div class="ttdeci">static std::vector&lt; Param &gt; paramList</div><div class="ttdoc">The list of the different parameters.</div><div class="ttdef"><b>Definition:</b> OptionsSave.hpp:56</div></div>
+<div class="ttc" id="aclassUtils_1_1Param_html_a7f82febafd897848c91bf4abcab4326c"><div class="ttname"><a href="../../d5/d71/classUtils_1_1Param.html#a7f82febafd897848c91bf4abcab4326c">Utils::Param::Param</a></div><div class="ttdeci">Param(std::string name, std::string value)</div><div class="ttdef"><b>Definition:</b> OptionsSave.cpp:20</div></div>
+<div class="ttc" id="anamespaceUtils_html"><div class="ttname"><a href="../../d4/d3d/namespaceUtils.html">Utils</a></div><div class="ttdoc">Contains different utilities.</div></div>
+<div class="ttc" id="aclassUtils_1_1OptionsSave_html"><div class="ttname"><a href="../../d8/d7b/classUtils_1_1OptionsSave.html">Utils::OptionsSave</a></div><div class="ttdoc">Contains the functions used to save the parameters.</div><div class="ttdef"><b>Definition:</b> OptionsSave.hpp:50</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_43e0a1f539e00dcfa1a6bc4d4fee4fc2.html">home</a></li><li class="navelem"><a class="el" href="../../dir_7e1e432be7d1bb66448c457c8892f186.html">cyrielle</a></li><li class="navelem"><a class="el" href="../../dir_541888d0fbb694331306c2df57f6f611.html">Bureau</a></li><li class="navelem"><a class="el" href="../../dir_77a20b1394476325f9c0364510b2168d.html">OpMon</a></li><li class="navelem"><a class="el" href="../../dir_819c0e4025601de6d5ada492afc37be0.html">src</a></li><li class="navelem"><a class="el" href="../../dir_a2240d2a659c77f798c9fe4175de63c6.html">opmon</a></li><li class="navelem"><a class="el" href="../../dir_421ad8762620f02a03fb6eec28998e28.html">model</a></li><li class="navelem"><a class="el" href="../../dir_23950c0fa62ef8961a4a1383a8271d60.html">save</a></li><li class="navelem"><a class="el" href="../../db/d42/OptionsSave_8hpp.html">OptionsSave.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_313caf1132e152dd9b58bea13a4052ca.html">utils</a></li><li class="navelem"><a class="el" href="../../db/d42/OptionsSave_8hpp.html">OptionsSave.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.17 </li>

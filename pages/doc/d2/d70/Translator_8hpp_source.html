@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>OpMon: /home/cyrielle/Bureau/OpMon/src/opmon/start/i18n/Translator.hpp Source File</title>
+<title>OpMon: src/utils/i18n/Translator.hpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -95,49 +95,54 @@ $(document).ready(function(){initNavTree('d2/d70/Translator_8hpp_source.html','.
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;unordered_set&gt;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d6/de6/namespaceOpMon.html">OpMon</a> {</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d4/d3d/namespaceUtils.html">Utils</a> {</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">namespace </span>I18n {</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keyword">class </span>ATranslatable;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="../../d6/daa/classOpMon_1_1I18n_1_1Translator.html">   25</a></span>&#160;        <span class="keyword">class </span><a class="code" href="../../d6/daa/classOpMon_1_1I18n_1_1Translator.html">Translator</a> {</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;          <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <span class="comment">//Ensure Singleton can&#39;t be copied.</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <a class="code" href="../../d6/daa/classOpMon_1_1I18n_1_1Translator.html">Translator</a>(<a class="code" href="../../d6/daa/classOpMon_1_1I18n_1_1Translator.html">Translator</a> <span class="keyword">const</span> &amp;) = <span class="keyword">delete</span>;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <span class="keywordtype">void</span> operator=(<a class="code" href="../../d6/daa/classOpMon_1_1I18n_1_1Translator.html">Translator</a> <span class="keyword">const</span> &amp;) = <span class="keyword">delete</span>;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <span class="keyword">static</span> <a class="code" href="../../d6/daa/classOpMon_1_1I18n_1_1Translator.html">Translator</a> &amp;getInstance();</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="../../d6/daa/classOpMon_1_1I18n_1_1Translator.html#a8a950525ede7379da36eb705418ef93d">setLang</a>(<span class="keyword">const</span> std::string &amp;lang_code);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            <span class="keyword">const</span> std::string &amp;<a class="code" href="../../d6/daa/classOpMon_1_1I18n_1_1Translator.html#aa3fbd48f39e0441c908e1b6e868dead5">getLang</a>();</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            <span class="keyword">const</span> std::map&lt;const std::string, const std::string&gt; <a class="code" href="../../d6/daa/classOpMon_1_1I18n_1_1Translator.html#a49281b8db16143ab6461be5fe08c6ac9">getAvailableLanguages</a>();</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            <span class="keywordtype">void</span> subscribe(<a class="code" href="../../de/dfe/classOpMon_1_1I18n_1_1ATranslatable.html">ATranslatable</a> *listener);</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <span class="keywordtype">void</span> unsubscribe(<a class="code" href="../../de/dfe/classOpMon_1_1I18n_1_1ATranslatable.html">ATranslatable</a> *listener);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;          <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            <a class="code" href="../../d6/daa/classOpMon_1_1I18n_1_1Translator.html">Translator</a>() = <span class="keywordflow">default</span>;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            std::string _currentLang;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            std::unordered_set&lt;ATranslatable *&gt; _listeners;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        };</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="../../db/d48/classUtils_1_1I18n_1_1Translator.html">   24</a></span>&#160;        <span class="keyword">class </span><a class="code" href="../../db/d48/classUtils_1_1I18n_1_1Translator.html">Translator</a> {</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;          <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            <span class="comment">//Ensure Singleton can&#39;t be copied.</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <a class="code" href="../../db/d48/classUtils_1_1I18n_1_1Translator.html">Translator</a>(<a class="code" href="../../db/d48/classUtils_1_1I18n_1_1Translator.html">Translator</a> <span class="keyword">const</span> &amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <span class="keywordtype">void</span> operator=(<a class="code" href="../../db/d48/classUtils_1_1I18n_1_1Translator.html">Translator</a> <span class="keyword">const</span> &amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            <span class="keyword">static</span> <a class="code" href="../../db/d48/classUtils_1_1I18n_1_1Translator.html">Translator</a> &amp;getInstance();</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="../../db/d48/classUtils_1_1I18n_1_1Translator.html#a0da7f591ad028d0b457d24f06f24e753">setLang</a>(<span class="keyword">const</span> std::string &amp;lang_code);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <span class="keyword">const</span> std::string &amp;<a class="code" href="../../db/d48/classUtils_1_1I18n_1_1Translator.html#aa43cdba5c65379afb51e3283df0740df">getLang</a>();</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            <span class="keyword">const</span> std::map&lt;const std::string, const std::string&gt; <a class="code" href="../../db/d48/classUtils_1_1I18n_1_1Translator.html#ac67e1ce1679c75808d05d3453e39b3af">getAvailableLanguages</a>();</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            <span class="keywordtype">void</span> subscribe(<a class="code" href="../../d8/d97/classUtils_1_1I18n_1_1ATranslatable.html">ATranslatable</a> *listener);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            <span class="keywordtype">void</span> unsubscribe(<a class="code" href="../../d8/d97/classUtils_1_1I18n_1_1ATranslatable.html">ATranslatable</a> *listener);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="../../db/d48/classUtils_1_1I18n_1_1Translator.html#adac1c2ed1d1814574b0f4cbdaec08480">setAvailableLanguages</a>(std::map&lt;const std::string, const std::string&gt; langMap);</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    } <span class="comment">// namespace I18n</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;} <span class="comment">// namespace OpMon</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;          <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            <a class="code" href="../../db/d48/classUtils_1_1I18n_1_1Translator.html">Translator</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            std::map&lt;const std::string, const std::string&gt; langMap;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            std::string _currentLang;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            std::unordered_set&lt;ATranslatable *&gt; _listeners;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        };</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    } <span class="comment">// namespace I18n</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;} <span class="comment">// namespace OpMon</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="anamespaceOpMon_html"><div class="ttname"><a href="../../d6/de6/namespaceOpMon.html">OpMon</a></div><div class="ttdoc">Base namespace of the program.</div><div class="ttdef"><b>Definition:</b> AGameScreen.hpp:14</div></div>
-<div class="ttc" id="aclassOpMon_1_1I18n_1_1Translator_html_a8a950525ede7379da36eb705418ef93d"><div class="ttname"><a href="../../d6/daa/classOpMon_1_1I18n_1_1Translator.html#a8a950525ede7379da36eb705418ef93d">OpMon::I18n::Translator::setLang</a></div><div class="ttdeci">void setLang(const std::string &amp;lang_code)</div><div class="ttdoc">Sets the language.</div><div class="ttdef"><b>Definition:</b> Translator.cpp:22</div></div>
-<div class="ttc" id="aclassOpMon_1_1I18n_1_1Translator_html_aa3fbd48f39e0441c908e1b6e868dead5"><div class="ttname"><a href="../../d6/daa/classOpMon_1_1I18n_1_1Translator.html#aa3fbd48f39e0441c908e1b6e868dead5">OpMon::I18n::Translator::getLang</a></div><div class="ttdeci">const std::string &amp; getLang()</div><div class="ttdef"><b>Definition:</b> Translator.cpp:44</div></div>
-<div class="ttc" id="aclassOpMon_1_1I18n_1_1Translator_html"><div class="ttname"><a href="../../d6/daa/classOpMon_1_1I18n_1_1Translator.html">OpMon::I18n::Translator</a></div><div class="ttdoc">Class in charge of the lang setting. It load (and reload) language file.</div><div class="ttdef"><b>Definition:</b> Translator.hpp:25</div></div>
-<div class="ttc" id="aclassOpMon_1_1I18n_1_1ATranslatable_html"><div class="ttname"><a href="../../de/dfe/classOpMon_1_1I18n_1_1ATranslatable.html">OpMon::I18n::ATranslatable</a></div><div class="ttdoc">Base class for any element requiring to reload when the lang changes.</div><div class="ttdef"><b>Definition:</b> ATranslatable.hpp:20</div></div>
-<div class="ttc" id="aclassOpMon_1_1I18n_1_1Translator_html_a49281b8db16143ab6461be5fe08c6ac9"><div class="ttname"><a href="../../d6/daa/classOpMon_1_1I18n_1_1Translator.html#a49281b8db16143ab6461be5fe08c6ac9">OpMon::I18n::Translator::getAvailableLanguages</a></div><div class="ttdeci">const std::map&lt; const std::string, const std::string &gt; getAvailableLanguages()</div><div class="ttdef"><b>Definition:</b> Translator.cpp:48</div></div>
+<div class="ttc" id="aclassUtils_1_1I18n_1_1Translator_html_a0da7f591ad028d0b457d24f06f24e753"><div class="ttname"><a href="../../db/d48/classUtils_1_1I18n_1_1Translator.html#a0da7f591ad028d0b457d24f06f24e753">Utils::I18n::Translator::setLang</a></div><div class="ttdeci">void setLang(const std::string &amp;lang_code)</div><div class="ttdoc">Sets the language.</div><div class="ttdef"><b>Definition:</b> Translator.cpp:25</div></div>
+<div class="ttc" id="aclassUtils_1_1I18n_1_1Translator_html_adac1c2ed1d1814574b0f4cbdaec08480"><div class="ttname"><a href="../../db/d48/classUtils_1_1I18n_1_1Translator.html#adac1c2ed1d1814574b0f4cbdaec08480">Utils::I18n::Translator::setAvailableLanguages</a></div><div class="ttdeci">void setAvailableLanguages(std::map&lt; const std::string, const std::string &gt; langMap)</div><div class="ttdef"><b>Definition:</b> Translator.cpp:61</div></div>
+<div class="ttc" id="aclassUtils_1_1I18n_1_1Translator_html"><div class="ttname"><a href="../../db/d48/classUtils_1_1I18n_1_1Translator.html">Utils::I18n::Translator</a></div><div class="ttdoc">Class in charge of the lang setting. It load (and reload) language file.</div><div class="ttdef"><b>Definition:</b> Translator.hpp:24</div></div>
+<div class="ttc" id="aclassUtils_1_1I18n_1_1ATranslatable_html"><div class="ttname"><a href="../../d8/d97/classUtils_1_1I18n_1_1ATranslatable.html">Utils::I18n::ATranslatable</a></div><div class="ttdoc">Base class for any element requiring to reload when the lang changes.</div><div class="ttdef"><b>Definition:</b> ATranslatable.hpp:19</div></div>
+<div class="ttc" id="aclassUtils_1_1I18n_1_1Translator_html_aa43cdba5c65379afb51e3283df0740df"><div class="ttname"><a href="../../db/d48/classUtils_1_1I18n_1_1Translator.html#aa43cdba5c65379afb51e3283df0740df">Utils::I18n::Translator::getLang</a></div><div class="ttdeci">const std::string &amp; getLang()</div><div class="ttdef"><b>Definition:</b> Translator.cpp:40</div></div>
+<div class="ttc" id="anamespaceUtils_html"><div class="ttname"><a href="../../d4/d3d/namespaceUtils.html">Utils</a></div><div class="ttdoc">Contains different utilities.</div></div>
+<div class="ttc" id="aclassUtils_1_1I18n_1_1Translator_html_ac67e1ce1679c75808d05d3453e39b3af"><div class="ttname"><a href="../../db/d48/classUtils_1_1I18n_1_1Translator.html#ac67e1ce1679c75808d05d3453e39b3af">Utils::I18n::Translator::getAvailableLanguages</a></div><div class="ttdeci">const std::map&lt; const std::string, const std::string &gt; getAvailableLanguages()</div><div class="ttdef"><b>Definition:</b> Translator.cpp:44</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_43e0a1f539e00dcfa1a6bc4d4fee4fc2.html">home</a></li><li class="navelem"><a class="el" href="../../dir_7e1e432be7d1bb66448c457c8892f186.html">cyrielle</a></li><li class="navelem"><a class="el" href="../../dir_541888d0fbb694331306c2df57f6f611.html">Bureau</a></li><li class="navelem"><a class="el" href="../../dir_77a20b1394476325f9c0364510b2168d.html">OpMon</a></li><li class="navelem"><a class="el" href="../../dir_819c0e4025601de6d5ada492afc37be0.html">src</a></li><li class="navelem"><a class="el" href="../../dir_a2240d2a659c77f798c9fe4175de63c6.html">opmon</a></li><li class="navelem"><a class="el" href="../../dir_6df93be58decbc75965a185e5e67ac70.html">start</a></li><li class="navelem"><a class="el" href="../../dir_f97d99dea8803ce002570979cb26223e.html">i18n</a></li><li class="navelem"><a class="el" href="../../d2/d70/Translator_8hpp.html">Translator.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_313caf1132e152dd9b58bea13a4052ca.html">utils</a></li><li class="navelem"><a class="el" href="../../dir_72b768e14345520b7871438f6ccc9f1a.html">i18n</a></li><li class="navelem"><a class="el" href="../../d2/d70/Translator_8hpp.html">Translator.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.17 </li>

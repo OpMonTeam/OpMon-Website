@@ -1,10 +1,10 @@
 <map id="OpMon::I18n::ATranslatable" name="OpMon::I18n::ATranslatable">
 <area shape="rect" id="node1" title="Base class for any element requiring to reload when the lang changes." alt="" coords="5,129,207,155"/>
-<area shape="rect" id="node2" href="$d8/dc8/classOpMon_1_1Model_1_1Events_1_1TalkingEvent.html" title="An event starting a dialog." alt="" coords="272,37,440,79"/>
-<area shape="rect" id="node6" href="$df/dc0/classOpMon_1_1View_1_1MainMenu.html" title="The view printing the main menu showing at the start of the game." alt="" coords="264,103,448,130"/>
-<area shape="rect" id="node7" href="$de/dfe/classOpMon_1_1View_1_1OptionsMenu.html" title="The screen of the settings." alt="" coords="255,154,457,181"/>
-<area shape="rect" id="node8" href="$d1/d39/classOpMon_1_1View_1_1StartScene.html" title="View managing the introduction scene." alt="" coords="263,205,449,231"/>
-<area shape="rect" id="node3" href="$d9/daa/classOpMon_1_1Model_1_1Events_1_1LockedDoorEvent.html" title="A locked door (unimplemented yet)." alt="" coords="505,5,673,47"/>
-<area shape="rect" id="node4" href="$d3/ddd/classOpMon_1_1Model_1_1Events_1_1TalkingCharaEvent.html" title="An npc that talks." alt="" coords="505,71,673,112"/>
-<area shape="rect" id="node5" href="$de/d85/classOpMon_1_1Model_1_1Events_1_1TrainerEvent.html" title="A trainer." alt="" coords="721,71,889,112"/>
+<area shape="rect" id="node2" href="$d3/d44/classOpMon_1_1Elements_1_1Events_1_1TalkingEvent.html" title="An event starting a dialog." alt="" coords="255,37,444,79"/>
+<area shape="rect" id="node6" href="$d8/da2/classOpMon_1_1MainMenu.html" title="The view printing the main menu showing at the start of the game." alt="" coords="277,103,421,130"/>
+<area shape="rect" id="node7" href="$db/d56/classOpMon_1_1OptionsMenu.html" title="The screen of the settings." alt="" coords="268,154,431,181"/>
+<area shape="rect" id="node8" href="$dc/d25/classOpMon_1_1StartScene.html" title="View managing the introduction scene." alt="" coords="276,205,423,231"/>
+<area shape="rect" id="node3" href="$d6/d06/classOpMon_1_1Elements_1_1Events_1_1LockedDoorEvent.html" title="A locked door (unimplemented yet)." alt="" coords="492,5,681,47"/>
+<area shape="rect" id="node4" href="$db/d93/classOpMon_1_1Elements_1_1Events_1_1TalkingCharaEvent.html" title="An npc that talks." alt="" coords="492,71,681,112"/>
+<area shape="rect" id="node5" href="$d1/d6b/classOpMon_1_1Elements_1_1Events_1_1TrainerEvent.html" title="A trainer." alt="" coords="729,71,919,112"/>
 </map>

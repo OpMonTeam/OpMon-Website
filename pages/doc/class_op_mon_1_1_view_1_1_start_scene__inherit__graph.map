@@ -1,4 +1,0 @@
-<map id="OpMon::View::StartScene" name="OpMon::View::StartScene">
-<area shape="rect" id="node1" title="View managing the introduction scene." alt="" coords="13,80,199,107"/>
-<area shape="rect" id="node2" href="$class_op_mon_1_1_i18n_1_1_a_translatable.html" title="Base class for any element requiring to reload when the lang changes." alt="" coords="5,5,207,32"/>
-</map>

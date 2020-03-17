@@ -1,0 +1,11 @@
+<map id="/home/cyrielle/Bureau/OpMon/src/opmon/views/ui" name="/home/cyrielle/Bureau/OpMon/src/opmon/views/ui">
+<area shape="rect" id="node1" href="dir_1ac50ca2f424a035684913260842cebb.html" title="ui" alt="" coords="27,52,99,100"/>
+<area shape="rect" id="node2" href="dir_14ff4b20fe3e85005431dc989f37a086.html" title="core" alt="" coords="123,52,195,100"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000013_000006.html" title="10" alt="" coords="96,60,113,75"/>
+<area shape="rect" id="node3" href="dir_72ebe921a66b4a7d152cdbf08f4d50c7.html" title="utils" alt="" coords="123,148,195,196"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000013_000014.html" title="4" alt="" coords="123,122,133,136"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000006_000013.html" title="4" alt="" coords="113,77,122,92"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000006_000014.html" title="23" alt="" coords="149,122,167,137"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000014_000006.html" title="1" alt="" coords="155,112,164,126"/>
+<area shape="rect" id="clust1" href="dir_b6ec96620a17bc215e9fe884b464bd96.html" title="views" alt="" coords="16,16,109,111"/>
+</map>

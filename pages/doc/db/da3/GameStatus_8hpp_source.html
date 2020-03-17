@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>OpMon: /home/cyrielle/Bureau/OpMon/src/opmon/start/GameStatus.hpp Source File</title>
+<title>OpMon: src/opmon/core/GameStatus.hpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -91,32 +91,25 @@ $(document).ready(function(){initNavTree('db/da3/GameStatus_8hpp_source.html','.
 <a href="../../db/da3/GameStatus_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d6/de6/namespaceOpMon.html">OpMon</a> {</div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="../../d6/de6/namespaceOpMon.html#a8d5824ffd8ecab8bfe042ef611839a18">   14</a></span>&#160;    <span class="keyword">enum class</span> <a class="code" href="../../d6/de6/namespaceOpMon.html#a8d5824ffd8ecab8bfe042ef611839a18">GameStatus</a> {</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <a class="code" href="../../d6/de6/namespaceOpMon.html#a8d5824ffd8ecab8bfe042ef611839a18a2f453cfe638e57e27bb0c9512436111e">CONTINUE</a>, </div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <a class="code" href="../../d6/de6/namespaceOpMon.html#a8d5824ffd8ecab8bfe042ef611839a18a615a46af313786fc4e349f34118be111">STOP</a>, </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <a class="code" href="../../d6/de6/namespaceOpMon.html#a8d5824ffd8ecab8bfe042ef611839a18a47559fb833ff58321570e5e877b467f6">NEXT</a>, </div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="../../d6/de6/namespaceOpMon.html#a8d5824ffd8ecab8bfe042ef611839a18a315ba7a868d45a9cb131c8dca3166b51">PREVIOUS</a>, </div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <a class="code" href="../../d6/de6/namespaceOpMon.html#a8d5824ffd8ecab8bfe042ef611839a18a43b238e32d988bf1f5ccde3b4f278784">NEXT_NLS</a>, </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="../../d6/de6/namespaceOpMon.html#a8d5824ffd8ecab8bfe042ef611839a18a90af263b5d79cbf7ae106da1fff858fc">PREVIOUS_NLS</a>, </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <a class="code" href="../../d6/de6/namespaceOpMon.html#a8d5824ffd8ecab8bfe042ef611839a18a910879bfdb9f16feb62cde3c30983951">WIN_REBOOT</a> </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    };</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span>OpMon {</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="../../db/da3/GameStatus_8hpp.html#a8d5824ffd8ecab8bfe042ef611839a18">   14</a></span>&#160;    <span class="keyword">enum class</span> <a class="code" href="../../db/da3/GameStatus_8hpp.html#a8d5824ffd8ecab8bfe042ef611839a18">GameStatus</a> {</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        CONTINUE, </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        STOP, </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        REBOOT, </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        NEXT, </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        PREVIOUS, </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        NEXT_NLS, </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        PREVIOUS_NLS, </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        WIN_REBOOT </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    };</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="anamespaceOpMon_html"><div class="ttname"><a href="../../d6/de6/namespaceOpMon.html">OpMon</a></div><div class="ttdoc">Base namespace of the program.</div><div class="ttdef"><b>Definition:</b> AGameScreen.hpp:14</div></div>
-<div class="ttc" id="anamespaceOpMon_html_a8d5824ffd8ecab8bfe042ef611839a18a43b238e32d988bf1f5ccde3b4f278784"><div class="ttname"><a href="../../d6/de6/namespaceOpMon.html#a8d5824ffd8ecab8bfe042ef611839a18a43b238e32d988bf1f5ccde3b4f278784">OpMon::GameStatus::NEXT_NLS</a></div><div class="ttdeci">@ NEXT_NLS</div></div>
-<div class="ttc" id="anamespaceOpMon_html_a8d5824ffd8ecab8bfe042ef611839a18a47559fb833ff58321570e5e877b467f6"><div class="ttname"><a href="../../d6/de6/namespaceOpMon.html#a8d5824ffd8ecab8bfe042ef611839a18a47559fb833ff58321570e5e877b467f6">OpMon::GameStatus::NEXT</a></div><div class="ttdeci">@ NEXT</div></div>
-<div class="ttc" id="anamespaceOpMon_html_a8d5824ffd8ecab8bfe042ef611839a18"><div class="ttname"><a href="../../d6/de6/namespaceOpMon.html#a8d5824ffd8ecab8bfe042ef611839a18">OpMon::GameStatus</a></div><div class="ttdeci">GameStatus</div><div class="ttdoc">Enumeration defining the different commands returned to define the game status.</div><div class="ttdef"><b>Definition:</b> GameStatus.hpp:14</div></div>
-<div class="ttc" id="anamespaceOpMon_html_a8d5824ffd8ecab8bfe042ef611839a18a615a46af313786fc4e349f34118be111"><div class="ttname"><a href="../../d6/de6/namespaceOpMon.html#a8d5824ffd8ecab8bfe042ef611839a18a615a46af313786fc4e349f34118be111">OpMon::GameStatus::STOP</a></div><div class="ttdeci">@ STOP</div></div>
-<div class="ttc" id="anamespaceOpMon_html_a8d5824ffd8ecab8bfe042ef611839a18a2f453cfe638e57e27bb0c9512436111e"><div class="ttname"><a href="../../d6/de6/namespaceOpMon.html#a8d5824ffd8ecab8bfe042ef611839a18a2f453cfe638e57e27bb0c9512436111e">OpMon::GameStatus::CONTINUE</a></div><div class="ttdeci">@ CONTINUE</div></div>
-<div class="ttc" id="anamespaceOpMon_html_a8d5824ffd8ecab8bfe042ef611839a18a910879bfdb9f16feb62cde3c30983951"><div class="ttname"><a href="../../d6/de6/namespaceOpMon.html#a8d5824ffd8ecab8bfe042ef611839a18a910879bfdb9f16feb62cde3c30983951">OpMon::GameStatus::WIN_REBOOT</a></div><div class="ttdeci">@ WIN_REBOOT</div></div>
-<div class="ttc" id="anamespaceOpMon_html_a8d5824ffd8ecab8bfe042ef611839a18a90af263b5d79cbf7ae106da1fff858fc"><div class="ttname"><a href="../../d6/de6/namespaceOpMon.html#a8d5824ffd8ecab8bfe042ef611839a18a90af263b5d79cbf7ae106da1fff858fc">OpMon::GameStatus::PREVIOUS_NLS</a></div><div class="ttdeci">@ PREVIOUS_NLS</div></div>
-<div class="ttc" id="anamespaceOpMon_html_a8d5824ffd8ecab8bfe042ef611839a18a315ba7a868d45a9cb131c8dca3166b51"><div class="ttname"><a href="../../d6/de6/namespaceOpMon.html#a8d5824ffd8ecab8bfe042ef611839a18a315ba7a868d45a9cb131c8dca3166b51">OpMon::GameStatus::PREVIOUS</a></div><div class="ttdeci">@ PREVIOUS</div></div>
+<div class="ttc" id="aGameStatus_8hpp_html_a8d5824ffd8ecab8bfe042ef611839a18"><div class="ttname"><a href="../../db/da3/GameStatus_8hpp.html#a8d5824ffd8ecab8bfe042ef611839a18">OpMon::GameStatus</a></div><div class="ttdeci">GameStatus</div><div class="ttdoc">Enumeration defining the different commands returned to define the game status.</div><div class="ttdef"><b>Definition:</b> GameStatus.hpp:14</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_43e0a1f539e00dcfa1a6bc4d4fee4fc2.html">home</a></li><li class="navelem"><a class="el" href="../../dir_7e1e432be7d1bb66448c457c8892f186.html">cyrielle</a></li><li class="navelem"><a class="el" href="../../dir_541888d0fbb694331306c2df57f6f611.html">Bureau</a></li><li class="navelem"><a class="el" href="../../dir_77a20b1394476325f9c0364510b2168d.html">OpMon</a></li><li class="navelem"><a class="el" href="../../dir_819c0e4025601de6d5ada492afc37be0.html">src</a></li><li class="navelem"><a class="el" href="../../dir_a2240d2a659c77f798c9fe4175de63c6.html">opmon</a></li><li class="navelem"><a class="el" href="../../dir_6df93be58decbc75965a185e5e67ac70.html">start</a></li><li class="navelem"><a class="el" href="../../db/da3/GameStatus_8hpp.html">GameStatus.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_3ebfba3f7ddc15d5b253a07827990f8c.html">opmon</a></li><li class="navelem"><a class="el" href="../../dir_d309a8433644510ea635a1a175c0d900.html">core</a></li><li class="navelem"><a class="el" href="../../db/da3/GameStatus_8hpp.html">GameStatus.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.17 </li>

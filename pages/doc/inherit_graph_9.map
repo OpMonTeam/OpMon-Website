@@ -1,15 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$de/dfe/classOpMon_1_1I18n_1_1ATranslatable.html" title="Base class for any element requiring to reload when the lang changes." alt="" coords="5,293,207,319"/>
-<area shape="rect" id="node2" href="$d8/dc8/classOpMon_1_1Model_1_1Events_1_1TalkingEvent.html" title="An event starting a dialog." alt="" coords="272,201,440,243"/>
-<area shape="rect" id="node6" href="$df/dc0/classOpMon_1_1View_1_1MainMenu.html" title="The view printing the main menu showing at the start of the game." alt="" coords="264,267,448,294"/>
-<area shape="rect" id="node7" href="$de/dfe/classOpMon_1_1View_1_1OptionsMenu.html" title="The screen of the settings." alt="" coords="255,318,457,345"/>
-<area shape="rect" id="node8" href="$d1/d39/classOpMon_1_1View_1_1StartScene.html" title="View managing the introduction scene." alt="" coords="263,369,449,395"/>
-<area shape="rect" id="node3" href="$d9/daa/classOpMon_1_1Model_1_1Events_1_1LockedDoorEvent.html" title="A locked door (unimplemented yet)." alt="" coords="721,201,889,243"/>
-<area shape="rect" id="node4" href="$d3/ddd/classOpMon_1_1Model_1_1Events_1_1TalkingCharaEvent.html" title="An npc that talks." alt="" coords="505,136,673,177"/>
-<area shape="rect" id="node5" href="$de/d85/classOpMon_1_1Model_1_1Events_1_1TrainerEvent.html" title="A trainer." alt="" coords="721,136,889,177"/>
-<area shape="rect" id="node9" href="$da/df2/classOpMon_1_1Model_1_1Event.html" title="Defines an event." alt="" coords="25,111,187,138"/>
-<area shape="rect" id="node10" href="$db/d2f/classOpMon_1_1Model_1_1Events_1_1CharacterEvent.html" title="Defines a npc." alt="" coords="272,136,440,177"/>
-<area shape="rect" id="node11" href="$da/d2f/classOpMon_1_1Model_1_1Events_1_1TPEvent.html" title="Defines an event that teleports the player." alt="" coords="272,5,440,47"/>
-<area shape="rect" id="node13" href="$d0/da4/classOpMon_1_1Model_1_1Events_1_1TrainerEyesightEvent.html" title="Work in progress class." alt="" coords="272,71,440,112"/>
-<area shape="rect" id="node12" href="$d6/dea/classOpMon_1_1Model_1_1Events_1_1DoorEvent.html" title="An TPEvent doing an animation when the player enters it." alt="" coords="505,39,673,80"/>
+<area shape="rect" id="node1" href="$d4/dc1/structOpMon_1_1Elements_1_1TurnData.html" title="Contains data needed to show a turn in View::Battle." alt="" coords="5,5,208,32"/>
 </map>

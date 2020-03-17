@@ -1,0 +1,12 @@
+<map id="OpMon::Item" name="OpMon::Item">
+<area shape="rect" id="node1" title=" " alt="" coords="183,525,289,552"/>
+<area shape="rect" id="node2" href="$db/d0d/classUtils_1_1OpString.html" title="A string with an empty space to complete using StringKeys." alt="" coords="245,206,361,233"/>
+<area shape="rect" id="node3" title=" " alt="" coords="208,109,397,136"/>
+<area shape="rect" id="node4" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1String.php.html" title=" " alt="" coords="146,13,225,39"/>
+<area shape="rect" id="node10" title=" " alt="" coords="5,109,184,136"/>
+<area shape="rect" id="node5" title="STL class." alt="" coords="422,109,509,136"/>
+<area shape="rect" id="node6" title="STL class." alt="" coords="396,5,535,47"/>
+<area shape="rect" id="node7" title=" " alt="" coords="73,392,253,433"/>
+<area shape="rect" id="node8" href="$dc/d77/classOpMon_1_1ItemEffect.html" title="Defines the effect of an item. \warn Work in progress." alt="" coords="60,303,204,329"/>
+<area shape="rect" id="node9" title=" " alt="" coords="37,199,211,240"/>
+</map>

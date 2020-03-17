@@ -1,3 +1,26 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d6/d50/classOpMon_1_1View_1_1Battle.html" title="Class managing the battles on the screen." alt="" coords="5,5,160,32"/>
+<area shape="rect" id="node1" href="$d8/d97/classUtils_1_1I18n_1_1ATranslatable.html" title="Base class for any element requiring to reload when the lang changes." alt="" coords="5,293,191,319"/>
+<area shape="rect" id="node2" href="$d3/d44/classOpMon_1_1Elements_1_1Events_1_1TalkingEvent.html" title="An event starting a dialog." alt="" coords="239,201,428,243"/>
+<area shape="rect" id="node6" href="$d8/da2/classOpMon_1_1MainMenu.html" title="The view printing the main menu showing at the start of the game." alt="" coords="261,267,405,294"/>
+<area shape="rect" id="node7" href="$db/d56/classOpMon_1_1OptionsMenu.html" title="The screen of the settings." alt="" coords="252,318,415,345"/>
+<area shape="rect" id="node8" href="$dc/d25/classOpMon_1_1StartScene.html" title="View managing the introduction scene." alt="" coords="260,369,407,395"/>
+<area shape="rect" id="node3" href="$d6/d06/classOpMon_1_1Elements_1_1Events_1_1LockedDoorEvent.html" title="A locked door (unimplemented yet)." alt="" coords="713,169,903,211"/>
+<area shape="rect" id="node4" href="$db/d93/classOpMon_1_1Elements_1_1Events_1_1TalkingCharaEvent.html" title="An npc that talks." alt="" coords="476,73,665,115"/>
+<area shape="rect" id="node5" href="$d1/d6b/classOpMon_1_1Elements_1_1Events_1_1TrainerEvent.html" title="A trainer." alt="" coords="713,73,903,115"/>
+<area shape="rect" id="node9" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Drawable.php.html" title=" " alt="" coords="47,511,149,538"/>
+<area shape="rect" id="node10" href="$d2/d03/classOpMon_1_1Animations_1_1Animation.html" title=" " alt="" coords="254,420,413,461"/>
+<area shape="rect" id="node13" href="$d3/d0e/classOpMon_1_1Battle.html" title="Class managing the battles on the screen." alt="" coords="276,486,391,513"/>
+<area shape="rect" id="node14" href="$d4/df8/classOpMon_1_1GameMenu.html" title="View printing the in&#45;game menu." alt="" coords="258,537,409,563"/>
+<area shape="rect" id="node15" href="$de/d30/classOpMon_1_1Overworld.html" title="The overworld." alt="" coords="262,587,405,614"/>
+<area shape="rect" id="node16" href="$df/ded/classOpMon_1_1TextBox.html" title="A class used to draw a UI box that can contain text or other elements." alt="" coords="269,638,397,665"/>
+<area shape="rect" id="node17" href="$d1/d33/classOpMon_1_1Ui_1_1Dialog.html" title=" " alt="" coords="263,689,403,715"/>
+<area shape="rect" id="node18" href="$d0/d32/classOpMon_1_1Ui_1_1MapLayer.html" title="A map layer." alt="" coords="252,739,415,766"/>
+<area shape="rect" id="node11" href="$d2/db9/classOpMon_1_1Animations_1_1WinAnim.html" title="Animation played as a transition between the professor&#39;s dialog and the name input screen." alt="" coords="491,452,650,493"/>
+<area shape="rect" id="node12" href="$dd/d71/classOpMon_1_1Animations_1_1WooshAnim.html" title="A simple sliding transition." alt="" coords="491,387,650,428"/>
+<area shape="rect" id="node19" href="$d7/dda/classOpMon_1_1Elements_1_1Event.html" title="Defines an event." alt="" coords="7,111,189,138"/>
+<area shape="rect" id="node20" href="$d3/d21/classOpMon_1_1Elements_1_1Events_1_1CharacterEvent.html" title="Defines a npc." alt="" coords="239,5,428,47"/>
+<area shape="rect" id="node21" href="$dd/db5/classOpMon_1_1Elements_1_1Events_1_1TPEvent.html" title="Defines an event that teleports the player." alt="" coords="239,136,428,177"/>
+<area shape="rect" id="node23" href="$de/dd5/classOpMon_1_1Elements_1_1Events_1_1TrainerEyesightEvent.html" title="Work in progress class." alt="" coords="239,71,428,112"/>
+<area shape="rect" id="node22" href="$de/df3/classOpMon_1_1Elements_1_1Events_1_1DoorEvent.html" title="An TPEvent doing an animation when the player enters it." alt="" coords="476,139,665,180"/>
+<area shape="rect" id="node24" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Transformable.php.html" title=" " alt="" coords="31,739,165,766"/>
 </map>

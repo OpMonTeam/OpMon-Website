@@ -1,8 +1,0 @@
-<map id="OpMon::Model::Events::TalkingEvent" name="OpMon::Model::Events::TalkingEvent">
-<area shape="rect" id="node1" title="An event starting a dialog." alt="" coords="105,80,273,121"/>
-<area shape="rect" id="node4" href="$d9/daa/classOpMon_1_1Model_1_1Events_1_1LockedDoorEvent.html" title="A locked door (unimplemented yet)." alt="" coords="9,169,177,211"/>
-<area shape="rect" id="node5" href="$d3/ddd/classOpMon_1_1Model_1_1Events_1_1TalkingCharaEvent.html" title="An npc that talks." alt="" coords="201,169,369,211"/>
-<area shape="rect" id="node2" href="$da/df2/classOpMon_1_1Model_1_1Event.html" title="Defines an event." alt="" coords="5,5,167,32"/>
-<area shape="rect" id="node3" href="$de/dfe/classOpMon_1_1I18n_1_1ATranslatable.html" title="Base class for any element requiring to reload when the lang changes." alt="" coords="191,5,392,32"/>
-<area shape="rect" id="node6" href="$de/d85/classOpMon_1_1Model_1_1Events_1_1TrainerEvent.html" title="A trainer." alt="" coords="201,259,369,300"/>
-</map>

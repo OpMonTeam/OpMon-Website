@@ -1,0 +1,32 @@
+<map id="src/opmon/view" name="src/opmon/view">
+<area shape="rect" id="node2" href="dir_76ef623a5d82d2435f277ce090776a6f.html" title="elements" alt="" coords="37,207,120,255"/>
+<area shape="rect" id="node3" href="dir_bbfe7df9cff4ca104df14ff479618bc6.html" title="ui" alt="" coords="144,303,216,351"/>
+<area shape="rect" id="edge20-headlabel" href="dir_000016_000017.html" title="1" alt="" coords="143,277,152,291"/>
+<area shape="rect" id="node4" href="dir_e1e84dcf58266c150a03e5533a08eed1.html" title="screens" alt="" coords="217,5,289,53"/>
+<area shape="rect" id="edge18-headlabel" href="dir_000016_000006.html" title="3" alt="" coords="192,38,202,53"/>
+<area shape="rect" id="node5" href="dir_d309a8433644510ea635a1a175c0d900.html" title="core" alt="" coords="217,101,289,149"/>
+<area shape="rect" id="edge19-headlabel" href="dir_000016_000002.html" title="3" alt="" coords="193,123,202,138"/>
+<area shape="rect" id="node6" href="dir_2d26a73b58213b092a405047f357bff3.html" title="model" alt="" coords="392,207,464,255"/>
+<area shape="rect" id="edge21-headlabel" href="dir_000016_000005.html" title="6" alt="" coords="411,179,420,194"/>
+<area shape="rect" id="node7" href="dir_313caf1132e152dd9b58bea13a4052ca.html" title="utils" alt="" coords="319,399,391,447"/>
+<area shape="rect" id="edge22-headlabel" href="dir_000016_000003.html" title="7" alt="" coords="297,400,306,414"/>
+<area shape="rect" id="edge12-headlabel" href="dir_000017_000002.html" title="2" alt="" coords="236,159,246,174"/>
+<area shape="rect" id="edge13-headlabel" href="dir_000017_000003.html" title="9" alt="" coords="302,379,311,393"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000006_000016.html" title="13" alt="" coords="104,190,122,204"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000006_000017.html" title="27" alt="" coords="119,301,137,315"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000006_000002.html" title="39" alt="" coords="244,75,261,90"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000006_000005.html" title="15" alt="" coords="398,180,415,194"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000006_000003.html" title="44" alt="" coords="390,385,408,399"/>
+<area shape="rect" id="edge9-headlabel" href="dir_000002_000015.html" title="6" alt="" coords="209,189,218,204"/>
+<area shape="rect" id="edge10-headlabel" href="dir_000002_000016.html" title="2" alt="" coords="114,189,123,204"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000002_000017.html" title="4" alt="" coords="231,298,241,313"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000002_000006.html" title="3" alt="" coords="249,65,259,80"/>
+<area shape="rect" id="edge8-headlabel" href="dir_000002_000005.html" title="9" alt="" coords="407,179,417,194"/>
+<area shape="rect" id="edge11-headlabel" href="dir_000002_000003.html" title="20" alt="" coords="354,373,371,387"/>
+<area shape="rect" id="edge15-headlabel" href="dir_000005_000015.html" title="4" alt="" coords="230,232,239,246"/>
+<area shape="rect" id="edge16-headlabel" href="dir_000005_000016.html" title="2" alt="" coords="101,187,110,202"/>
+<area shape="rect" id="edge14-headlabel" href="dir_000005_000017.html" title="2" alt="" coords="231,306,241,321"/>
+<area shape="rect" id="edge17-headlabel" href="dir_000005_000003.html" title="12" alt="" coords="369,377,387,392"/>
+<area shape="rect" id="clust2" href="dir_e3bccb893c61f105978153e70dd5d7db.html" alt="" coords="27,196,227,361"/>
+<area shape="rect" id="clust1" href="dir_3ebfba3f7ddc15d5b253a07827990f8c.html" title="opmon" alt="" coords="16,160,237,372"/>
+</map>

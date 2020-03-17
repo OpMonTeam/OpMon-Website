@@ -1,0 +1,13 @@
+<map id="OpMon::Ui::Window" name="OpMon::Ui::Window">
+<area shape="rect" id="node1" title="Manages and stores the objects related to the game window." alt="" coords="159,323,309,349"/>
+<area shape="rect" id="node2" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1RenderWindow.php.html" title=" " alt="" coords="165,233,303,260"/>
+<area shape="rect" id="node3" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Window.php.html" title=" " alt="" coords="185,157,278,184"/>
+<area shape="rect" id="node4" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1WindowBase.php.html" title=" " alt="" coords="267,81,393,108"/>
+<area shape="rect" id="node5" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1NonCopyable.php.html" title=" " alt="" coords="43,5,171,32"/>
+<area shape="rect" id="node7" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1RenderTarget.php.html" title=" " alt="" coords="28,157,155,184"/>
+<area shape="rect" id="node6" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1GlResource.php.html" title=" " alt="" coords="129,81,243,108"/>
+<area shape="rect" id="node11" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1RenderTexture.php.html" title=" " alt="" coords="5,233,140,260"/>
+<area shape="rect" id="node8" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Sprite.php.html" title=" " alt="" coords="331,233,409,260"/>
+<area shape="rect" id="node9" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Drawable.php.html" title=" " alt="" coords="461,157,564,184"/>
+<area shape="rect" id="node10" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Transformable.php.html" title=" " alt="" coords="303,157,437,184"/>
+</map>

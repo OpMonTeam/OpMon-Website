@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['multifunctions_3207',['MULTIFUNCTIONS',['../d0/d88/namespaceOpMon_1_1View.html#a0cbccc99687d60085864f5288bcba9cfa5aa3c1fde47e83e8ecc2c00e0fe40e6f',1,'OpMon::View']]]
+  ['up_3164',['UP',['../d6/d29/namespaceOpMon_1_1Animations.html#a6508c6e0fd31b596a6f5983c41982cddafbaedde498cdead4f2780217646e9ba1',1,'OpMon::Animations']]]
 ];

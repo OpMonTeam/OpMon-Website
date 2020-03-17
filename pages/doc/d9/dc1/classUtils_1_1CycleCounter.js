@@ -1,7 +1,7 @@
 var classUtils_1_1CycleCounter =
 [
     [ "CycleCounter", "d9/dc1/classUtils_1_1CycleCounter.html#a7d038af5b386e633d873f520cd3f8524", null ],
-    [ "getValue", "d9/dc1/classUtils_1_1CycleCounter.html#a98201596a9c030b81572f2b2970fd181", null ],
+    [ "getValue", "d9/dc1/classUtils_1_1CycleCounter.html#a3cdac41df4c186d8f6165add1fee379d", null ],
     [ "operator*", "d9/dc1/classUtils_1_1CycleCounter.html#a9b99dea91f7b7a18bae00357540b34b9", null ],
     [ "operator*=", "d9/dc1/classUtils_1_1CycleCounter.html#a953ea0116bf8ba4d0656f009dd86dcba", null ],
     [ "operator+", "d9/dc1/classUtils_1_1CycleCounter.html#afa88cd5d422065f4e53a59422af8b9a9", null ],

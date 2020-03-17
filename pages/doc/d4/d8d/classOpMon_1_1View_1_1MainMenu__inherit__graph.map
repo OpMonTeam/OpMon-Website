@@ -1,4 +1,0 @@
-<map id="OpMon::View::MainMenu" name="OpMon::View::MainMenu">
-<area shape="rect" id="node1" title="The view printing the main menu showing at the start of the game." alt="" coords="14,80,198,107"/>
-<area shape="rect" id="node2" href="$de/dfe/classOpMon_1_1I18n_1_1ATranslatable.html" title="Base class for any element requiring to reload when the lang changes." alt="" coords="5,5,207,32"/>
-</map>

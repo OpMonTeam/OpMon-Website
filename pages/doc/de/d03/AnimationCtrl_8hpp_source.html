@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>OpMon: /home/cyrielle/Bureau/OpMon/src/opmon/controller/AnimationCtrl.hpp Source File</title>
+<title>OpMon: src/opmon/screens/animation/AnimationCtrl.hpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -91,37 +91,38 @@ $(document).ready(function(){initNavTree('de/d03/AnimationCtrl_8hpp_source.html'
 <a href="../../de/d03/AnimationCtrl_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;../view/Animations.hpp&quot;</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d4/d0d/AGameScreen_8hpp.html">AGameScreen.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d6/de6/namespaceOpMon.html">OpMon</a> {</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">namespace </span>Controller {</div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../d1/d92/classOpMon_1_1Controller_1_1AnimationCtrl.html">   19</a></span>&#160;        <span class="keyword">class </span><a class="code" href="../../d1/d92/classOpMon_1_1Controller_1_1AnimationCtrl.html">AnimationCtrl</a> : <span class="keyword">public</span> <a class="code" href="../../d7/ddf/classOpMon_1_1Controller_1_1AGameScreen.html">AGameScreen</a> {</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;          <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            std::unique_ptr&lt;View::Animations::Animation&gt; view;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;          <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <a class="code" href="../../d1/d92/classOpMon_1_1Controller_1_1AnimationCtrl.html">AnimationCtrl</a>(std::unique_ptr&lt;View::Animations::Animation&gt; view);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            ~<a class="code" href="../../d1/d92/classOpMon_1_1Controller_1_1AnimationCtrl.html">AnimationCtrl</a>() = <span class="keywordflow">default</span>;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <a class="code" href="../../d6/de6/namespaceOpMon.html#a8d5824ffd8ecab8bfe042ef611839a18">GameStatus</a> <a class="code" href="../../d1/d92/classOpMon_1_1Controller_1_1AnimationCtrl.html#a491d04feb2889e106ffebb3e03e6266e">update</a>(<a class="codeRef" href="https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1RenderTexture.php">sf::RenderTexture</a> &amp;frame) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        };</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    } <span class="comment">// namespace Controller</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;} <span class="comment">// namespace OpMon</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../dc/d1a/Animations_8hpp.html">Animations.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d4/d0d/AGameScreen_8hpp.html">src/opmon/screens/base/AGameScreen.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span>sf {</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">class </span>RenderTexture;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}  <span class="comment">// namespace sf</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">namespace </span>OpMon {</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="../../d4/d05/classOpMon_1_1AnimationCtrl.html">   21</a></span>&#160;    <span class="keyword">class </span><a class="code" href="../../d4/d05/classOpMon_1_1AnimationCtrl.html">AnimationCtrl</a> : <span class="keyword">public</span> <a class="code" href="../../d1/d1f/classOpMon_1_1AGameScreen.html">AGameScreen</a> {</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        std::unique_ptr&lt;Animations::Animation&gt; view;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <a class="code" href="../../d4/d05/classOpMon_1_1AnimationCtrl.html">AnimationCtrl</a>(std::unique_ptr&lt;Animations::Animation&gt; view);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        ~<a class="code" href="../../d4/d05/classOpMon_1_1AnimationCtrl.html">AnimationCtrl</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <a class="code" href="../../db/da3/GameStatus_8hpp.html#a8d5824ffd8ecab8bfe042ef611839a18">GameStatus</a> <a class="code" href="../../d4/d05/classOpMon_1_1AnimationCtrl.html#ae6ee042953c51cbe3a5d10b5791b8e69">update</a>(<a class="codeRef" href="https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1RenderTexture.php">sf::RenderTexture</a> &amp;frame) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    };</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;} <span class="comment">// namespace OpMon</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="aclasssf_1_1RenderTexture.php_html"><div class="ttname"><a href="https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1RenderTexture.php">sf::RenderTexture</a></div></div>
-<div class="ttc" id="anamespaceOpMon_html"><div class="ttname"><a href="../../d6/de6/namespaceOpMon.html">OpMon</a></div><div class="ttdoc">Base namespace of the program.</div><div class="ttdef"><b>Definition:</b> AGameScreen.hpp:14</div></div>
 <div class="ttc" id="aAGameScreen_8hpp_html"><div class="ttname"><a href="../../d4/d0d/AGameScreen_8hpp.html">AGameScreen.hpp</a></div></div>
-<div class="ttc" id="anamespaceOpMon_html_a8d5824ffd8ecab8bfe042ef611839a18"><div class="ttname"><a href="../../d6/de6/namespaceOpMon.html#a8d5824ffd8ecab8bfe042ef611839a18">OpMon::GameStatus</a></div><div class="ttdeci">GameStatus</div><div class="ttdoc">Enumeration defining the different commands returned to define the game status.</div><div class="ttdef"><b>Definition:</b> GameStatus.hpp:14</div></div>
-<div class="ttc" id="aclassOpMon_1_1Controller_1_1AGameScreen_html"><div class="ttname"><a href="../../d7/ddf/classOpMon_1_1Controller_1_1AGameScreen.html">OpMon::Controller::AGameScreen</a></div><div class="ttdoc">Interface of all first-level controllers.</div><div class="ttdef"><b>Definition:</b> AGameScreen.hpp:27</div></div>
-<div class="ttc" id="aclassOpMon_1_1Controller_1_1AnimationCtrl_html"><div class="ttname"><a href="../../d1/d92/classOpMon_1_1Controller_1_1AnimationCtrl.html">OpMon::Controller::AnimationCtrl</a></div><div class="ttdoc">A special game screen able to call any type of animation.</div><div class="ttdef"><b>Definition:</b> AnimationCtrl.hpp:19</div></div>
-<div class="ttc" id="aclassOpMon_1_1Controller_1_1AnimationCtrl_html_a491d04feb2889e106ffebb3e03e6266e"><div class="ttname"><a href="../../d1/d92/classOpMon_1_1Controller_1_1AnimationCtrl.html#a491d04feb2889e106ffebb3e03e6266e">OpMon::Controller::AnimationCtrl::update</a></div><div class="ttdeci">GameStatus update(sf::RenderTexture &amp;frame) override</div><div class="ttdoc">Updates and draws the game.</div><div class="ttdef"><b>Definition:</b> AnimationCtrl.cpp:14</div></div>
+<div class="ttc" id="aGameStatus_8hpp_html_a8d5824ffd8ecab8bfe042ef611839a18"><div class="ttname"><a href="../../db/da3/GameStatus_8hpp.html#a8d5824ffd8ecab8bfe042ef611839a18">OpMon::GameStatus</a></div><div class="ttdeci">GameStatus</div><div class="ttdoc">Enumeration defining the different commands returned to define the game status.</div><div class="ttdef"><b>Definition:</b> GameStatus.hpp:14</div></div>
+<div class="ttc" id="aclassOpMon_1_1AGameScreen_html"><div class="ttname"><a href="../../d1/d1f/classOpMon_1_1AGameScreen.html">OpMon::AGameScreen</a></div><div class="ttdoc">Interface of all first-level controllers.</div><div class="ttdef"><b>Definition:</b> AGameScreen.hpp:32</div></div>
+<div class="ttc" id="aAnimations_8hpp_html"><div class="ttname"><a href="../../dc/d1a/Animations_8hpp.html">Animations.hpp</a></div></div>
+<div class="ttc" id="aclassOpMon_1_1AnimationCtrl_html_ae6ee042953c51cbe3a5d10b5791b8e69"><div class="ttname"><a href="../../d4/d05/classOpMon_1_1AnimationCtrl.html#ae6ee042953c51cbe3a5d10b5791b8e69">OpMon::AnimationCtrl::update</a></div><div class="ttdeci">GameStatus update(sf::RenderTexture &amp;frame) override</div><div class="ttdoc">Updates and draws the game.</div><div class="ttdef"><b>Definition:</b> AnimationCtrl.cpp:17</div></div>
+<div class="ttc" id="aclassOpMon_1_1AnimationCtrl_html"><div class="ttname"><a href="../../d4/d05/classOpMon_1_1AnimationCtrl.html">OpMon::AnimationCtrl</a></div><div class="ttdoc">A special game screen able to call any type of animation.</div><div class="ttdef"><b>Definition:</b> AnimationCtrl.hpp:21</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_43e0a1f539e00dcfa1a6bc4d4fee4fc2.html">home</a></li><li class="navelem"><a class="el" href="../../dir_7e1e432be7d1bb66448c457c8892f186.html">cyrielle</a></li><li class="navelem"><a class="el" href="../../dir_541888d0fbb694331306c2df57f6f611.html">Bureau</a></li><li class="navelem"><a class="el" href="../../dir_77a20b1394476325f9c0364510b2168d.html">OpMon</a></li><li class="navelem"><a class="el" href="../../dir_819c0e4025601de6d5ada492afc37be0.html">src</a></li><li class="navelem"><a class="el" href="../../dir_a2240d2a659c77f798c9fe4175de63c6.html">opmon</a></li><li class="navelem"><a class="el" href="../../dir_d7526c928d5dc45cca04a88689420e33.html">controller</a></li><li class="navelem"><a class="el" href="../../de/d03/AnimationCtrl_8hpp.html">AnimationCtrl.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_3ebfba3f7ddc15d5b253a07827990f8c.html">opmon</a></li><li class="navelem"><a class="el" href="../../dir_e1e84dcf58266c150a03e5533a08eed1.html">screens</a></li><li class="navelem"><a class="el" href="../../dir_905905c4ee601cc162fd308c7b46512c.html">animation</a></li><li class="navelem"><a class="el" href="../../de/d03/AnimationCtrl_8hpp.html">AnimationCtrl.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.17 </li>

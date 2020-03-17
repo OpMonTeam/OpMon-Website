@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>OpMon: /home/cyrielle/Bureau/OpMon/src/opmon/model/sysObjects/Player.hpp File Reference</title>
+<title>OpMon: src/opmon/core/Player.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -85,52 +85,49 @@ $(document).ready(function(){initNavTree('d3/d86/Player_8hpp.html','../../'); in
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
 <div class="title">Player.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d5/d79/Item_8hpp_source.html">../objects/Item.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d1b/OpTeam_8hpp_source.html">OpTeam.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/d58/Position_8hpp_source.html">Position.hpp</a>&quot;</code><br />
-<code>#include &lt;SFML/System.hpp&gt;</code><br />
+<div class="textblock"><code>#include &lt;SFML/System.hpp&gt;</code><br />
 <code>#include &lt;map&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;algorithm&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/d79/Item_8hpp_source.html">../model/Item.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d1b/OpTeam_8hpp_source.html">../model/OpTeam.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/d58/Position_8hpp_source.html">../view/elements/Position.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for Player.hpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../d4/d85/Player_8hpp__incl.png" border="0" usemap="#_2home_2cyrielle_2Bureau_2OpMon_2src_2opmon_2model_2sysObjects_2Player_8hpp" alt=""/></div>
-<map name="_2home_2cyrielle_2Bureau_2OpMon_2src_2opmon_2model_2sysObjects_2Player_8hpp" id="_2home_2cyrielle_2Bureau_2OpMon_2src_2opmon_2model_2sysObjects_2Player_8hpp">
-<area shape="rect" title=" " alt="" coords="1208,5,1397,61"/>
-<area shape="rect" href="../../d5/d79/Item_8hpp.html" title=" " alt="" coords="1113,109,1255,136"/>
-<area shape="rect" title=" " alt="" coords="983,333,1046,360"/>
-<area shape="rect" href="../../d4/d1b/OpTeam_8hpp.html" title=" " alt="" coords="665,109,767,136"/>
-<area shape="rect" href="../../dc/d58/Position_8hpp.html" title=" " alt="" coords="1538,259,1641,285"/>
-<area shape="rect" title=" " alt="" coords="1468,109,1607,136"/>
-<area shape="rect" title=" " alt="" coords="1631,109,1681,136"/>
-<area shape="rect" href="../../de/d0a/OpString_8hpp.html" title="A fillable string utility." alt="" coords="826,184,1001,211"/>
-<area shape="rect" href="../../d7/d38/Core_8hpp.html" title="The program core functions." alt="" coords="1255,184,1393,211"/>
-<area shape="rect" href="../../d8/d99/OpMon_8hpp.html" title=" " alt="" coords="575,184,671,211"/>
-<area shape="rect" title=" " alt="" coords="1153,184,1231,211"/>
-<area shape="rect" title=" " alt="" coords="797,259,977,285"/>
-<area shape="rect" title=" " alt="" coords="312,333,392,360"/>
-<area shape="rect" href="../../db/df8/defines_8hpp.html" title=" " alt="" coords="1308,259,1463,285"/>
-<area shape="rect" title=" " alt="" coords="1463,333,1521,360"/>
-<area shape="rect" href="../../db/da3/GameStatus_8hpp.html" title=" " alt="" coords="1153,259,1284,285"/>
-<area shape="rect" title=" " alt="" coords="1340,333,1431,360"/>
-<area shape="rect" href="../../d0/d0e/misc_8hpp.html" title=" " alt="" coords="84,259,233,285"/>
-<area shape="rect" href="../../d9/dcb/Nature_8hpp.html" title=" " alt="" coords="626,259,721,285"/>
-<area shape="rect" href="../../dd/d76/Species_8hpp.html" title=" " alt="" coords="415,259,515,285"/>
-<area shape="rect" title=" " alt="" coords="539,259,602,285"/>
-<area shape="rect" title=" " alt="" coords="219,333,288,360"/>
-<area shape="rect" title=" " alt="" coords="5,333,77,360"/>
-<area shape="rect" title=" " alt="" coords="102,333,194,360"/>
-<area shape="rect" href="../../dd/de2/Enums_8hpp.html" title=" " alt="" coords="626,333,721,360"/>
-<area shape="rect" href="../../da/d9e/CurveExp_8hpp.html" title=" " alt="" coords="416,333,528,360"/>
-<area shape="rect" title=" " alt="" coords="1545,333,1737,360"/>
+<div class="center"><img src="../../d4/d85/Player_8hpp__incl.png" border="0" usemap="#src_2opmon_2core_2Player_8hpp" alt=""/></div>
+<map name="src_2opmon_2core_2Player_8hpp" id="src_2opmon_2core_2Player_8hpp">
+<area shape="rect" title=" " alt="" coords="275,5,470,32"/>
+<area shape="rect" title=" " alt="" coords="25,80,163,107"/>
+<area shape="rect" title=" " alt="" coords="187,80,238,107"/>
+<area shape="rect" title=" " alt="" coords="262,80,347,107"/>
+<area shape="rect" href="../../d5/d79/Item_8hpp.html" title=" " alt="" coords="372,80,509,107"/>
+<area shape="rect" href="../../d4/d1b/OpTeam_8hpp.html" title=" " alt="" coords="534,80,694,107"/>
+<area shape="rect" href="../../dc/d58/Position_8hpp.html" title=" " alt="" coords="728,229,943,256"/>
+<area shape="rect" title=" " alt="" coords="326,155,403,181"/>
+<area shape="rect" href="../../d8/d99/OpMon_8hpp.html" title=" " alt="" coords="522,155,618,181"/>
+<area shape="rect" href="../../de/d0a/OpString_8hpp.html" title="A fillable string utility." alt="" coords="211,229,374,256"/>
+<area shape="rect" title=" " alt="" coords="5,304,185,331"/>
+<area shape="rect" title=" " alt="" coords="641,229,704,256"/>
+<area shape="rect" href="../../d0/d0e/misc_8hpp.html" title=" " alt="" coords="989,229,1127,256"/>
+<area shape="rect" href="../../d9/dcb/Nature_8hpp.html" title=" " alt="" coords="523,229,617,256"/>
+<area shape="rect" href="../../dd/d76/Species_8hpp.html" title=" " alt="" coords="399,229,499,256"/>
+<area shape="rect" title=" " alt="" coords="1046,304,1115,331"/>
+<area shape="rect" title=" " alt="" coords="1139,304,1211,331"/>
+<area shape="rect" title=" " alt="" coords="1236,304,1328,331"/>
+<area shape="rect" title=" " alt="" coords="956,304,1021,331"/>
+<area shape="rect" title=" " alt="" coords="657,304,715,331"/>
+<area shape="rect" href="../../dd/de2/Enums_8hpp.html" title=" " alt="" coords="537,304,632,331"/>
+<area shape="rect" title=" " alt="" coords="297,304,377,331"/>
+<area shape="rect" title=" " alt="" coords="209,304,272,331"/>
+<area shape="rect" href="../../da/d9e/CurveExp_8hpp.html" title=" " alt="" coords="401,304,513,331"/>
+<area shape="rect" title=" " alt="" coords="739,304,931,331"/>
 </map>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -138,31 +135,28 @@ $(document).ready(function(){initNavTree('d3/d86/Player_8hpp.html','../../'); in
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../d6/deb/Player_8hpp__dep__incl.png" border="0" usemap="#_2home_2cyrielle_2Bureau_2OpMon_2src_2opmon_2model_2sysObjects_2Player_8hppdep" alt=""/></div>
-<map name="_2home_2cyrielle_2Bureau_2OpMon_2src_2opmon_2model_2sysObjects_2Player_8hppdep" id="_2home_2cyrielle_2Bureau_2OpMon_2src_2opmon_2model_2sysObjects_2Player_8hppdep">
-<area shape="rect" title=" " alt="" coords="1047,5,1236,61"/>
-<area shape="rect" href="../../dd/d39/Elements_8hpp.html" title=" " alt="" coords="509,109,688,165"/>
-<area shape="rect" href="../../df/d26/Overworld_8hpp.html" title=" " alt="" coords="831,421,1009,477"/>
-<area shape="rect" href="../../d6/d30/OverworldCtrl_8hpp.html" title=" " alt="" coords="1033,525,1244,581"/>
-<area shape="rect" href="../../de/dcd/PlayerCtrl_8hpp.html" title=" " alt="" coords="688,525,899,581"/>
-<area shape="rect" href="../../d2/d57/BattleData_8hpp.html" title=" " alt="" coords="88,109,277,165"/>
-<area shape="rect" href="../../d0/d4e/Events_8hpp.html" title=" " alt="" coords="915,109,1104,165"/>
-<area shape="rect" href="../../d8/d99/OverworldData_8hpp.html" title=" " alt="" coords="965,317,1171,373"/>
-<area shape="rect" href="../../d1/d05/GameMenuData_8hpp.html" title=" " alt="" coords="1313,109,1527,165"/>
-<area shape="rect" href="../../d6/d0a/GameMenuCtrl_8hpp.html" title=" " alt="" coords="1457,317,1668,373"/>
-<area shape="rect" href="../../dc/d95/StartSceneData_8hpp.html" title=" " alt="" coords="1651,109,1859,165"/>
-<area shape="rect" href="../../d4/d79/Save_8hpp.html" title=" " alt="" coords="1883,109,2072,165"/>
-<area shape="rect" href="../../d4/da0/Attack_8hpp.html" title=" " alt="" coords="296,213,485,269"/>
-<area shape="rect" href="../../d8/de7/Battle_8hpp.html" title=" " alt="" coords="93,213,272,269"/>
-<area shape="rect" href="../../df/dfd/OptionsMenu_8hpp.html" title=" " alt="" coords="509,213,688,269"/>
-<area shape="rect" href="../../dd/dca/BattleCtrl_8hpp.html" title=" " alt="" coords="69,317,280,373"/>
-<area shape="rect" href="../../dd/d76/Attacks_8hpp.html" title=" " alt="" coords="304,317,493,373"/>
-<area shape="rect" href="../../df/df5/OptionsMenuCtrl_8hpp.html" title=" " alt="" coords="517,317,728,373"/>
-<area shape="rect" href="../../d2/d39/EventsCtrl_8hpp.html" title=" " alt="" coords="1033,421,1244,477"/>
-<area shape="rect" href="../../dc/dbe/Map_8hpp.html" title=" " alt="" coords="915,213,1104,269"/>
-<area shape="rect" href="../../da/d67/GameMenu_8hpp.html" title=" " alt="" coords="1347,213,1525,269"/>
-<area shape="rect" href="../../dc/d8b/StartSceneCtrl_8hpp.html" title=" " alt="" coords="1733,317,1944,373"/>
-<area shape="rect" href="../../da/db2/StartScene_8hpp.html" title=" " alt="" coords="1771,213,1949,269"/>
+<div class="center"><img src="../../d6/deb/Player_8hpp__dep__incl.png" border="0" usemap="#src_2opmon_2core_2Player_8hppdep" alt=""/></div>
+<map name="src_2opmon_2core_2Player_8hppdep" id="src_2opmon_2core_2Player_8hppdep">
+<area shape="rect" title=" " alt="" coords="752,5,947,32"/>
+<area shape="rect" href="../../dd/d39/Elements_8hpp.html" title=" " alt="" coords="284,87,519,114"/>
+<area shape="rect" href="../../d2/d57/BattleData_8hpp.html" title=" " alt="" coords="543,80,729,121"/>
+<area shape="rect" href="../../d1/d05/GameMenuData_8hpp.html" title=" " alt="" coords="969,80,1191,121"/>
+<area shape="rect" href="../../dc/d95/StartSceneData_8hpp.html" title=" " alt="" coords="1267,80,1483,121"/>
+<area shape="rect" href="../../d0/d4e/Events_8hpp.html" title=" " alt="" coords="754,80,945,121"/>
+<area shape="rect" href="../../d4/da0/Attack_8hpp.html" title=" " alt="" coords="303,177,513,203"/>
+<area shape="rect" href="../../d8/de7/Battle_8hpp.html" title=" " alt="" coords="537,169,724,211"/>
+<area shape="rect" href="../../df/dfd/OptionsMenu_8hpp.html" title=" " alt="" coords="46,169,279,211"/>
+<area shape="rect" href="../../df/d26/Overworld_8hpp.html" title=" " alt="" coords="344,348,557,389"/>
+<area shape="rect" href="../../dd/d76/Attacks_8hpp.html" title=" " alt="" coords="304,266,520,293"/>
+<area shape="rect" href="../../dd/dca/BattleCtrl_8hpp.html" title=" " alt="" coords="544,259,731,300"/>
+<area shape="rect" href="../../df/df5/OptionsMenuCtrl_8hpp.html" title=" " alt="" coords="46,259,279,300"/>
+<area shape="rect" href="../../d6/d30/OverworldCtrl_8hpp.html" title=" " alt="" coords="344,437,557,479"/>
+<area shape="rect" href="../../da/d67/GameMenu_8hpp.html" title=" " alt="" coords="1065,169,1287,211"/>
+<area shape="rect" href="../../d8/d99/OverworldData_8hpp.html" title=" " alt="" coords="788,259,1001,300"/>
+<area shape="rect" href="../../d6/d0a/GameMenuCtrl_8hpp.html" title=" " alt="" coords="1065,259,1287,300"/>
+<area shape="rect" href="../../da/db2/StartScene_8hpp.html" title=" " alt="" coords="1312,169,1528,211"/>
+<area shape="rect" href="../../dc/d8b/StartSceneCtrl_8hpp.html" title=" " alt="" coords="1312,259,1528,300"/>
+<area shape="rect" href="../../dc/dbe/Map_8hpp.html" title=" " alt="" coords="799,169,990,211"/>
 </map>
 </div>
 </div>
@@ -170,17 +164,8 @@ $(document).ready(function(){initNavTree('d3/d86/Player_8hpp.html','../../'); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/classOpMon_1_1Model_1_1Player.html">OpMon::Model::Player</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains information about the player.  <a href="../../d4/d1a/classOpMon_1_1Model_1_1Player.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:d6/de6/namespaceOpMon"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/namespaceOpMon.html">OpMon</a></td></tr>
-<tr class="memdesc:d6/de6/namespaceOpMon"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base namespace of the program. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d9/dd9/namespaceOpMon_1_1Model"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd9/namespaceOpMon_1_1Model.html">OpMon::Model</a></td></tr>
-<tr class="memdesc:d9/dd9/namespaceOpMon_1_1Model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains the model part of the game. <br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4d/classOpMon_1_1Player.html">OpMon::Player</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains information about the player.  <a href="../../d2/d4d/classOpMon_1_1Player.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -199,7 +184,7 @@ Navet56 </dd></dl>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_43e0a1f539e00dcfa1a6bc4d4fee4fc2.html">home</a></li><li class="navelem"><a class="el" href="../../dir_7e1e432be7d1bb66448c457c8892f186.html">cyrielle</a></li><li class="navelem"><a class="el" href="../../dir_541888d0fbb694331306c2df57f6f611.html">Bureau</a></li><li class="navelem"><a class="el" href="../../dir_77a20b1394476325f9c0364510b2168d.html">OpMon</a></li><li class="navelem"><a class="el" href="../../dir_819c0e4025601de6d5ada492afc37be0.html">src</a></li><li class="navelem"><a class="el" href="../../dir_a2240d2a659c77f798c9fe4175de63c6.html">opmon</a></li><li class="navelem"><a class="el" href="../../dir_421ad8762620f02a03fb6eec28998e28.html">model</a></li><li class="navelem"><a class="el" href="../../dir_0e0ab8d038184e710be860d741d202f2.html">sysObjects</a></li><li class="navelem"><a class="el" href="../../d3/d86/Player_8hpp.html">Player.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_3ebfba3f7ddc15d5b253a07827990f8c.html">opmon</a></li><li class="navelem"><a class="el" href="../../dir_d309a8433644510ea635a1a175c0d900.html">core</a></li><li class="navelem"><a class="el" href="../../d3/d86/Player_8hpp.html">Player.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.17 </li>

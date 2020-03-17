@@ -89,89 +89,93 @@ $(document).ready(function(){initNavTree('dd/da0/todo.html','../../'); initResiz
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
+<dt>File <a class="el" href="../../dd/d39/Elements_8hpp.html">Elements.hpp</a>  </dt>
+<dd><a class="anchor" id="_todo000023"></a>Separate this file in two: MapLayer and Transformation  </dd>
+<dt>Member <a class="el" href="../../db/d42/OptionsSave_8hpp.html#a4cbaab144fea39504b0de0fb4c61da04">modifyParam</a>  </dt>
+<dd><a class="anchor" id="_todo000030"></a>Change to editParam  </dd>
 <dt>File <a class="el" href="../../d9/dcb/Nature_8hpp.html">Nature.hpp</a>  </dt>
-<dd><a class="anchor" id="_todo000005"></a>Improve the system of natures.  </dd>
-<dt>Namespace <a class="el" href="../../d9/d81/namespaceOpMon_1_1Controller_1_1PlayerCtrl.html">OpMon::Controller::PlayerCtrl</a>  </dt>
-<dd><a class="anchor" id="_todo000002"></a>Make this a class or put this in the Player object.  </dd>
-<dt>Class <a class="el" href="../../da/d90/classOpMon_1_1Controller_1_1StartSceneCtrl.html">OpMon::Controller::StartSceneCtrl</a>  </dt>
-<dd><a class="anchor" id="_todo000003"></a>Change to IntroSceneCtrl  </dd>
-<dt>Member <a class="el" href="../../d6/de6/namespaceOpMon.html#a9303f5918befdf96ca805d115375f15f">OpMon::debugCol</a>  </dt>
-<dd><a class="anchor" id="_todo000020"></a>Put the variable in Overworld.  </dd>
-<dt>Member <a class="el" href="../../d6/de6/namespaceOpMon.html#a6c3b30464395f142fe3468b09cde24ce">OpMon::debugMode</a>  </dt>
-<dd><a class="anchor" id="_todo000019"></a>Put the variable in a class.  </dd>
-<dt>Class <a class="el" href="../../de/d1c/classOpMon_1_1Model_1_1Attack.html">OpMon::Model::Attack</a>  </dt>
-<dd><a class="anchor" id="_todo000004"></a>Change the name to "move" to stick better with the original game.  </dd>
-<dt>Member <a class="el" href="../../d6/d4d/namespaceOpMon_1_1Model_1_1Events.html#a2a28970accec237a6695b6905105e2b7">OpMon::Model::Events::doorSound</a>  </dt>
-<dd><a class="anchor" id="_todo000015"></a>Move this elsewhere.  </dd>
-<dt>Member <a class="el" href="../../d6/d4d/namespaceOpMon_1_1Model_1_1Events.html#ac5dfcca668f3c15b4c4b679d36e3237b">OpMon::Model::Events::justTP</a>  </dt>
-<dd><a class="anchor" id="_todo000016"></a>Move this elsewhere.  </dd>
-<dt>Class <a class="el" href="../../d4/d41/classOpMon_1_1Model_1_1Map.html">OpMon::Model::Map</a>  </dt>
-<dd><a class="anchor" id="_todo000017"></a>Separate the class into MapBuilder (The unloaded map) and <a class="el" href="../../d4/d41/classOpMon_1_1Model_1_1Map.html" title="Defines a specific place in a game, containing the event, the animated objects and the map layers.">Map</a>.  </dd>
-<dt>Member <a class="el" href="../../d4/d41/classOpMon_1_1Model_1_1Map.html#ae8689445f9595dcc778ebe9c949d4d67">OpMon::Model::Map::colTile</a>  [4096]</dt>
-<dd><p class="startdd"><a class="anchor" id="_todo000018"></a>Add description of each number/collision type. </p>
+<dd><a class="anchor" id="_todo000003"></a>Improve the system of natures.  </dd>
+<dt>Member <a class="el" href="../../dd/d71/classOpMon_1_1Animations_1_1WooshAnim.html#a282e14394306e4b60b7af32a18b42ce5">OpMon::Animations::WooshAnim::mvDir</a>  [4]</dt>
+<dd><a class="anchor" id="_todo000007"></a>Put this in const static and initilise it only one time.  </dd>
+<dt>Class <a class="el" href="../../d8/de0/classOpMon_1_1Attack.html">OpMon::Attack</a>  </dt>
+<dd><a class="anchor" id="_todo000002"></a>Change the name to "move" to stick better with the original game.  </dd>
+<dt>Member <a class="el" href="../../d1/dc1/namespaceOpMon_1_1Elements_1_1Events.html#a33dce8f74cf901da65d1dc0c98a8f994">OpMon::Elements::Events::doorSound</a>  </dt>
+<dd><a class="anchor" id="_todo000019"></a>Move this elsewhere.  </dd>
+<dt>Class <a class="el" href="../../df/d21/classOpMon_1_1Elements_1_1Map.html">OpMon::Elements::Map</a>  </dt>
+<dd><a class="anchor" id="_todo000020"></a>Separate the class into MapBuilder (The unloaded map) and <a class="el" href="../../df/d21/classOpMon_1_1Elements_1_1Map.html" title="Defines a specific place in a game, containing the event, the animated objects and the map layers.">Map</a>.  </dd>
+<dt>Member <a class="el" href="../../df/d21/classOpMon_1_1Elements_1_1Map.html#a50925a08d68323d426d63a8911f87095">OpMon::Elements::Map::colTile</a>  [4096]</dt>
+<dd><p class="startdd"><a class="anchor" id="_todo000021"></a>Add description of each number/collision type. </p>
 <p class="enddd">Move this in a json file and add multiple tileset support.  </p>
 </dd>
-<dt>Class <a class="el" href="../../d2/dd2/classOpMon_1_1Model_1_1OpMon.html">OpMon::Model::OpMon</a>  </dt>
-<dd><p class="startdd"><a class="anchor" id="_todo000006"></a>Re-check the class a bit, rewrite what's necessary. There is a lot of old code here. Also check for french and translate it. </p>
+<dt>Class <a class="el" href="../../dd/d9f/classOpMon_1_1OpMon.html">OpMon::OpMon</a>  </dt>
+<dd><p class="startdd"><a class="anchor" id="_todo000004"></a>Re-check the class a bit, rewrite what's necessary. There is a lot of old code here. Also check for french and translate it. </p>
 <p class="interdd">Change the IV, EV and stat variables into arrays working with the enumeration Stats. </p>
 <p class="interdd">Delete the stat variables and make the methods returing the stats calculating them. </p>
 <p class="enddd">Finish to document the file when the changes are done.  </p>
 </dd>
-<dt>Member <a class="el" href="../../d2/dd2/classOpMon_1_1Model_1_1OpMon.html#a6ea52c5cacb3d284cb0cadb509a813e2">OpMon::Model::OpMon::drinkTooMuch</a>  ()</dt>
-<dd><a class="anchor" id="_todo000007"></a>Change the name, maybe ?  </dd>
-<dt>Namespace <a class="el" href="../../d1/d3a/namespaceOpMon_1_1Model_1_1OptionsSave.html">OpMon::Model::OptionsSave</a>  </dt>
-<dd><a class="anchor" id="_todo000010"></a>Make this a class.  </dd>
-<dt>Member <a class="el" href="../../d1/d3a/namespaceOpMon_1_1Model_1_1OptionsSave.html#a729f1fa1ff23120d3a103374b475743a">OpMon::Model::OptionsSave::paramList</a>  </dt>
-<dd><a class="anchor" id="_todo000011"></a>Change this to an std::list ?  </dd>
-<dt>Member <a class="el" href="../../db/d01/classOpMon_1_1Model_1_1OverworldData.html#a6c18aef3e050db3ecf20e7d2a24d4f9e">OpMon::Model::OverworldData::getTexturePPRect</a>  (unsigned int id)</dt>
-<dd><a class="anchor" id="_todo000012"></a>Change the type of id for Side  </dd>
-<dt>Member <a class="el" href="../../db/d01/classOpMon_1_1Model_1_1OverworldData.html#a40ff8b7812c2dbca9e4d513307144f99">OpMon::Model::OverworldData::getWalkingPP2Rect</a>  (unsigned int id)</dt>
-<dd><a class="anchor" id="_todo000014"></a>Change the type of id for side  </dd>
-<dt>Member <a class="el" href="../../db/d01/classOpMon_1_1Model_1_1OverworldData.html#a5133deae351eae55ab7fa699fb213f1b">OpMon::Model::OverworldData::getWalkingPPRect</a>  (unsigned int id)</dt>
-<dd><a class="anchor" id="_todo000013"></a>Change the type of id for side  </dd>
-<dt>Class <a class="el" href="../../d3/df4/classOpMon_1_1Model_1_1Species.html">OpMon::Model::Species</a>  </dt>
-<dd><p class="startdd"><a class="anchor" id="_todo000008"></a>Put the stats in one array. </p>
-<p class="enddd">Add a json constructor.  </p>
-</dd>
-<dt>Member <a class="el" href="../../da/d99/classOpMon_1_1View_1_1Animations_1_1WooshAnim.html#a74a53addab76b51b1e5f886b6172f15a">OpMon::View::Animations::WooshAnim::mvDir</a>  [4]</dt>
-<dd><a class="anchor" id="_todo000021"></a>Put this in const static and initilise it only one time.  </dd>
-<dt>Class <a class="el" href="../../d7/dbd/structOpMon_1_1View_1_1MovementData.html">OpMon::View::MovementData</a>  </dt>
-<dd><a class="anchor" id="_todo000022"></a>Unify <a class="el" href="../../d7/dbd/structOpMon_1_1View_1_1MovementData.html" title="A structure containing information about a translation.">MovementData</a>, <a class="el" href="../../d3/d95/structOpMon_1_1View_1_1RotationData.html" title="A structure containing information about a rotation.">RotationData</a> and <a class="el" href="../../de/dda/structOpMon_1_1View_1_1ScaleData.html" title="A structure containing information about a scaling.">ScaleData</a> in one formula.  </dd>
-<dt>Class <a class="el" href="../../de/dfe/classOpMon_1_1View_1_1OptionsMenu.html">OpMon::View::OptionsMenu</a>  </dt>
-<dd><p class="startdd"><a class="anchor" id="_todo000026"></a>Change <a class="el" href="../../de/dfe/classOpMon_1_1View_1_1OptionsMenu.html" title="The screen of the settings.">OptionsMenu</a> to SettingsMenu </p>
+<dt>Member <a class="el" href="../../dd/d9f/classOpMon_1_1OpMon.html#a62e3720010a1845ac5fd77d670efb7a2">OpMon::OpMon::drinkTooMuch</a>  ()</dt>
+<dd><a class="anchor" id="_todo000005"></a>Change the name, maybe ?  </dd>
+<dt>Class <a class="el" href="../../db/d56/classOpMon_1_1OptionsMenu.html">OpMon::OptionsMenu</a>  </dt>
+<dd><p class="startdd"><a class="anchor" id="_todo000008"></a>Change <a class="el" href="../../db/d56/classOpMon_1_1OptionsMenu.html" title="The screen of the settings.">OptionsMenu</a> to SettingsMenu </p>
 <p class="interdd">Make the addition of a language easier. </p>
 <p class="enddd">Put some variables in arrays.  </p>
 </dd>
-<dt>Member <a class="el" href="../../de/dfe/classOpMon_1_1View_1_1OptionsMenu.html#adad6f0dfe79ec1b4e6fbfe40ac1a79d3">OpMon::View::OptionsMenu::bgLangues</a>  </dt>
-<dd><a class="anchor" id="_todo000027"></a>Change to bgLang  </dd>
-<dt>Class <a class="el" href="../../dd/df5/classOpMon_1_1View_1_1Overworld.html">OpMon::View::Overworld</a>  </dt>
-<dd><a class="anchor" id="_todo000028"></a>Unify the player animation system and the npc animation system.  </dd>
-<dt>Member <a class="el" href="../../dd/df5/classOpMon_1_1View_1_1Overworld.html#a9047129578b7ae2d1f9f0f2cfc98c930">OpMon::View::Overworld::getCurrent</a>  ()</dt>
-<dd><a class="anchor" id="_todo000029"></a>Rename to getCurrentMap  </dd>
-<dt>Member <a class="el" href="../../dd/df5/classOpMon_1_1View_1_1Overworld.html#a9b50488e1d8c994b81748794be837307">OpMon::View::Overworld::updateCamera</a>  (<a class="elRef" href="https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1RenderTarget.php">sf::RenderTarget</a> &amp;frame)</dt>
-<dd><a class="anchor" id="_todo000030"></a>Change camera to make it always centered on the player, except on the edges of the map  </dd>
-<dt>Class <a class="el" href="../../d3/d95/structOpMon_1_1View_1_1RotationData.html">OpMon::View::RotationData</a>  </dt>
-<dd><a class="anchor" id="_todo000023"></a>Unify <a class="el" href="../../d7/dbd/structOpMon_1_1View_1_1MovementData.html" title="A structure containing information about a translation.">MovementData</a>, <a class="el" href="../../d3/d95/structOpMon_1_1View_1_1RotationData.html" title="A structure containing information about a rotation.">RotationData</a> and <a class="el" href="../../de/dda/structOpMon_1_1View_1_1ScaleData.html" title="A structure containing information about a scaling.">ScaleData</a> in one formula.  </dd>
-<dt>Class <a class="el" href="../../de/dda/structOpMon_1_1View_1_1ScaleData.html">OpMon::View::ScaleData</a>  </dt>
-<dd><a class="anchor" id="_todo000024"></a>Unify <a class="el" href="../../d7/dbd/structOpMon_1_1View_1_1MovementData.html" title="A structure containing information about a translation.">MovementData</a>, <a class="el" href="../../d3/d95/structOpMon_1_1View_1_1RotationData.html" title="A structure containing information about a rotation.">RotationData</a> and <a class="el" href="../../de/dda/structOpMon_1_1View_1_1ScaleData.html" title="A structure containing information about a scaling.">ScaleData</a> in one formula.  </dd>
-<dt>Class <a class="el" href="../../d1/d39/classOpMon_1_1View_1_1StartScene.html">OpMon::View::StartScene</a>  </dt>
-<dd><a class="anchor" id="_todo000031"></a>Change name to IntroScene.  </dd>
-<dt>Member <a class="el" href="../../d1/d39/classOpMon_1_1View_1_1StartScene.html#a2be8fe7044aadc5b90110c09782b9333">OpMon::View::StartScene::txtP1</a>  </dt>
-<dd><a class="anchor" id="_todo000032"></a>Change the name to txtP2  </dd>
-<dt>Class <a class="el" href="../../d2/dc8/classOpMon_1_1View_1_1Transformation.html">OpMon::View::Transformation</a>  </dt>
-<dd><a class="anchor" id="_todo000025"></a>Change the name of the <a class="elRef" href="https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Transform.php">sf::Transform</a> object.  </dd>
+<dt>Member <a class="el" href="../../db/d56/classOpMon_1_1OptionsMenu.html#ab5d845f8806addd45d2db8cb3ce315fa">OpMon::OptionsMenu::bgLangues</a>  </dt>
+<dd><a class="anchor" id="_todo000009"></a>Change to bgLang  </dd>
+<dt>Class <a class="el" href="../../de/d30/classOpMon_1_1Overworld.html">OpMon::Overworld</a>  </dt>
+<dd><a class="anchor" id="_todo000010"></a>Unify the player animation system and the npc animation system.  </dd>
+<dt>Member <a class="el" href="../../de/d30/classOpMon_1_1Overworld.html#a95005bf5147891148ec5d248b872fcb1">OpMon::Overworld::getCurrent</a>  ()</dt>
+<dd><a class="anchor" id="_todo000011"></a>Rename to getCurrentMap  </dd>
+<dt>Member <a class="el" href="../../de/d30/classOpMon_1_1Overworld.html#a52f9122041851b40fc54d0253f821c5a">OpMon::Overworld::updateCamera</a>  ()</dt>
+<dd><a class="anchor" id="_todo000012"></a>Change camera to make it always centered on the player, except on the edges of the map  </dd>
+<dt>Member <a class="el" href="../../df/d6f/classOpMon_1_1OverworldData.html#aae7fc1301c37ef95ff86ec75a507b29a">OpMon::OverworldData::getTexturePPRect</a>  (unsigned int id)</dt>
+<dd><a class="anchor" id="_todo000013"></a>Change the type of id for Side  </dd>
+<dt>Member <a class="el" href="../../df/d6f/classOpMon_1_1OverworldData.html#a2c65d646ada168315507af805b2625f4">OpMon::OverworldData::getWalkingPP2Rect</a>  (unsigned int id)</dt>
+<dd><a class="anchor" id="_todo000015"></a>Change the type of id for side  </dd>
+<dt>Member <a class="el" href="../../df/d6f/classOpMon_1_1OverworldData.html#a4f452ea7a86c5abb933abf01354ae9b8">OpMon::OverworldData::getWalkingPPRect</a>  (unsigned int id)</dt>
+<dd><a class="anchor" id="_todo000014"></a>Change the type of id for side  </dd>
+<dt>Class <a class="el" href="../../dc/d7a/classOpMon_1_1Species.html">OpMon::Species</a>  </dt>
+<dd><p class="startdd"><a class="anchor" id="_todo000006"></a>Put the stats in one array. </p>
+<p class="enddd">Add a json constructor.  </p>
+</dd>
+<dt>Class <a class="el" href="../../dc/d25/classOpMon_1_1StartScene.html">OpMon::StartScene</a>  </dt>
+<dd><a class="anchor" id="_todo000016"></a>Change name to IntroScene.  </dd>
+<dt>Member <a class="el" href="../../dc/d25/classOpMon_1_1StartScene.html#a9f10eff0995ea9f091b7e6f8c6ce7711">OpMon::StartScene::txtP1</a>  </dt>
+<dd><a class="anchor" id="_todo000017"></a>Change the name to txtP2  </dd>
+<dt>Class <a class="el" href="../../d6/dab/classOpMon_1_1StartSceneCtrl.html">OpMon::StartSceneCtrl</a>  </dt>
+<dd><a class="anchor" id="_todo000018"></a>Change to IntroSceneCtrl  </dd>
+<dt>Class <a class="el" href="../../d9/df5/structOpMon_1_1Ui_1_1MovementData.html">OpMon::Ui::MovementData</a>  </dt>
+<dd><a class="anchor" id="_todo000024"></a>Unify <a class="el" href="../../d9/df5/structOpMon_1_1Ui_1_1MovementData.html" title="A structure containing information about a translation.">MovementData</a>, <a class="el" href="../../d7/da3/structOpMon_1_1Ui_1_1RotationData.html" title="A structure containing information about a rotation.">RotationData</a> and <a class="el" href="../../d6/d38/structOpMon_1_1Ui_1_1ScaleData.html" title="A structure containing information about a scaling.">ScaleData</a> in one formula.  </dd>
+<dt>Class <a class="el" href="../../d7/da3/structOpMon_1_1Ui_1_1RotationData.html">OpMon::Ui::RotationData</a>  </dt>
+<dd><a class="anchor" id="_todo000025"></a>Unify <a class="el" href="../../d9/df5/structOpMon_1_1Ui_1_1MovementData.html" title="A structure containing information about a translation.">MovementData</a>, <a class="el" href="../../d7/da3/structOpMon_1_1Ui_1_1RotationData.html" title="A structure containing information about a rotation.">RotationData</a> and <a class="el" href="../../d6/d38/structOpMon_1_1Ui_1_1ScaleData.html" title="A structure containing information about a scaling.">ScaleData</a> in one formula.  </dd>
+<dt>Class <a class="el" href="../../d6/d38/structOpMon_1_1Ui_1_1ScaleData.html">OpMon::Ui::ScaleData</a>  </dt>
+<dd><a class="anchor" id="_todo000026"></a>Unify <a class="el" href="../../d9/df5/structOpMon_1_1Ui_1_1MovementData.html" title="A structure containing information about a translation.">MovementData</a>, <a class="el" href="../../d7/da3/structOpMon_1_1Ui_1_1RotationData.html" title="A structure containing information about a rotation.">RotationData</a> and <a class="el" href="../../d6/d38/structOpMon_1_1Ui_1_1ScaleData.html" title="A structure containing information about a scaling.">ScaleData</a> in one formula.  </dd>
+<dt>Class <a class="el" href="../../d3/d74/classOpMon_1_1Ui_1_1Transformation.html">OpMon::Ui::Transformation</a>  </dt>
+<dd><a class="anchor" id="_todo000027"></a>Change the name of the <a class="elRef" href="https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Transform.php">sf::Transform</a> object.  </dd>
+<dt>Class <a class="el" href="../../de/d8e/classOpMon_1_1UiData.html">OpMon::UiData</a>  </dt>
+<dd><a class="anchor" id="_todo000001"></a>Rename in GameData  </dd>
 <dt>File <a class="el" href="../../d3/d60/Turn_8hpp.html">Turn.hpp</a>  </dt>
-<dd><p class="startdd"><a class="anchor" id="_todo000009"></a>Put this in one namespace. </p>
+<dd><p class="startdd"><a class="anchor" id="_todo000022"></a>Put this in one namespace. </p>
 <p class="enddd">Move this in view ?  </p>
 </dd>
 <dt>Namespace <a class="el" href="../../d9/dbf/namespaceUtils_1_1Log.html">Utils::Log</a>  </dt>
-<dd><a class="anchor" id="_todo000033"></a>Make it a class.  </dd>
-<dt>Namespace <a class="el" href="../../dd/deb/namespaceUtils_1_1StringKeys.html">Utils::StringKeys</a>  </dt>
-<dd><a class="anchor" id="_todo000034"></a>Make the namespace into a class.  </dd>
-<dt>Member <a class="el" href="../../dd/deb/namespaceUtils_1_1StringKeys.html#a5dfd0f5c7ba001ceeb93d51dcf992d5c">Utils::StringKeys::keys</a>  </dt>
+<dd><a class="anchor" id="_todo000028"></a>Make it a class.  </dd>
+<dt>Class <a class="el" href="../../db/d0d/classUtils_1_1OpString.html">Utils::OpString</a>  </dt>
+<dd><a class="anchor" id="_todo000029"></a>Rename for a clearer name and not OpMon-related.  </dd>
+<dt>Class <a class="el" href="../../d8/d7b/classUtils_1_1OptionsSave.html">Utils::OptionsSave</a>  </dt>
+<dd><p class="startdd"><a class="anchor" id="_todo000031"></a>Make this an instantiable class. </p>
+<p class="enddd">Save the parameters in JSON.  </p>
+</dd>
+<dt>Member <a class="el" href="../../d8/d7b/classUtils_1_1OptionsSave.html#a381ef78e8729c87bcf077bfa4d4172f2">Utils::OptionsSave::addOrModifParam</a>  (std::string const &amp;name, std::string const &amp;value)</dt>
+<dd><a class="anchor" id="_todo000033"></a>Change to addOrEditParam  </dd>
+<dt>Member <a class="el" href="../../d8/d7b/classUtils_1_1OptionsSave.html#a06624aa04659426e68593ae7ca8f643a">Utils::OptionsSave::paramList</a>  </dt>
+<dd><a class="anchor" id="_todo000032"></a>Change this to an std::list ?  </dd>
+<dt>Class <a class="el" href="../../d9/d82/classUtils_1_1StringKeys.html">Utils::StringKeys</a>  </dt>
+<dd><a class="anchor" id="_todo000034"></a>Make this into an instantiable class.  </dd>
+<dt>Member <a class="el" href="../../d9/d82/classUtils_1_1StringKeys.html#a5dfd0f5c7ba001ceeb93d51dcf992d5c">Utils::StringKeys::keys</a>  </dt>
 <dd><a class="anchor" id="_todo000035"></a>Replace it by one map.  </dd>
-<dt>Member <a class="el" href="../../dd/deb/namespaceUtils_1_1StringKeys.html#a63d8b030e400abd3dc4c187df1e6c6d9">Utils::StringKeys::strings</a>  </dt>
-<dd><a class="anchor" id="_todo000036"></a>Repace it by one map. </dd>
+<dt>Member <a class="el" href="../../d9/d82/classUtils_1_1StringKeys.html#a63d8b030e400abd3dc4c187df1e6c6d9">Utils::StringKeys::strings</a>  </dt>
+<dd><a class="anchor" id="_todo000036"></a>Replace it by one map. </dd>
 </dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

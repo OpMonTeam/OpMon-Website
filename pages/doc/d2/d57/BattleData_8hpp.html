@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>OpMon: /home/cyrielle/Bureau/OpMon/src/opmon/model/storage/BattleData.hpp File Reference</title>
+<title>OpMon: src/opmon/screens/battle/BattleData.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -85,73 +85,71 @@ $(document).ready(function(){initNavTree('d2/d57/BattleData_8hpp.html','../../')
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
 <div class="title">BattleData.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d3/d86/Player_8hpp_source.html">../sysObjects/Player.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/dd8/UiData_8hpp_source.html">UiData.hpp</a>&quot;</code><br />
-<code>#include &lt;SFML/Graphics/Texture.hpp&gt;</code><br />
-<code>#include &lt;list&gt;</code><br />
-<code>#include &lt;map&gt;</code><br />
-<code>#include &lt;string&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
+<div class="textblock"><code>#include &lt;list&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/d86/Player_8hpp_source.html">src/opmon/core/Player.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/dd8/UiData_8hpp_source.html">src/opmon/core/UiData.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for BattleData.hpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../db/d1b/BattleData_8hpp__incl.png" border="0" usemap="#_2home_2cyrielle_2Bureau_2OpMon_2src_2opmon_2model_2storage_2BattleData_8hpp" alt=""/></div>
-<map name="_2home_2cyrielle_2Bureau_2OpMon_2src_2opmon_2model_2storage_2BattleData_8hpp" id="_2home_2cyrielle_2Bureau_2OpMon_2src_2opmon_2model_2storage_2BattleData_8hpp">
-<area shape="rect" title=" " alt="" coords="1498,5,1687,61"/>
-<area shape="rect" href="../../d3/d86/Player_8hpp.html" title=" " alt="" coords="785,109,963,136"/>
-<area shape="rect" title=" " alt="" coords="389,423,452,449"/>
-<area shape="rect" title=" " alt="" coords="2099,497,2158,524"/>
-<area shape="rect" title=" " alt="" coords="1021,184,1071,211"/>
-<area shape="rect" href="../../d9/dd8/UiData_8hpp.html" title=" " alt="" coords="1545,109,1640,136"/>
-<area shape="rect" title=" " alt="" coords="2984,184,3183,211"/>
-<area shape="rect" title=" " alt="" coords="3471,109,3514,136"/>
-<area shape="rect" href="../../d5/d79/Item_8hpp.html" title=" " alt="" coords="803,184,945,211"/>
-<area shape="rect" href="../../d4/d1b/OpTeam_8hpp.html" title=" " alt="" coords="624,184,727,211"/>
-<area shape="rect" href="../../dc/d58/Position_8hpp.html" title=" " alt="" coords="1299,348,1401,375"/>
-<area shape="rect" title=" " alt="" coords="357,184,495,211"/>
-<area shape="rect" href="../../de/d0a/OpString_8hpp.html" title="A fillable string utility." alt="" coords="629,266,804,293"/>
-<area shape="rect" href="../../d7/d38/Core_8hpp.html" title="The program core functions." alt="" coords="1941,348,2079,375"/>
-<area shape="rect" href="../../d8/d99/OpMon_8hpp.html" title=" " alt="" coords="838,266,934,293"/>
-<area shape="rect" title=" " alt="" coords="1837,266,1914,293"/>
-<area shape="rect" title=" " alt="" coords="661,348,841,375"/>
-<area shape="rect" title=" " alt="" coords="739,423,819,449"/>
-<area shape="rect" href="../../db/df8/defines_8hpp.html" title=" " alt="" coords="1782,423,1937,449"/>
-<area shape="rect" href="../../db/da3/GameStatus_8hpp.html" title=" " alt="" coords="1961,423,2091,449"/>
-<area shape="rect" title=" " alt="" coords="1814,497,1905,524"/>
-<area shape="rect" href="../../d0/d0e/misc_8hpp.html" title=" " alt="" coords="82,348,231,375"/>
-<area shape="rect" href="../../d9/dcb/Nature_8hpp.html" title=" " alt="" coords="1128,348,1223,375"/>
-<area shape="rect" href="../../dd/d76/Species_8hpp.html" title=" " alt="" coords="1004,348,1104,375"/>
-<area shape="rect" title=" " alt="" coords="865,348,928,375"/>
-<area shape="rect" title=" " alt="" coords="122,423,191,449"/>
-<area shape="rect" title=" " alt="" coords="215,423,287,449"/>
-<area shape="rect" title=" " alt="" coords="5,423,97,449"/>
-<area shape="rect" href="../../dd/de2/Enums_8hpp.html" title=" " alt="" coords="1135,423,1229,449"/>
-<area shape="rect" href="../../da/d9e/CurveExp_8hpp.html" title=" " alt="" coords="998,423,1110,449"/>
-<area shape="rect" title=" " alt="" coords="1254,423,1446,449"/>
-<area shape="rect" href="../../d3/d37/Jukebox_8hpp.html" title=" " alt="" coords="2373,184,2533,211"/>
-<area shape="rect" title=" " alt="" coords="2989,266,3113,293"/>
-<area shape="rect" href="../../d0/de3/Window_8hpp.html" title=" " alt="" coords="1610,184,1770,211"/>
-<area shape="rect" href="../../d6/dfe/KeyData_8hpp.html" title=" " alt="" coords="2804,184,2909,211"/>
-<area shape="rect" title=" " alt="" coords="3189,266,3396,293"/>
-<area shape="rect" title=" " alt="" coords="1407,184,1586,211"/>
-<area shape="rect" href="../../da/d3a/ResourceLoader_8hpp.html" title=" " alt="" coords="2151,259,2343,300"/>
-<area shape="rect" title=" " alt="" coords="2797,266,2965,293"/>
-<area shape="rect" title=" " alt="" coords="2367,266,2538,293"/>
-<area shape="rect" title=" " alt="" coords="2562,266,2773,293"/>
-<area shape="rect" title=" " alt="" coords="2104,348,2231,375"/>
-<area shape="rect" title=" " alt="" coords="2255,348,2402,375"/>
-<area shape="rect" title=" " alt="" coords="2427,348,2500,375"/>
-<area shape="rect" title=" " alt="" coords="1299,266,1543,293"/>
-<area shape="rect" title=" " alt="" coords="1567,266,1813,293"/>
-<area shape="rect" title=" " alt="" coords="1939,266,2127,293"/>
+<div class="center"><img src="../../db/d1b/BattleData_8hpp__incl.png" border="0" usemap="#src_2opmon_2screens_2battle_2BattleData_8hpp" alt=""/></div>
+<map name="src_2opmon_2screens_2battle_2BattleData_8hpp" id="src_2opmon_2screens_2battle_2BattleData_8hpp">
+<area shape="rect" title=" " alt="" coords="590,5,777,47"/>
+<area shape="rect" title=" " alt="" coords="519,95,562,121"/>
+<area shape="rect" href="../../d3/d86/Player_8hpp.html" title=" " alt="" coords="586,95,781,121"/>
+<area shape="rect" href="../../d9/dd8/UiData_8hpp.html" title=" " alt="" coords="1252,95,1451,121"/>
+<area shape="rect" title=" " alt="" coords="777,169,915,196"/>
+<area shape="rect" title=" " alt="" coords="939,169,990,196"/>
+<area shape="rect" title=" " alt="" coords="505,169,590,196"/>
+<area shape="rect" href="../../d5/d79/Item_8hpp.html" title=" " alt="" coords="615,169,752,196"/>
+<area shape="rect" href="../../d4/d1b/OpTeam_8hpp.html" title=" " alt="" coords="321,169,481,196"/>
+<area shape="rect" href="../../dc/d58/Position_8hpp.html" title=" " alt="" coords="380,319,595,345"/>
+<area shape="rect" title=" " alt="" coords="1474,319,1551,345"/>
+<area shape="rect" href="../../d8/d99/OpMon_8hpp.html" title=" " alt="" coords="618,244,714,271"/>
+<area shape="rect" href="../../de/d0a/OpString_8hpp.html" title="A fillable string utility." alt="" coords="1027,319,1190,345"/>
+<area shape="rect" title=" " alt="" coords="875,393,1055,420"/>
+<area shape="rect" title=" " alt="" coords="789,319,852,345"/>
+<area shape="rect" href="../../d0/d0e/misc_8hpp.html" title=" " alt="" coords="188,319,325,345"/>
+<area shape="rect" href="../../d9/dcb/Nature_8hpp.html" title=" " alt="" coords="619,319,713,345"/>
+<area shape="rect" href="../../dd/d76/Species_8hpp.html" title=" " alt="" coords="876,319,976,345"/>
+<area shape="rect" title=" " alt="" coords="95,393,165,420"/>
+<area shape="rect" title=" " alt="" coords="189,393,261,420"/>
+<area shape="rect" title=" " alt="" coords="285,393,377,420"/>
+<area shape="rect" title=" " alt="" coords="5,393,71,420"/>
+<area shape="rect" title=" " alt="" coords="1079,393,1138,420"/>
+<area shape="rect" href="../../dd/de2/Enums_8hpp.html" title=" " alt="" coords="619,393,713,420"/>
+<area shape="rect" title=" " alt="" coords="1162,393,1242,420"/>
+<area shape="rect" title=" " alt="" coords="1267,393,1329,420"/>
+<area shape="rect" href="../../da/d9e/CurveExp_8hpp.html" title=" " alt="" coords="738,393,850,420"/>
+<area shape="rect" title=" " alt="" coords="402,393,594,420"/>
+<area shape="rect" title=" " alt="" coords="2746,169,2925,196"/>
+<area shape="rect" title=" " alt="" coords="1013,169,1212,196"/>
+<area shape="rect" title=" " alt="" coords="1286,169,1417,196"/>
+<area shape="rect" href="../../d3/d37/Jukebox_8hpp.html" title=" " alt="" coords="2052,169,2216,196"/>
+<area shape="rect" href="../../d0/de3/Window_8hpp.html" title=" " alt="" coords="1441,169,1605,196"/>
+<area shape="rect" href="../../d6/dfe/KeyData_8hpp.html" title=" " alt="" coords="2562,169,2722,196"/>
+<area shape="rect" title=" " alt="" coords="1642,244,1810,271"/>
+<area shape="rect" title=" " alt="" coords="1834,244,2005,271"/>
+<area shape="rect" title=" " alt="" coords="2029,244,2239,271"/>
+<area shape="rect" title=" " alt="" coords="2580,244,2704,271"/>
+<area shape="rect" title=" " alt="" coords="2263,244,2323,271"/>
+<area shape="rect" href="../../da/d3a/ResourceLoader_8hpp.html" title=" " alt="" coords="2347,244,2556,271"/>
+<area shape="rect" title=" " alt="" coords="2489,319,2616,345"/>
+<area shape="rect" title=" " alt="" coords="1834,319,1981,345"/>
+<area shape="rect" title=" " alt="" coords="2005,319,2076,345"/>
+<area shape="rect" title=" " alt="" coords="2100,319,2173,345"/>
+<area shape="rect" href="../../da/d49/exceptions_8hpp.html" title=" " alt="" coords="2197,319,2319,345"/>
+<area shape="rect" href="../../d4/d3d/log_8hpp.html" title=" " alt="" coords="2343,319,2413,345"/>
+<area shape="rect" title=" " alt="" coords="891,244,1135,271"/>
+<area shape="rect" title=" " alt="" coords="1159,244,1405,271"/>
+<area shape="rect" title=" " alt="" coords="1429,244,1617,271"/>
+<area shape="rect" title=" " alt="" coords="2780,244,2987,271"/>
 </map>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -159,11 +157,11 @@ $(document).ready(function(){initNavTree('d2/d57/BattleData_8hpp.html','../../')
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../d1/d92/BattleData_8hpp__dep__incl.png" border="0" usemap="#_2home_2cyrielle_2Bureau_2OpMon_2src_2opmon_2model_2storage_2BattleData_8hppdep" alt=""/></div>
-<map name="_2home_2cyrielle_2Bureau_2OpMon_2src_2opmon_2model_2storage_2BattleData_8hppdep" id="_2home_2cyrielle_2Bureau_2OpMon_2src_2opmon_2model_2storage_2BattleData_8hppdep">
-<area shape="rect" title=" " alt="" coords="16,5,205,61"/>
-<area shape="rect" href="../../dd/dca/BattleCtrl_8hpp.html" title=" " alt="" coords="5,213,216,269"/>
-<area shape="rect" href="../../d8/de7/Battle_8hpp.html" title=" " alt="" coords="85,109,264,165"/>
+<div class="center"><img src="../../d1/d92/BattleData_8hpp__dep__incl.png" border="0" usemap="#src_2opmon_2screens_2battle_2BattleData_8hppdep" alt=""/></div>
+<map name="src_2opmon_2screens_2battle_2BattleData_8hppdep" id="src_2opmon_2screens_2battle_2BattleData_8hppdep">
+<area shape="rect" title=" " alt="" coords="5,5,192,47"/>
+<area shape="rect" href="../../d8/de7/Battle_8hpp.html" title=" " alt="" coords="5,95,192,136"/>
+<area shape="rect" href="../../dd/dca/BattleCtrl_8hpp.html" title=" " alt="" coords="5,184,192,225"/>
 </map>
 </div>
 </div>
@@ -171,17 +169,8 @@ $(document).ready(function(){initNavTree('d2/d57/BattleData_8hpp.html','../../')
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d4e/classOpMon_1_1Model_1_1BattleData.html">OpMon::Model::BattleData</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains the data used by <a class="el" href="../../d6/d50/classOpMon_1_1View_1_1Battle.html" title="Class managing the battles on the screen.">View::Battle</a> and <a class="el" href="../../dc/dd0/classOpMon_1_1Controller_1_1BattleCtrl.html" title="Manages a battle.">Controller::BattleCtrl</a>.  <a href="../../d1/d4e/classOpMon_1_1Model_1_1BattleData.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:d6/de6/namespaceOpMon"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/namespaceOpMon.html">OpMon</a></td></tr>
-<tr class="memdesc:d6/de6/namespaceOpMon"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base namespace of the program. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d9/dd9/namespaceOpMon_1_1Model"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd9/namespaceOpMon_1_1Model.html">OpMon::Model</a></td></tr>
-<tr class="memdesc:d9/dd9/namespaceOpMon_1_1Model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains the model part of the game. <br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d52/classOpMon_1_1BattleData.html">OpMon::BattleData</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains the data used by View::Battle and Controller::BattleCtrl.  <a href="../../d1/d52/classOpMon_1_1BattleData.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -192,7 +181,7 @@ Namespaces</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_43e0a1f539e00dcfa1a6bc4d4fee4fc2.html">home</a></li><li class="navelem"><a class="el" href="../../dir_7e1e432be7d1bb66448c457c8892f186.html">cyrielle</a></li><li class="navelem"><a class="el" href="../../dir_541888d0fbb694331306c2df57f6f611.html">Bureau</a></li><li class="navelem"><a class="el" href="../../dir_77a20b1394476325f9c0364510b2168d.html">OpMon</a></li><li class="navelem"><a class="el" href="../../dir_819c0e4025601de6d5ada492afc37be0.html">src</a></li><li class="navelem"><a class="el" href="../../dir_a2240d2a659c77f798c9fe4175de63c6.html">opmon</a></li><li class="navelem"><a class="el" href="../../dir_421ad8762620f02a03fb6eec28998e28.html">model</a></li><li class="navelem"><a class="el" href="../../dir_0fa8e7d261e62767a093b2cdfdf5ff79.html">storage</a></li><li class="navelem"><a class="el" href="../../d2/d57/BattleData_8hpp.html">BattleData.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_3ebfba3f7ddc15d5b253a07827990f8c.html">opmon</a></li><li class="navelem"><a class="el" href="../../dir_e1e84dcf58266c150a03e5533a08eed1.html">screens</a></li><li class="navelem"><a class="el" href="../../dir_33f355b7075e19e9e7c6afee9be16f0a.html">battle</a></li><li class="navelem"><a class="el" href="../../d2/d57/BattleData_8hpp.html">BattleData.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.17 </li>

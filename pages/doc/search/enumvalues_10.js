@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['touch_3223',['TOUCH',['../d9/dd9/namespaceOpMon_1_1Model.html#a5dead49a444cbc0f5de7afee34101c14a2b40a1ea27beb450618885ec87f0ee15',1,'OpMon::Model']]]
+  ['up_3176',['UP',['../d6/d29/namespaceOpMon_1_1Animations.html#a6508c6e0fd31b596a6f5983c41982cddafbaedde498cdead4f2780217646e9ba1',1,'OpMon::Animations']]]
 ];

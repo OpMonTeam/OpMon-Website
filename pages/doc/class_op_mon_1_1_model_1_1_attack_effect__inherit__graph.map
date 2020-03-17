@@ -1,4 +1,0 @@
-<map id="OpMon::Model::AttackEffect" name="OpMon::Model::AttackEffect">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,209,32"/>
-<area shape="rect" id="node2" href="$class_op_mon_1_1_model_1_1_attacks_1_1_change_stat_effect.html" title="A generic effet to change an OpMon&#39;s statistic." alt="" coords="21,80,194,121"/>
-</map>

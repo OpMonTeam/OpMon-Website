@@ -1,9 +1,0 @@
-<map id="OpMon::View::Animations::WooshAnim" name="OpMon::View::Animations::WooshAnim">
-<area shape="rect" id="node1" title="A simple sliding transition." alt="" coords="34,276,225,317"/>
-<area shape="rect" id="node2" href="$d7/d8b/classOpMon_1_1View_1_1Animations_1_1Animation.html" title=" " alt="" coords="34,185,225,227"/>
-<area shape="rect" id="node3" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Texture.php.html" title=" " alt="" coords="31,81,121,108"/>
-<area shape="rect" id="node4" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1GlResource.php.html" title=" " alt="" coords="5,5,120,32"/>
-<area shape="rect" id="node5" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Sprite.php.html" title=" " alt="" coords="157,81,235,108"/>
-<area shape="rect" id="node6" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Drawable.php.html" title=" " alt="" coords="145,5,247,32"/>
-<area shape="rect" id="node7" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Transformable.php.html" title=" " alt="" coords="271,5,406,32"/>
-</map>

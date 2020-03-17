@@ -1,0 +1,11 @@
+<map id="OpMon::Elements::Event" name="OpMon::Elements::Event">
+<area shape="rect" id="node1" title="Defines an event." alt="" coords="5,111,188,138"/>
+<area shape="rect" id="node2" href="$d3/d21/classOpMon_1_1Elements_1_1Events_1_1CharacterEvent.html" title="Defines a npc." alt="" coords="236,5,425,47"/>
+<area shape="rect" id="node5" href="$d3/d44/classOpMon_1_1Elements_1_1Events_1_1TalkingEvent.html" title="An event starting a dialog." alt="" coords="236,71,425,112"/>
+<area shape="rect" id="node7" href="$dd/db5/classOpMon_1_1Elements_1_1Events_1_1TPEvent.html" title="Defines an event that teleports the player." alt="" coords="236,136,425,177"/>
+<area shape="rect" id="node9" href="$de/dd5/classOpMon_1_1Elements_1_1Events_1_1TrainerEyesightEvent.html" title="Work in progress class." alt="" coords="236,201,425,243"/>
+<area shape="rect" id="node3" href="$db/d93/classOpMon_1_1Elements_1_1Events_1_1TalkingCharaEvent.html" title="An npc that talks." alt="" coords="473,11,663,52"/>
+<area shape="rect" id="node4" href="$d1/d6b/classOpMon_1_1Elements_1_1Events_1_1TrainerEvent.html" title="A trainer." alt="" coords="711,11,900,52"/>
+<area shape="rect" id="node6" href="$d6/d06/classOpMon_1_1Elements_1_1Events_1_1LockedDoorEvent.html" title="A locked door (unimplemented yet)." alt="" coords="711,101,900,143"/>
+<area shape="rect" id="node8" href="$de/df3/classOpMon_1_1Elements_1_1Events_1_1DoorEvent.html" title="An TPEvent doing an animation when the player enters it." alt="" coords="473,133,663,175"/>
+</map>
