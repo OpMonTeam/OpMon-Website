@@ -1,4 +1,0 @@
-<map id="OpMon::AnimationCtrl" name="OpMon::AnimationCtrl">
-<area shape="rect" id="node1" title="A special game screen able to call any type of animation." alt="" coords="6,80,173,107"/>
-<area shape="rect" id="node2" href="$d1/d1f/classOpMon_1_1AGameScreen.html" title="Interface of all first&#45;level controllers." alt="" coords="5,5,173,32"/>
-</map>

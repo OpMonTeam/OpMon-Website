@@ -1,0 +1,13 @@
+<map id="OpMon::Elements::TPEvent" name="OpMon::Elements::TPEvent">
+<area shape="rect" id="node1" title="An event that teleports the player." alt="" coords="1041,199,1240,225"/>
+<area shape="rect" id="node2" href="$classOpMon_1_1Elements_1_1AbstractEvent.html" title="The base class of all events." alt="" coords="761,162,960,203"/>
+<area shape="rect" id="node3" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Sprite.php.html" title=" " alt="" coords="477,56,555,83"/>
+<area shape="rect" id="node4" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Drawable.php.html" title=" " alt="" coords="185,5,288,32"/>
+<area shape="rect" id="node5" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Transformable.php.html" title=" " alt="" coords="169,56,304,83"/>
+<area shape="rect" id="node6" title=" " alt="" coords="422,107,610,133"/>
+<area shape="rect" id="node7" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Texture.php.html" title=" " alt="" coords="192,107,281,133"/>
+<area shape="rect" id="node8" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1GlResource.php.html" title=" " alt="" coords="5,107,120,133"/>
+<area shape="rect" id="node9" href="$classOpMon_1_1Elements_1_1Position.html" title="Class managing the position of an entity (player or event) and it&#39;s movement." alt="" coords="417,196,615,223"/>
+<area shape="rect" id="node10" title="STL class." alt="" coords="817,228,904,255"/>
+<area shape="rect" id="node11" title="STL class." alt="" coords="447,247,585,289"/>
+</map>

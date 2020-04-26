@@ -1,0 +1,4 @@
+<map id="OpMon::Elements::AnimationEvent" name="OpMon::Elements::AnimationEvent">
+<area shape="rect" id="node1" title="An event that animates itself when triggered." alt="" coords="5,95,217,136"/>
+<area shape="rect" id="node2" href="$classOpMon_1_1Elements_1_1AbstractEvent.html" title="The base class of all events." alt="" coords="12,5,211,47"/>
+</map>

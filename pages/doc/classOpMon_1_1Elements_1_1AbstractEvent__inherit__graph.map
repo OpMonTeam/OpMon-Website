@@ -1,0 +1,14 @@
+<map id="OpMon::Elements::AbstractEvent" name="OpMon::Elements::AbstractEvent">
+<area shape="rect" id="node1" title="The base class of all events." alt="" coords="5,243,204,285"/>
+<area shape="rect" id="node2" href="$classOpMon_1_1Elements_1_1AbstractMetaEvent.html" title="An event that contains a queue of events." alt="" coords="265,61,463,102"/>
+<area shape="rect" id="node7" href="$classOpMon_1_1Elements_1_1AnimationEvent.html" title="An event that animates itself when triggered." alt="" coords="258,126,470,167"/>
+<area shape="rect" id="node8" href="$classOpMon_1_1Elements_1_1BattleEvent.html" title="An event that launches a battle." alt="" coords="253,192,475,219"/>
+<area shape="rect" id="node9" href="$classOpMon_1_1Elements_1_1CharacterEvent.html" title="A NPC that just walks through the map." alt="" coords="260,243,468,285"/>
+<area shape="rect" id="node10" href="$classOpMon_1_1Elements_1_1DialogEvent.html" title="An event that shows a dialog." alt="" coords="252,309,476,336"/>
+<area shape="rect" id="node11" href="$classOpMon_1_1Elements_1_1SoundEvent.html" title="An event that plays a sound or a music when triggered." alt="" coords="253,360,475,387"/>
+<area shape="rect" id="node12" href="$classOpMon_1_1Elements_1_1TPEvent.html" title="An event that teleports the player." alt="" coords="265,411,463,437"/>
+<area shape="rect" id="node3" href="$classOpMon_1_1Elements_1_1LinearMetaEvent.html" title="A meta event that calls one group of events after the other." alt="" coords="524,27,743,69"/>
+<area shape="rect" id="node6" href="$classOpMon_1_1Elements_1_1TrainerEvent.html" title="A trainer." alt="" coords="538,93,729,134"/>
+<area shape="rect" id="node4" href="$classOpMon_1_1Elements_1_1DoorEvent.html" title="An shortcut for an door event." alt="" coords="791,5,1004,32"/>
+<area shape="rect" id="node5" href="$classOpMon_1_1Elements_1_1TalkingCharaEvent.html" title="A talking NPC." alt="" coords="802,57,993,98"/>
+</map>

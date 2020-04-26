@@ -1,0 +1,4 @@
+<map id="OpMon::Attacks::ChangeStatEffect" name="OpMon::Attacks::ChangeStatEffect">
+<area shape="rect" id="node1" title="A generic effet to change an OpMon&#39;s statistic." alt="" coords="5,80,213,121"/>
+<area shape="rect" id="node2" href="$classOpMon_1_1AttackEffect.html" title="This class is virtual and one has to be created for each attack effect." alt="" coords="31,5,187,32"/>
+</map>

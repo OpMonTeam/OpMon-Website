@@ -1,0 +1,25 @@
+var classOpMon_1_1StartScene =
+[
+    [ "StartScene", "classOpMon_1_1StartScene.html#a5c885d7283473bc6733bf6b8761dc3f9", null ],
+    [ "~StartScene", "classOpMon_1_1StartScene.html#a8ec035dac7b0ac07e924fec122f9ba49", null ],
+    [ "delLoop1", "classOpMon_1_1StartScene.html#a3372bbbc40bff89affa8e7ca3cc7c1d0", null ],
+    [ "draw", "classOpMon_1_1StartScene.html#ac01174a4ba559580d1433e216e7fb062", null ],
+    [ "getDialog", "classOpMon_1_1StartScene.html#a7ee4d6a5f8ef8463ac1fa826d9afa985", null ],
+    [ "getPart", "classOpMon_1_1StartScene.html#ae02be1e0b7b11aeae27370ddabf50ee5", null ],
+    [ "getpName", "classOpMon_1_1StartScene.html#aa1d6b76ddb78499977b006bedf28c97e", null ],
+    [ "initStrings", "classOpMon_1_1StartScene.html#a8d869bb0fd9a8fe63abf7decd639a72c", null ],
+    [ "onLangChanged", "classOpMon_1_1StartScene.html#a49e0d0a8526f8cb3a4aa2efca6333fcd", null ],
+    [ "pause", "classOpMon_1_1StartScene.html#a579a122feb229f7efc1ec60752f7d6e3", null ],
+    [ "play", "classOpMon_1_1StartScene.html#a6ee8651ffc22590861a3e43995844df4", null ],
+    [ "update", "classOpMon_1_1StartScene.html#a521354c103e07d4fe3bff782dfab8aab", null ],
+    [ "bg", "classOpMon_1_1StartScene.html#a794c259fd8d63a8cc6871a64ee247074", null ],
+    [ "bgName", "classOpMon_1_1StartScene.html#aca3952189735b287bcf6d923a989fba3", null ],
+    [ "data", "classOpMon_1_1StartScene.html#a3e49edfc05d6c150fcc805eaa178d789", null ],
+    [ "dialog", "classOpMon_1_1StartScene.html#a420b6c51445c487b28d42627c68e98e3", null ],
+    [ "nameField", "classOpMon_1_1StartScene.html#aea6329172b57c32195bf3d7d6c6991e6", null ],
+    [ "part", "classOpMon_1_1StartScene.html#a9b316263a18ae5146ed70b1df5e167c3", null ],
+    [ "pName", "classOpMon_1_1StartScene.html#a3b5bed0406e9c78c7e3af7001c1cc12d", null ],
+    [ "prof", "classOpMon_1_1StartScene.html#a68b950138930dd5a735c6483bb3fe805", null ],
+    [ "textDesc", "classOpMon_1_1StartScene.html#a20173cbe4d1ae4cc212c21bcf5516cf7", null ],
+    [ "txtP1", "classOpMon_1_1StartScene.html#a9f10eff0995ea9f091b7e6f8c6ce7711", null ]
+];

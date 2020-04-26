@@ -1,0 +1,5 @@
+<map id="Utils::NullptrException" name="Utils::NullptrException">
+<area shape="rect" id="node1" title="Exception thrown when a pointer unexpectedly have the value nullptr." alt="" coords="5,155,173,181"/>
+<area shape="rect" id="node2" href="$classUtils_1_1Exception.html" title="Base class for exceptions containing some data." alt="" coords="27,80,151,107"/>
+<area shape="rect" id="node3" title="STL class." alt="" coords="32,5,147,32"/>
+</map>

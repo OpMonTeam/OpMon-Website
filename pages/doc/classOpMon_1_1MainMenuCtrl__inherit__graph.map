@@ -1,0 +1,4 @@
+<map id="OpMon::MainMenuCtrl" name="OpMon::MainMenuCtrl">
+<area shape="rect" id="node1" title="Manages the main menu of the game." alt="" coords="6,80,173,107"/>
+<area shape="rect" id="node2" href="$classOpMon_1_1AGameScreen.html" title="Interface of all first&#45;level controllers." alt="" coords="5,5,173,32"/>
+</map>

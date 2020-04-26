@@ -23,16 +23,16 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "OpMon", "index.html", [
-    [ "readme", "db/d0e/md_src_opmon_core_readme.html", null ],
-    [ "readme", "d2/d8f/md_src_utils_readme.html", null ],
-    [ "Todo List", "dd/da0/todo.html", null ],
-    [ "Deprecated List", "da/d58/deprecated.html", null ],
+    [ "readme", "md_src_opmon_core_readme.html", null ],
+    [ "readme", "md_src_utils_readme.html", null ],
+    [ "Todo List", "todo.html", null ],
+    [ "Deprecated List", "deprecated.html", null ],
+    [ "Modules", "modules.html", "modules" ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", null ],
         [ "Functions", "namespacemembers_func.html", null ],
-        [ "Variables", "namespacemembers_vars.html", null ],
         [ "Enumerations", "namespacemembers_enum.html", null ]
       ] ]
     ] ],
@@ -60,12 +60,12 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"d3/d0e/classOpMon_1_1Battle.html#a35ef140beab4c7f1082c2c7484a23c7a",
-"d6/d29/namespaceOpMon_1_1Animations.html",
-"d9/dc1/classUtils_1_1CycleCounter.html#a3cdac41df4c186d8f6165add1fee379d",
-"db/da3/GameStatus_8hpp.html#a8d5824ffd8ecab8bfe042ef611839a18a2f453cfe638e57e27bb0c9512436111e",
-"dd/d9f/classOpMon_1_1OpMon.html#a76f243e653b0431f426ddd5ad3fd7f09",
-"de/d8e/classOpMon_1_1UiData.html#af4b223c10d1d5fec2df783e852350f76"
+"classOpMon_1_1AGameScreen.html",
+"classOpMon_1_1Elements_1_1AbstractEvent.html#a9ec4f64ca9259b3cfea2d7cc24331b14",
+"classOpMon_1_1Item.html#a3d0b35c164f165c32364939eafd7f194",
+"classOpMon_1_1OptionsMenuCtrl.html#ad7234412169a9b2644420244fa596ed6",
+"classOpMon_1_1StartSceneCtrl.html#addaff6dc3b4bf5629f4e68cbd9663dc9",
+"classUtils_1_1UnexpectedValueException.html#abac4643b0f132df09429123f4a79d3ab"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

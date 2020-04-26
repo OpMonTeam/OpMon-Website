@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['system_20module_3189',['System module',['https://www.sfml-dev.org/documentation/2.5.1/group__system.php.html',1,'']]]
+  ['network_20module_3231',['Network module',['https://www.sfml-dev.org/documentation/2.5.1/group__network.php.html',1,'']]]
 ];

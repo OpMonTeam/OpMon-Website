@@ -1,0 +1,12 @@
+<map id="OpMon::Elements::CharacterEvent" name="OpMon::Elements::CharacterEvent">
+<area shape="rect" id="node1" title="A NPC that just walks through the map." alt="" coords="341,379,549,420"/>
+<area shape="rect" id="node2" href="$classOpMon_1_1Elements_1_1AbstractEvent.html" title="The base class of all events." alt="" coords="247,275,445,316"/>
+<area shape="rect" id="node3" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Sprite.php.html" title=" " alt="" coords="149,171,228,197"/>
+<area shape="rect" id="node4" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Drawable.php.html" title=" " alt="" coords="5,81,108,108"/>
+<area shape="rect" id="node5" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Transformable.php.html" title=" " alt="" coords="132,81,267,108"/>
+<area shape="rect" id="node6" title=" " alt="" coords="252,171,440,197"/>
+<area shape="rect" id="node7" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Texture.php.html" title=" " alt="" coords="301,81,391,108"/>
+<area shape="rect" id="node8" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1GlResource.php.html" title=" " alt="" coords="289,5,403,32"/>
+<area shape="rect" id="node9" href="$classOpMon_1_1Elements_1_1Position.html" title="Class managing the position of an entity (player or event) and it&#39;s movement." alt="" coords="465,171,662,197"/>
+<area shape="rect" id="node10" title=" " alt="" coords="469,282,618,309"/>
+</map>

@@ -1,8 +1,0 @@
-<map id="OpMon::Elements::Events::LockedDoorEvent" name="OpMon::Elements::Events::LockedDoorEvent">
-<area shape="rect" id="node1" title="A locked door (unimplemented yet)." alt="" coords="111,259,300,300"/>
-<area shape="rect" id="node2" href="$de/df3/classOpMon_1_1Elements_1_1Events_1_1DoorEvent.html" title="An TPEvent doing an animation when the player enters it." alt="" coords="45,169,235,211"/>
-<area shape="rect" id="node3" href="$dd/db5/classOpMon_1_1Elements_1_1Events_1_1TPEvent.html" title="Defines an event that teleports the player." alt="" coords="5,80,195,121"/>
-<area shape="rect" id="node4" href="$d7/dda/classOpMon_1_1Elements_1_1Event.html" title="Defines an event." alt="" coords="11,5,194,32"/>
-<area shape="rect" id="node5" href="$d3/d44/classOpMon_1_1Elements_1_1Events_1_1TalkingEvent.html" title="An event starting a dialog." alt="" coords="219,80,408,121"/>
-<area shape="rect" id="node6" href="$d8/d97/classUtils_1_1I18n_1_1ATranslatable.html" title="Base class for any element requiring to reload when the lang changes." alt="" coords="221,5,406,32"/>
-</map>

@@ -1,3 +1,31 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$dc/d2b/classOpMon_1_1Ui_1_1Window.html" title="Manages and stores the objects related to the game window." alt="" coords="5,5,156,32"/>
+<area shape="rect" id="node1" href="$classOpMon_1_1Elements_1_1AbstractEvent.html" title="The base class of all events." alt="" coords="5,173,204,215"/>
+<area shape="rect" id="node2" href="$classOpMon_1_1Elements_1_1AbstractMetaEvent.html" title="An event that contains a queue of events." alt="" coords="265,173,463,215"/>
+<area shape="rect" id="node7" href="$classOpMon_1_1Elements_1_1AnimationEvent.html" title="An event that animates itself when triggered." alt="" coords="258,239,470,280"/>
+<area shape="rect" id="node8" href="$classOpMon_1_1Elements_1_1BattleEvent.html" title="An event that launches a battle." alt="" coords="253,305,475,331"/>
+<area shape="rect" id="node9" href="$classOpMon_1_1Elements_1_1CharacterEvent.html" title="A NPC that just walks through the map." alt="" coords="260,5,468,47"/>
+<area shape="rect" id="node10" href="$classOpMon_1_1Elements_1_1DialogEvent.html" title="An event that shows a dialog." alt="" coords="252,355,476,382"/>
+<area shape="rect" id="node11" href="$classOpMon_1_1Elements_1_1SoundEvent.html" title="An event that plays a sound or a music when triggered." alt="" coords="253,71,475,98"/>
+<area shape="rect" id="node12" href="$classOpMon_1_1Elements_1_1TPEvent.html" title="An event that teleports the player." alt="" coords="265,122,463,149"/>
+<area shape="rect" id="node3" href="$classOpMon_1_1Elements_1_1LinearMetaEvent.html" title="A meta event that calls one group of events after the other." alt="" coords="524,141,743,183"/>
+<area shape="rect" id="node6" href="$classOpMon_1_1Elements_1_1TrainerEvent.html" title="A trainer." alt="" coords="538,207,729,248"/>
+<area shape="rect" id="node4" href="$classOpMon_1_1Elements_1_1DoorEvent.html" title="An shortcut for an door event." alt="" coords="791,119,1004,146"/>
+<area shape="rect" id="node5" href="$classOpMon_1_1Elements_1_1TalkingCharaEvent.html" title="A talking NPC." alt="" coords="802,171,993,212"/>
+<area shape="rect" id="node13" href="$classUtils_1_1I18n_1_1ATranslatable.html" title="Base class for any element requiring to reload when the lang changes." alt="" coords="12,482,197,509"/>
+<area shape="rect" id="node14" href="$classOpMon_1_1Attack.html" title="Describes an attack." alt="" coords="305,457,423,483"/>
+<area shape="rect" id="node15" href="$classOpMon_1_1Item.html" title=" " alt="" coords="311,406,417,433"/>
+<area shape="rect" id="node16" href="$classOpMon_1_1MainMenu.html" title="The view printing the main menu showing at the start of the game." alt="" coords="292,507,436,534"/>
+<area shape="rect" id="node17" href="$classOpMon_1_1OptionsMenu.html" title="The screen of the settings." alt="" coords="283,558,445,585"/>
+<area shape="rect" id="node18" href="$classOpMon_1_1StartScene.html" title="View managing the introduction scene." alt="" coords="291,609,437,635"/>
+<area shape="rect" id="node19" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Drawable.php.html" title=" " alt="" coords="53,735,156,762"/>
+<area shape="rect" id="node20" href="$classOpMon_1_1Animations_1_1Animation.html" title=" " alt="" coords="285,812,443,853"/>
+<area shape="rect" id="node23" href="$classOpMon_1_1Battle.html" title="Class managing the battles on the screen." alt="" coords="307,878,421,905"/>
+<area shape="rect" id="node24" href="$classOpMon_1_1GameMenu.html" title="View printing the in&#45;game menu." alt="" coords="289,929,439,955"/>
+<area shape="rect" id="node25" href="$classOpMon_1_1Overworld.html" title="The overworld." alt="" coords="293,659,435,686"/>
+<area shape="rect" id="node26" href="$classOpMon_1_1TextBox.html" title="A class used to draw a UI box that can contain text or other elements." alt="" coords="300,710,428,737"/>
+<area shape="rect" id="node27" href="$classOpMon_1_1Ui_1_1Dialog.html" title=" " alt="" coords="294,761,434,787"/>
+<area shape="rect" id="node28" href="$classOpMon_1_1Ui_1_1MapLayer.html" title="A map layer." alt="" coords="283,979,445,1006"/>
+<area shape="rect" id="node21" href="$classOpMon_1_1Animations_1_1WinAnim.html" title="Animation played as a transition between the professor&#39;s dialog and the name input screen." alt="" coords="554,780,713,821"/>
+<area shape="rect" id="node22" href="$classOpMon_1_1Animations_1_1WooshAnim.html" title="A simple sliding transition." alt="" coords="554,845,713,887"/>
+<area shape="rect" id="node29" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Transformable.php.html" title=" " alt="" coords="37,979,172,1006"/>
 </map>

@@ -1,8 +1,0 @@
-<map id="OpMon::Ui::Transformation" name="OpMon::Ui::Transformation">
-<area shape="rect" id="node1" title="Transformation class uses sf::Transform to create animations following parametric formulas." alt="" coords="324,199,521,225"/>
-<area shape="rect" id="node2" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Transform.php.html" title=" " alt="" coords="5,109,112,136"/>
-<area shape="rect" id="node3" href="$d9/df5/structOpMon_1_1Ui_1_1MovementData.html" title="A structure containing information about a translation." alt="" coords="215,109,414,136"/>
-<area shape="rect" id="node4" title=" " alt="" coords="448,5,613,32"/>
-<area shape="rect" id="node5" href="$d7/da3/structOpMon_1_1Ui_1_1RotationData.html" title="A structure containing information about a rotation." alt="" coords="439,109,623,136"/>
-<area shape="rect" id="node6" href="$d6/d38/structOpMon_1_1Ui_1_1ScaleData.html" title="A structure containing information about a scaling." alt="" coords="647,109,811,136"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="OpMon::Evolutions::E_Level" name="OpMon::Evolutions::E_Level">
-<area shape="rect" id="node1" title=" " alt="" coords="5,200,157,241"/>
-<area shape="rect" id="node2" href="$db/d10/classOpMon_1_1Evolution.html" title="Defines an evolution type." alt="" coords="57,96,194,123"/>
-<area shape="rect" id="node3" href="$dc/d7a/classOpMon_1_1Species.html" title="Defines a species of OpMon." alt="" coords="247,207,374,234"/>
-<area shape="rect" id="node4" href="$d5/d79/classOpMon_1_1CurveExp.html" title="Defines the function used for the experience curves." alt="" coords="229,96,368,123"/>
-<area shape="rect" id="node5" title="STL class." alt="" coords="393,96,479,123"/>
-<area shape="rect" id="node6" title="STL class." alt="" coords="367,5,505,47"/>
-<area shape="rect" id="node7" title=" " alt="" coords="504,96,659,123"/>
-</map>

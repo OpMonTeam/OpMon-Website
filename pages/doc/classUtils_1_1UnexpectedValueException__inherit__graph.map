@@ -1,0 +1,5 @@
+<map id="Utils::UnexpectedValueException" name="Utils::UnexpectedValueException">
+<area shape="rect" id="node1" title="Exception thrown when a variable have an unexpected value that can&#39;t be handled." alt="" coords="5,155,244,181"/>
+<area shape="rect" id="node2" href="$classUtils_1_1Exception.html" title="Base class for exceptions containing some data." alt="" coords="63,80,187,107"/>
+<area shape="rect" id="node3" title="STL class." alt="" coords="67,5,182,32"/>
+</map>

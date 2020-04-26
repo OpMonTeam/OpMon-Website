@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['quickstring_2268',['quickString',['../db/d0d/classUtils_1_1OpString.html#a7ad2e0361065d4981a655062a149ffb8',1,'Utils::OpString']]]
+  ['quickstring_2301',['quickString',['../classUtils_1_1OpString.html#aefa05d991803600d955a58ad890fd43a',1,'Utils::OpString']]]
 ];

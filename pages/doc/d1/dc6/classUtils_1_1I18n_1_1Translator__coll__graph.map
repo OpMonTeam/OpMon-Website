@@ -1,8 +1,0 @@
-<map id="Utils::I18n::Translator" name="Utils::I18n::Translator">
-<area shape="rect" id="node1" title="Class in charge of the lang setting. It load (and reload) language file." alt="" coords="831,65,992,92"/>
-<area shape="rect" id="node2" title=" " alt="" coords="525,51,678,107"/>
-<area shape="rect" id="node3" title="STL class." alt="" coords="243,15,329,41"/>
-<area shape="rect" id="node4" title="STL class." alt="" coords="5,7,144,49"/>
-<area shape="rect" id="node5" title=" " alt="" coords="488,131,715,173"/>
-<area shape="rect" id="node6" href="$d8/d97/classUtils_1_1I18n_1_1ATranslatable.html" title="Base class for any element requiring to reload when the lang changes." alt="" coords="193,139,379,165"/>
-</map>
