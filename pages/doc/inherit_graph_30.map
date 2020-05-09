@@ -12,9 +12,9 @@
 <area shape="rect" id="node4" href="$classOpMon_1_1Elements_1_1DoorEvent.html" title="An shortcut for an door event." alt="" coords="791,119,1004,146"/>
 <area shape="rect" id="node5" href="$classOpMon_1_1Elements_1_1TalkingCharaEvent.html" title="A talking NPC." alt="" coords="802,171,993,212"/>
 <area shape="rect" id="node13" href="$classUtils_1_1I18n_1_1ATranslatable.html" title="Base class for any element requiring to reload when the lang changes." alt="" coords="12,482,197,509"/>
-<area shape="rect" id="node14" href="$classOpMon_1_1Attack.html" title="Describes an attack." alt="" coords="305,457,423,483"/>
-<area shape="rect" id="node15" href="$classOpMon_1_1Item.html" title=" " alt="" coords="311,406,417,433"/>
-<area shape="rect" id="node16" href="$classOpMon_1_1MainMenu.html" title="The view printing the main menu showing at the start of the game." alt="" coords="292,507,436,534"/>
+<area shape="rect" id="node14" href="$classOpMon_1_1Item.html" title=" " alt="" coords="311,457,417,483"/>
+<area shape="rect" id="node15" href="$classOpMon_1_1MainMenu.html" title="The view printing the main menu showing at the start of the game." alt="" coords="292,507,436,534"/>
+<area shape="rect" id="node16" href="$classOpMon_1_1Move.html" title="Describes an move." alt="" coords="308,406,420,433"/>
 <area shape="rect" id="node17" href="$classOpMon_1_1OptionsMenu.html" title="The screen of the settings." alt="" coords="283,558,445,585"/>
 <area shape="rect" id="node18" href="$classOpMon_1_1StartScene.html" title="View managing the introduction scene." alt="" coords="291,609,437,635"/>
 <area shape="rect" id="node19" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Drawable.php.html" title=" " alt="" coords="53,735,156,762"/>

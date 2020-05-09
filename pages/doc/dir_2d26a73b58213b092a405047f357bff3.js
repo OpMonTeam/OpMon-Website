@@ -1,9 +1,5 @@
 var dir_2d26a73b58213b092a405047f357bff3 =
 [
-    [ "Attack.hpp", "Attack_8hpp.html", "Attack_8hpp" ],
-    [ "Attacks.hpp", "Attacks_8hpp.html", [
-      [ "ChangeStatEffect", "classOpMon_1_1Attacks_1_1ChangeStatEffect.html", "classOpMon_1_1Attacks_1_1ChangeStatEffect" ]
-    ] ],
     [ "CurveExp.hpp", "CurveExp_8hpp.html", [
       [ "CurveExp", "classOpMon_1_1CurveExp.html", "classOpMon_1_1CurveExp" ],
       [ "CurveExpErratic", "classOpMon_1_1CurveExpErratic.html", "classOpMon_1_1CurveExpErratic" ],
@@ -22,6 +18,10 @@ var dir_2d26a73b58213b092a405047f357bff3 =
       [ "E_Level", "classOpMon_1_1Evolutions_1_1E__Level.html", "classOpMon_1_1Evolutions_1_1E__Level" ]
     ] ],
     [ "Item.hpp", "Item_8hpp.html", "Item_8hpp" ],
+    [ "Move.hpp", "Move_8hpp.html", "Move_8hpp" ],
+    [ "Moves.hpp", "Moves_8hpp.html", [
+      [ "ChangeStatEffect", "classOpMon_1_1Moves_1_1ChangeStatEffect.html", "classOpMon_1_1Moves_1_1ChangeStatEffect" ]
+    ] ],
     [ "Nature.hpp", "Nature_8hpp.html", "Nature_8hpp" ],
     [ "OpMon.hpp", "OpMon_8hpp.html", [
       [ "OpMon", "classOpMon_1_1OpMon.html", "classOpMon_1_1OpMon" ]

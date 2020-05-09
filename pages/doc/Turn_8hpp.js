@@ -27,7 +27,7 @@ var Turn_8hpp =
       [ "NEXT", "Turn_8hpp.html#a9a1c53bb369aee7fe1dd9a93a5857084a47559fb833ff58321570e5e877b467f6", null ]
     ] ],
     [ "TurnType", "Turn_8hpp.html#aa08b8771fe8e16cc38377e9a45eacc07", [
-      [ "ATTACK", "Turn_8hpp.html#aa08b8771fe8e16cc38377e9a45eacc07ac6ddd0f72ff2fd344693b9ca8d483871", null ],
+      [ "MOVE", "Turn_8hpp.html#aa08b8771fe8e16cc38377e9a45eacc07af7f93635f8e193a924ae4a691bb66b8f", null ],
       [ "ITEM", "Turn_8hpp.html#aa08b8771fe8e16cc38377e9a45eacc07a2b911c015ed17a423c74ab9987330e60", null ],
       [ "RUN", "Turn_8hpp.html#aa08b8771fe8e16cc38377e9a45eacc07a855520d2a5b0b1a64b939e7e30889e2a", null ],
       [ "CHANGE", "Turn_8hpp.html#aa08b8771fe8e16cc38377e9a45eacc07a421cfd143e450c3f5814a0495409e073", null ]

@@ -25,16 +25,12 @@ var hierarchy =
       [ "OpMon::StartSceneCtrl", "classOpMon_1_1StartSceneCtrl.html", null ]
     ] ],
     [ "Utils::I18n::ATranslatable", "classUtils_1_1I18n_1_1ATranslatable.html", [
-      [ "OpMon::Attack", "classOpMon_1_1Attack.html", null ],
       [ "OpMon::Elements::DialogEvent", "classOpMon_1_1Elements_1_1DialogEvent.html", null ],
       [ "OpMon::Item", "classOpMon_1_1Item.html", null ],
       [ "OpMon::MainMenu", "classOpMon_1_1MainMenu.html", null ],
+      [ "OpMon::Move", "classOpMon_1_1Move.html", null ],
       [ "OpMon::OptionsMenu", "classOpMon_1_1OptionsMenu.html", null ],
       [ "OpMon::StartScene", "classOpMon_1_1StartScene.html", null ]
-    ] ],
-    [ "OpMon::AttackData", "structOpMon_1_1AttackData.html", null ],
-    [ "OpMon::AttackEffect", "classOpMon_1_1AttackEffect.html", [
-      [ "OpMon::Attacks::ChangeStatEffect", "classOpMon_1_1Attacks_1_1ChangeStatEffect.html", null ]
     ] ],
     [ "OpMon::BattleData", "classOpMon_1_1BattleData.html", null ],
     [ "OpMon::CurveExp", "classOpMon_1_1CurveExp.html", [
@@ -46,7 +42,7 @@ var hierarchy =
       [ "OpMon::CurveExpSlow", "classOpMon_1_1CurveExpSlow.html", null ]
     ] ],
     [ "Utils::CycleCounter", "classUtils_1_1CycleCounter.html", null ],
-    [ "sf::Drawable", "https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Drawable.php.html", [
+    [ "sf::Drawable", "https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Drawable.php", [
       [ "OpMon::Animations::Animation", "classOpMon_1_1Animations_1_1Animation.html", [
         [ "OpMon::Animations::WinAnim", "classOpMon_1_1Animations_1_1WinAnim.html", null ],
         [ "OpMon::Animations::WooshAnim", "classOpMon_1_1Animations_1_1WooshAnim.html", null ]
@@ -82,6 +78,10 @@ var hierarchy =
     [ "Utils::KeyData", "structUtils_1_1KeyData.html", null ],
     [ "OpMon::MainMenuData", "classOpMon_1_1MainMenuData.html", null ],
     [ "OpMon::Elements::Map", "classOpMon_1_1Elements_1_1Map.html", null ],
+    [ "OpMon::MoveData", "structOpMon_1_1MoveData.html", null ],
+    [ "OpMon::MoveEffect", "classOpMon_1_1MoveEffect.html", [
+      [ "OpMon::Moves::ChangeStatEffect", "classOpMon_1_1Moves_1_1ChangeStatEffect.html", null ]
+    ] ],
     [ "OpMon::Ui::MovementData", "structOpMon_1_1Ui_1_1MovementData.html", null ],
     [ "OpMon::NatureClass", "classOpMon_1_1NatureClass.html", null ],
     [ "OpMon::OpMon", "classOpMon_1_1OpMon.html", null ],
@@ -100,7 +100,7 @@ var hierarchy =
     [ "OpMon::Species", "classOpMon_1_1Species.html", null ],
     [ "OpMon::StartSceneData", "classOpMon_1_1StartSceneData.html", null ],
     [ "Utils::StringKeys", "classUtils_1_1StringKeys.html", null ],
-    [ "sf::Transformable", "https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Transformable.php.html", [
+    [ "sf::Transformable", "https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Transformable.php", [
       [ "OpMon::Ui::MapLayer", "classOpMon_1_1Ui_1_1MapLayer.html", null ]
     ] ],
     [ "OpMon::Ui::Transformation", "classOpMon_1_1Ui_1_1Transformation.html", null ],

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['graphics_20module_3230',['Graphics module',['https://www.sfml-dev.org/documentation/2.5.1/group__graphics.php.html',1,'']]]
+  ['graphics_20module_3240',['Graphics module',['https://www.sfml-dev.org/documentation/2.5.1/group__graphics.php',1,'']]]
 ];

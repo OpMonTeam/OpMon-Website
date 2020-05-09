@@ -5,7 +5,7 @@ var classOpMon_1_1UiData =
     [ "~UiData", "classOpMon_1_1UiData.html#a9a5daebcc1534d1724631f28b7e758d2", null ],
     [ "getDialogArrow", "classOpMon_1_1UiData.html#a1c7e8d4fcfa6f0d8d2fb0bd9d2e2cf40", null ],
     [ "getDialogBackground", "classOpMon_1_1UiData.html#ad7c862eac4688fa89a6f04ca94757d72", null ],
-    [ "getFont", "classOpMon_1_1UiData.html#a25d4c63ed38cc85f064f6c27666b0b3a", null ],
+    [ "getFont", "classOpMon_1_1UiData.html#aaae5b4db5d8842c278a839ec7461b014", null ],
     [ "getJukebox", "classOpMon_1_1UiData.html#a06c0f7b6e3b293554a43d45f4aa22a44", null ],
     [ "getKeyDown", "classOpMon_1_1UiData.html#ac6b7802e5e49e8a28af20a5a43ae300c", null ],
     [ "getKeyInteract", "classOpMon_1_1UiData.html#afec4029b94db826a5cd7df7ee80a3e9f", null ],

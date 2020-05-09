@@ -2,7 +2,6 @@ var annotated_dup =
 [
     [ "OpMon", null, [
       [ "Animations", "namespaceOpMon_1_1Animations.html", "namespaceOpMon_1_1Animations" ],
-      [ "Attacks", "namespaceOpMon_1_1Attacks.html", "namespaceOpMon_1_1Attacks" ],
       [ "Elements", null, [
         [ "AbstractEvent", "classOpMon_1_1Elements_1_1AbstractEvent.html", "classOpMon_1_1Elements_1_1AbstractEvent" ],
         [ "AbstractMetaEvent", "classOpMon_1_1Elements_1_1AbstractMetaEvent.html", "classOpMon_1_1Elements_1_1AbstractMetaEvent" ],
@@ -25,12 +24,10 @@ var annotated_dup =
       [ "Items", null, [
         [ "HpHealEffect", "classOpMon_1_1Items_1_1HpHealEffect.html", "classOpMon_1_1Items_1_1HpHealEffect" ]
       ] ],
+      [ "Moves", "namespaceOpMon_1_1Moves.html", "namespaceOpMon_1_1Moves" ],
       [ "Ui", "namespaceOpMon_1_1Ui.html", "namespaceOpMon_1_1Ui" ],
       [ "AGameScreen", "classOpMon_1_1AGameScreen.html", "classOpMon_1_1AGameScreen" ],
       [ "AnimationCtrl", "classOpMon_1_1AnimationCtrl.html", "classOpMon_1_1AnimationCtrl" ],
-      [ "Attack", "classOpMon_1_1Attack.html", "classOpMon_1_1Attack" ],
-      [ "AttackData", "structOpMon_1_1AttackData.html", "structOpMon_1_1AttackData" ],
-      [ "AttackEffect", "classOpMon_1_1AttackEffect.html", "classOpMon_1_1AttackEffect" ],
       [ "Battle", "classOpMon_1_1Battle.html", "classOpMon_1_1Battle" ],
       [ "BattleCtrl", "classOpMon_1_1BattleCtrl.html", "classOpMon_1_1BattleCtrl" ],
       [ "BattleData", "classOpMon_1_1BattleData.html", "classOpMon_1_1BattleData" ],
@@ -51,6 +48,9 @@ var annotated_dup =
       [ "MainMenu", "classOpMon_1_1MainMenu.html", "classOpMon_1_1MainMenu" ],
       [ "MainMenuCtrl", "classOpMon_1_1MainMenuCtrl.html", "classOpMon_1_1MainMenuCtrl" ],
       [ "MainMenuData", "classOpMon_1_1MainMenuData.html", "classOpMon_1_1MainMenuData" ],
+      [ "Move", "classOpMon_1_1Move.html", "classOpMon_1_1Move" ],
+      [ "MoveData", "structOpMon_1_1MoveData.html", "structOpMon_1_1MoveData" ],
+      [ "MoveEffect", "classOpMon_1_1MoveEffect.html", "classOpMon_1_1MoveEffect" ],
       [ "NatureClass", "classOpMon_1_1NatureClass.html", "classOpMon_1_1NatureClass" ],
       [ "OpMon", "classOpMon_1_1OpMon.html", "classOpMon_1_1OpMon" ],
       [ "OpTeam", "classOpMon_1_1OpTeam.html", "classOpMon_1_1OpTeam" ],

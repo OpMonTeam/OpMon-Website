@@ -1,7 +1,7 @@
 var classOpMon_1_1Elements_1_1Map =
 [
     [ "Map", "classOpMon_1_1Elements_1_1Map.html#a5cffa19850f9af4ff6d819612262c4aa", null ],
-    [ "Map", "classOpMon_1_1Elements_1_1Map.html#a2bb02829c242c0ede6882518127e8eba", null ],
+    [ "Map", "classOpMon_1_1Elements_1_1Map.html#ae08687ed0a8cbc0691fddee98fa917c9", null ],
     [ "Map", "classOpMon_1_1Elements_1_1Map.html#a1a92182e72f0f3176a9111a03f56b364", null ],
     [ "~Map", "classOpMon_1_1Elements_1_1Map.html#a2e3c151410c556fe26c228e4b5dd1bbd", null ],
     [ "addEvent", "classOpMon_1_1Elements_1_1Map.html#a6d3f75f10b29ddffaf294f5bead0ca59", null ],
@@ -17,6 +17,7 @@ var classOpMon_1_1Elements_1_1Map =
     [ "getLayer2", "classOpMon_1_1Elements_1_1Map.html#a8255b8db3c942edc8e22a659212f5730", null ],
     [ "getLayer3", "classOpMon_1_1Elements_1_1Map.html#a1b2f5ce9d363198091364a031d8c5632", null ],
     [ "getTileCollision", "classOpMon_1_1Elements_1_1Map.html#a80423f085c3aee954f4d3e221814491c", null ],
+    [ "getTileset", "classOpMon_1_1Elements_1_1Map.html#ae9f7e32f91c39dbd8996c312641b3c0d", null ],
     [ "getW", "classOpMon_1_1Elements_1_1Map.html#a0f73d55b4fdeb47e2be6c365eec2b7c6", null ],
     [ "isIndoor", "classOpMon_1_1Elements_1_1Map.html#aec8730f08df29610ff8d1190d0cf9816", null ],
     [ "isLoaded", "classOpMon_1_1Elements_1_1Map.html#a488ced2b31c719867dbc521c44311714", null ],
@@ -33,5 +34,7 @@ var classOpMon_1_1Elements_1_1Map =
     [ "layer2", "classOpMon_1_1Elements_1_1Map.html#aeaa95a0d77b3b31052aea81b02826e0c", null ],
     [ "layer3", "classOpMon_1_1Elements_1_1Map.html#a00e4df9c4c785844703557b7622a5759", null ],
     [ "loaded", "classOpMon_1_1Elements_1_1Map.html#a8118694498c04e597652c65427865742", null ],
+    [ "tileset", "classOpMon_1_1Elements_1_1Map.html#ac654ed51c1eb0e1a5f0d186606daebef", null ],
+    [ "tilesetCol", "classOpMon_1_1Elements_1_1Map.html#ab7cd900762d70f5f16936b74fc927ebf", null ],
     [ "w", "classOpMon_1_1Elements_1_1Map.html#a0b11d2379208adee87ab9bc30084e847", null ]
 ];
