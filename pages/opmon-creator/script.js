@@ -159,9 +159,18 @@ function generateMapJSON() {
         size = "[ ";
         for (let i = 0; i < maps.length; i++) {
             if(maps[i]+maps[i+1] == "wi"){
-                size += maps[i+7]+maps[i+8];
+                let k = i+7;
+                while(maps[k]!="\"" && k < maps.length){
+                    size += maps[k];
+                    k++;
+                }
             } else if(maps[i]+maps[i+1] == "he"){
-                size += ", "+maps[i+8]+maps[i+9];
+                size += ", ";
+                let k = i+8;
+                while(maps[k]!="\"" && k < maps.length){
+                    size += maps[k];
+                    k++;
+                } 
                 break;
             }
         }
