@@ -1,0 +1,92 @@
+<!-- Author : Navet56-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>OpMon Creator Tool</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <div class="centered">
+        <script src="script.js"></script>
+        <img src="https://opmon-game.ga/opmon_title.png"></br>
+        <h3>Creator Tool</h3></br>
+        <button type="button" onclick=window.location.href='index.html' class="btn btn-primary">Back to the main page</button></br>
+        </br>
+        <form id="move">
+            <fieldset>
+              <legend>New move ( /!\ work in progress)</legend> <p>More infos <a href="https://github.com/OpMonTeam/OpMon/wiki/JSON-guide"> here</a></p>
+              <div class="form-group">
+                  <label class="col-sm-2 col-form-label">Name</label>
+                  <input type="text" id="id" value="Move name">
+                  <label class="col-sm-2 col-form-label">Power</label>
+                  <input type="number" id="power" value=50>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 col-form-label">Type</label>
+                <select id="type">
+                  <option>LIQUID</option>
+                  <option>BURNING</option>
+                  <option>SKY</option>
+                  <option>METAL</option>
+                  <option>BUG</option>
+                  <option>GHOST</option>
+                  <option>TOXIC</option>
+                  <option>MAGIC</option>
+                  <option>GROUND</option>
+                  <option>MINERAL</option>
+                  <option>FIGHT</option>
+                  <option>DRAGON</option>
+                  <option>BAD</option>
+                  <option>MENTAL</option>
+                  <option>ELECTRON</option>
+                  <option>VEGETAL</option>
+                  <option>COLD</option>
+                </select>
+                <label class="col-sm-2 col-form-label">Accuracy</label>
+                  <input type="number" id="accuracy" value=100>%
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 col-form-label">Special move ?</label>
+
+                  <input type="radio" id="yesSpe" name="special" value="true">
+                  <label for="yesSpe">Yes</label>
+                
+                  <input type="radio" id="noSpe" name="special" value="false">
+                  <label for="noSpe">No</label>
+
+                  <label class="col-sm-2 col-form-label">Status move ?</label>
+
+                  <input type="radio" id="yesStat" name="status" value="true">
+                  <label for="yesStat">Yes</label>
+                
+                  <input type="radio" id="noStat" name="status" value="false">
+                  <label for="noStat">No</label>
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 col-form-label">Critical Rate</label>
+                  <input type="number" id="criticalRate" value=16>
+
+
+                  <label class="col-sm-2 col-form-label">This move never fails ?</label>
+
+                  <input type="radio" id="yesFail" name="neverFails" value="true">
+                  <label for="yesFail">Yes</label>
+                
+                  <input type="radio" id="noFail" name="neverFails" value="false">
+                  <label for="noFail">No</label>
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 col-form-label">PP Max</label>
+                  <input type="number" id="ppMax" value=30>
+                  <label class="col-sm-2 col-form-label">Priority</label>
+                  <input type="number" id="priority" value=0>
+                </div>
+            </fieldset>
+          </form>
+          <button type="button" onclick="generateMoveJSON()" class="btn btn-primary">Generate code</button></br></br>
+        </div>
+        <div id="json"></div>
+    </body>
+</html>
