@@ -5,7 +5,6 @@ const LANGDOWNTITLE    = document.getElementById("langDownTitle");
 const MENUDOWN         = document.getElementById("menuDown");
 const MENUFEATURES     = document.getElementById("menuFeatures");
 const MENUABOUT        = document.getElementById("menuAbout");
-const MENUTEAM         = document.getElementById("menuTeam");
 const MENUDOC          = document.getElementById("menuDoc");
 const MENUCONTACT      = document.getElementById("menuContact");
 const LANGDOWN         = document.getElementById("langDown");
