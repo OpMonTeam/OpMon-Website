@@ -1,8 +1,0 @@
-<map id="OpMon::Elements::TurnAction" name="OpMon::Elements::TurnAction">
-<area shape="rect" id="node1" title="Contains data needed to show an action in a turn in a View::Battle." alt="" coords="75,288,288,315"/>
-<area shape="rect" id="node2" href="$classUtils_1_1OpString.html" title="A string with an empty space to complete using StringKeys." alt="" coords="123,199,239,225"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,109,195,136"/>
-<area shape="rect" id="node4" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1String.php.html" title=" " alt="" coords="61,13,139,39"/>
-<area shape="rect" id="node5" title="STL class." alt="" coords="219,109,306,136"/>
-<area shape="rect" id="node6" title="STL class." alt="" coords="193,5,332,47"/>
-</map>

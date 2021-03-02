@@ -1,8 +1,0 @@
-<map id="OpMon::Elements::AbstractMetaEvent" name="OpMon::Elements::AbstractMetaEvent">
-<area shape="rect" id="node1" title="An event that contains a queue of events." alt="" coords="241,95,439,136"/>
-<area shape="rect" id="node3" href="$classOpMon_1_1Elements_1_1LinearMetaEvent.html" title="A meta event that calls one group of events after the other." alt="" coords="116,184,335,225"/>
-<area shape="rect" id="node6" href="$classOpMon_1_1Elements_1_1TrainerEvent.html" title="A trainer." alt="" coords="359,184,550,225"/>
-<area shape="rect" id="node2" href="$classOpMon_1_1Elements_1_1AbstractEvent.html" title="The base class of all events." alt="" coords="241,5,439,47"/>
-<area shape="rect" id="node4" href="$classOpMon_1_1Elements_1_1DoorEvent.html" title="An shortcut for an door event." alt="" coords="5,281,219,307"/>
-<area shape="rect" id="node5" href="$classOpMon_1_1Elements_1_1TalkingCharaEvent.html" title="A talking NPC." alt="" coords="243,273,434,315"/>
-</map>

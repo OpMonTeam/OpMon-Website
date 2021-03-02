@@ -1,4 +1,0 @@
-<map id="OpMon::Elements::CharacterEvent" name="OpMon::Elements::CharacterEvent">
-<area shape="rect" id="node1" title="A NPC that just walks through the map." alt="" coords="5,95,213,136"/>
-<area shape="rect" id="node2" href="$classOpMon_1_1Elements_1_1AbstractEvent.html" title="The base class of all events." alt="" coords="10,5,209,47"/>
-</map>
