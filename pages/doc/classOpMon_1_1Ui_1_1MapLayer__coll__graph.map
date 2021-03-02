@@ -1,8 +1,0 @@
-<map id="OpMon::Ui::MapLayer" name="OpMon::Ui::MapLayer">
-<area shape="rect" id="node1" title="A map layer." alt="" coords="159,171,322,197"/>
-<area shape="rect" id="node2" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Drawable.php.html" title=" " alt="" coords="5,5,108,32"/>
-<area shape="rect" id="node6" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1VertexArray.php.html" title=" " alt="" coords="69,81,188,108"/>
-<area shape="rect" id="node3" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Transformable.php.html" title=" " alt="" coords="212,81,347,108"/>
-<area shape="rect" id="node4" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1Texture.php.html" title=" " alt="" coords="371,81,460,108"/>
-<area shape="rect" id="node5" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1GlResource.php.html" title=" " alt="" coords="358,5,473,32"/>
-</map>

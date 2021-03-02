@@ -1,9 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classOpMon_1_1CurveExp.html" title="Defines the function used for the experience curves." alt="" coords="5,132,144,159"/>
-<area shape="rect" id="node2" href="$classOpMon_1_1CurveExpErratic.html" title=" " alt="" coords="207,5,387,32"/>
-<area shape="rect" id="node3" href="$classOpMon_1_1CurveExpFluctuating.html" title=" " alt="" coords="192,56,403,83"/>
-<area shape="rect" id="node4" href="$classOpMon_1_1CurveExpNormal.html" title=" " alt="" coords="204,107,391,133"/>
-<area shape="rect" id="node5" href="$classOpMon_1_1CurveExpParabolic.html" title=" " alt="" coords="198,157,397,184"/>
-<area shape="rect" id="node6" href="$classOpMon_1_1CurveExpQuick.html" title=" " alt="" coords="210,208,385,235"/>
-<area shape="rect" id="node7" href="$classOpMon_1_1CurveExpSlow.html" title=" " alt="" coords="213,259,382,285"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="src/opmon/screens/mainmenu/MainMenuData.hpp" name="src/opmon/screens/mainmenu/MainMenuData.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="131,5,349,47"/>
-<area shape="rect" id="node2" href="$MainMenu_8hpp.html" title=" " alt="" coords="131,95,349,136"/>
-<area shape="rect" id="node3" href="$MainMenuCtrl_8hpp.html" title=" " alt="" coords="5,184,224,225"/>
-<area shape="rect" id="node4" href="$OptionsMenuCtrl_8hpp.html" title=" " alt="" coords="249,184,482,225"/>
-</map>

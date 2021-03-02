@@ -1,6 +1,0 @@
-<map id="OpMon::Elements::TalkingCharaEvent" name="OpMon::Elements::TalkingCharaEvent">
-<area shape="rect" id="node1" title="A talking NPC." alt="" coords="19,273,210,315"/>
-<area shape="rect" id="node2" href="$classOpMon_1_1Elements_1_1LinearMetaEvent.html" title="A meta event that calls one group of events after the other." alt="" coords="5,184,224,225"/>
-<area shape="rect" id="node3" href="$classOpMon_1_1Elements_1_1AbstractMetaEvent.html" title="An event that contains a queue of events." alt="" coords="15,95,214,136"/>
-<area shape="rect" id="node4" href="$classOpMon_1_1Elements_1_1AbstractEvent.html" title="The base class of all events." alt="" coords="15,5,214,47"/>
-</map>

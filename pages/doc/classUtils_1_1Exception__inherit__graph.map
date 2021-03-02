@@ -1,8 +1,0 @@
-<map id="Utils::Exception" name="Utils::Exception">
-<area shape="rect" id="node1" title="Base class for exceptions containing some data." alt="" coords="168,81,292,108"/>
-<area shape="rect" id="node3" href="$classUtils_1_1LoadingException.html" title="Exception representing a loading error." alt="" coords="376,5,551,32"/>
-<area shape="rect" id="node4" href="$classUtils_1_1NullptrException.html" title="Exception thrown when a pointer unexpectedly have the value nullptr." alt="" coords="379,56,547,83"/>
-<area shape="rect" id="node5" href="$classUtils_1_1UnexpectedValueException.html" title="Exception thrown when a variable have an unexpected value that can&#39;t be handled." alt="" coords="344,107,583,133"/>
-<area shape="rect" id="node6" href="$classUtils_1_1UnloadedResourceException.html" title="Exception thrown when the program tries to access a variable which haven&#39;t been loaded." alt="" coords="340,157,587,184"/>
-<area shape="rect" id="node2" title="STL class." alt="" coords="5,81,120,108"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="OpMon::Elements::BattleEvent" name="OpMon::Elements::BattleEvent">
-<area shape="rect" id="node1" title="An event that launches a battle." alt="" coords="5,95,227,121"/>
-<area shape="rect" id="node2" href="$classOpMon_1_1Elements_1_1AbstractEvent.html" title="The base class of all events." alt="" coords="17,5,215,47"/>
-</map>

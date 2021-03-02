@@ -1,5 +1,0 @@
-<map id="OpMon::Elements::DialogEvent" name="OpMon::Elements::DialogEvent">
-<area shape="rect" id="node1" title="An event that shows a dialog." alt="" coords="101,95,325,121"/>
-<area shape="rect" id="node2" href="$classOpMon_1_1Elements_1_1AbstractEvent.html" title="The base class of all events." alt="" coords="5,5,204,47"/>
-<area shape="rect" id="node3" href="$classUtils_1_1I18n_1_1ATranslatable.html" title="Base class for any element requiring to reload when the lang changes." alt="" coords="228,13,413,39"/>
-</map>

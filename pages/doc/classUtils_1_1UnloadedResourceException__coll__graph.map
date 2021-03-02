@@ -1,7 +1,0 @@
-<map id="Utils::UnloadedResourceException" name="Utils::UnloadedResourceException">
-<area shape="rect" id="node1" title="Exception thrown when the program tries to access a variable which haven&#39;t been loaded." alt="" coords="9,200,255,227"/>
-<area shape="rect" id="node2" href="$classUtils_1_1Exception.html" title="Base class for exceptions containing some data." alt="" coords="6,96,130,123"/>
-<area shape="rect" id="node3" title="STL class." alt="" coords="5,13,120,39"/>
-<area shape="rect" id="node4" title="STL class." alt="" coords="165,96,251,123"/>
-<area shape="rect" id="node5" title="STL class." alt="" coords="144,5,283,47"/>
-</map>

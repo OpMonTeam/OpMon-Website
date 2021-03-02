@@ -1,8 +1,0 @@
-<map id="OpMon::Species" name="OpMon::Species">
-<area shape="rect" id="node1" title="Defines a species of OpMon." alt="" coords="149,200,275,227"/>
-<area shape="rect" id="node6" href="$classOpMon_1_1Evolution.html" title="Defines an evolution type." alt="" coords="143,289,281,316"/>
-<area shape="rect" id="node2" href="$classOpMon_1_1CurveExp.html" title="Defines the function used for the experience curves." alt="" coords="5,96,144,123"/>
-<area shape="rect" id="node3" title="STL class." alt="" coords="169,96,255,123"/>
-<area shape="rect" id="node4" title="STL class." alt="" coords="143,5,281,47"/>
-<area shape="rect" id="node5" title=" " alt="" coords="280,96,435,123"/>
-</map>

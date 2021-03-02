@@ -1,4 +1,0 @@
-<map id="OpMon::Elements::SoundEvent" name="OpMon::Elements::SoundEvent">
-<area shape="rect" id="node1" title="An event that plays a sound or a music when triggered." alt="" coords="5,95,228,121"/>
-<area shape="rect" id="node2" href="$classOpMon_1_1Elements_1_1AbstractEvent.html" title="The base class of all events." alt="" coords="17,5,216,47"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="OpMon::Elements::TrainerEvent" name="OpMon::Elements::TrainerEvent">
-<area shape="rect" id="node1" title="A trainer." alt="" coords="9,184,200,225"/>
-<area shape="rect" id="node2" href="$classOpMon_1_1Elements_1_1AbstractMetaEvent.html" title="An event that contains a queue of events." alt="" coords="5,95,204,136"/>
-<area shape="rect" id="node3" href="$classOpMon_1_1Elements_1_1AbstractEvent.html" title="The base class of all events." alt="" coords="5,5,204,47"/>
-</map>

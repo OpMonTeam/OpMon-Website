@@ -1,9 +1,0 @@
-<map id="Utils::I18n::ATranslatable" name="Utils::I18n::ATranslatable">
-<area shape="rect" id="node1" title="Base class for any element requiring to reload when the lang changes." alt="" coords="5,132,191,159"/>
-<area shape="rect" id="node2" href="$classOpMon_1_1Elements_1_1DialogEvent.html" title="An event that shows a dialog." alt="" coords="239,5,463,32"/>
-<area shape="rect" id="node3" href="$classOpMon_1_1Item.html" title=" " alt="" coords="297,56,404,83"/>
-<area shape="rect" id="node4" href="$classOpMon_1_1MainMenu.html" title="The view printing the main menu showing at the start of the game." alt="" coords="279,107,423,133"/>
-<area shape="rect" id="node5" href="$classOpMon_1_1Move.html" title="Describes an move." alt="" coords="295,157,407,184"/>
-<area shape="rect" id="node6" href="$classOpMon_1_1OptionsMenu.html" title="The screen of the settings." alt="" coords="269,208,432,235"/>
-<area shape="rect" id="node7" href="$classOpMon_1_1StartScene.html" title="View managing the introduction scene." alt="" coords="277,259,424,285"/>
-</map>

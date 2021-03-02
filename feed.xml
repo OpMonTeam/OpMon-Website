@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-03-02T19:58:49+01:00</updated><id>/feed.xml</id><title type="html">OpMon</title><subtitle>The Official Website of the OpMon Project</subtitle><author><name>OpMon Team</name></author><entry><title type="html">Welcome to OpMon New Website</title><link href="/2021/02/21/welcome-to-opmon-new-website.html" rel="alternate" type="text/html" title="Welcome to OpMon New Website" /><published>2021-02-21T00:00:00+01:00</published><updated>2021-02-21T00:00:00+01:00</updated><id>/2021/02/21/welcome-to-opmon-new-website</id><content type="html" xml:base="/2021/02/21/welcome-to-opmon-new-website.html">&lt;p&gt;Hello everyone, and welcome to OpMon new website! We wanted to transition from
+the old one since some time now, and the recent progress on the Godot version of
+OpMon gave us the perfect occasion.&lt;/p&gt;
+
+&lt;p&gt;So yeah, as some of you may be aware we recently switched from &lt;a href=&quot;https://www.sfml-dev.org/&quot;&gt;SFML&lt;/a&gt;
+to &lt;a href=&quot;https://godotengine.org/&quot;&gt;Godot&lt;/a&gt; to develop OpMon. We’re currently getting
+up to speed with the old version of the project.&lt;/p&gt;
+
+&lt;p&gt;We’ll try to keep you updated with the development progress, so stay tuned!&lt;/p&gt;</content><author><name>OpMon Team</name></author><summary type="html">Hello everyone, and welcome to OpMon new website! We wanted to transition from the old one since some time now, and the recent progress on the Godot version of OpMon gave us the perfect occasion.</summary></entry></feed>

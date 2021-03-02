@@ -1,6 +1,0 @@
-<map id="OpMon::ItemEffect" name="OpMon::ItemEffect">
-<area shape="rect" id="node1" title="Defines the effect of an item. \warn Work in progress." alt="" coords="23,288,167,315"/>
-<area shape="rect" id="node2" title=" " alt="" coords="8,184,181,225"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,95,184,121"/>
-<area shape="rect" id="node4" href="/home/cyrielle/Bureau/OpMon/doc/SFML.tag$classsf_1_1String.php.html" title=" " alt="" coords="55,5,134,32"/>
-</map>

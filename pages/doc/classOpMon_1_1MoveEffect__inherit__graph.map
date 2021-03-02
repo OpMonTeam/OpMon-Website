@@ -1,4 +1,0 @@
-<map id="OpMon::MoveEffect" name="OpMon::MoveEffect">
-<area shape="rect" id="node1" title="This class is virtual and one has to be created for each move effect." alt="" coords="31,5,182,32"/>
-<area shape="rect" id="node2" href="$classOpMon_1_1Moves_1_1ChangeStatEffect.html" title="A generic effet to change an OpMon&#39;s statistic." alt="" coords="5,80,208,121"/>
-</map>
