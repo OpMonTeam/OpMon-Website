@@ -3,17 +3,17 @@
 	"file": "main.css",
 	"sources": [
 		"main.scss",
-		"../../../../usr/lib/ruby/gems/3.0.0/gems/jekyll-theme-clean-blog-4.0.10/_sass/styles.scss",
-		"../../../../usr/lib/ruby/gems/3.0.0/gems/jekyll-theme-clean-blog-4.0.10/assets/vendor/startbootstrap-clean-blog/scss/clean-blog.scss",
-		"../../../../usr/lib/ruby/gems/3.0.0/gems/jekyll-theme-clean-blog-4.0.10/assets/vendor/startbootstrap-clean-blog/scss/_variables.scss",
-		"../../../../usr/lib/ruby/gems/3.0.0/gems/jekyll-theme-clean-blog-4.0.10/assets/vendor/startbootstrap-clean-blog/scss/_mixins.scss",
-		"../../../../usr/lib/ruby/gems/3.0.0/gems/jekyll-theme-clean-blog-4.0.10/assets/vendor/startbootstrap-clean-blog/scss/_global.scss",
-		"../../../../usr/lib/ruby/gems/3.0.0/gems/jekyll-theme-clean-blog-4.0.10/assets/vendor/startbootstrap-clean-blog/scss/_navbar.scss",
-		"../../../../usr/lib/ruby/gems/3.0.0/gems/jekyll-theme-clean-blog-4.0.10/assets/vendor/startbootstrap-clean-blog/scss/_masthead.scss",
-		"../../../../usr/lib/ruby/gems/3.0.0/gems/jekyll-theme-clean-blog-4.0.10/assets/vendor/startbootstrap-clean-blog/scss/_post.scss",
-		"../../../../usr/lib/ruby/gems/3.0.0/gems/jekyll-theme-clean-blog-4.0.10/assets/vendor/startbootstrap-clean-blog/scss/_contact.scss",
-		"../../../../usr/lib/ruby/gems/3.0.0/gems/jekyll-theme-clean-blog-4.0.10/assets/vendor/startbootstrap-clean-blog/scss/_footer.scss",
-		"../../../../usr/lib/ruby/gems/3.0.0/gems/jekyll-theme-clean-blog-4.0.10/assets/vendor/startbootstrap-clean-blog/scss/_bootstrap-overrides.scss"
+		"../../../usr/lib/ruby/gems/3.0.0/gems/jekyll-theme-clean-blog-4.0.10/_sass/styles.scss",
+		"../../../usr/lib/ruby/gems/3.0.0/gems/jekyll-theme-clean-blog-4.0.10/assets/vendor/startbootstrap-clean-blog/scss/clean-blog.scss",
+		"../../../usr/lib/ruby/gems/3.0.0/gems/jekyll-theme-clean-blog-4.0.10/assets/vendor/startbootstrap-clean-blog/scss/_variables.scss",
+		"../../../usr/lib/ruby/gems/3.0.0/gems/jekyll-theme-clean-blog-4.0.10/assets/vendor/startbootstrap-clean-blog/scss/_mixins.scss",
+		"../../../usr/lib/ruby/gems/3.0.0/gems/jekyll-theme-clean-blog-4.0.10/assets/vendor/startbootstrap-clean-blog/scss/_global.scss",
+		"../../../usr/lib/ruby/gems/3.0.0/gems/jekyll-theme-clean-blog-4.0.10/assets/vendor/startbootstrap-clean-blog/scss/_navbar.scss",
+		"../../../usr/lib/ruby/gems/3.0.0/gems/jekyll-theme-clean-blog-4.0.10/assets/vendor/startbootstrap-clean-blog/scss/_masthead.scss",
+		"../../../usr/lib/ruby/gems/3.0.0/gems/jekyll-theme-clean-blog-4.0.10/assets/vendor/startbootstrap-clean-blog/scss/_post.scss",
+		"../../../usr/lib/ruby/gems/3.0.0/gems/jekyll-theme-clean-blog-4.0.10/assets/vendor/startbootstrap-clean-blog/scss/_contact.scss",
+		"../../../usr/lib/ruby/gems/3.0.0/gems/jekyll-theme-clean-blog-4.0.10/assets/vendor/startbootstrap-clean-blog/scss/_footer.scss",
+		"../../../usr/lib/ruby/gems/3.0.0/gems/jekyll-theme-clean-blog-4.0.10/assets/vendor/startbootstrap-clean-blog/scss/_bootstrap-overrides.scss"
 	],
 	"sourcesContent": [
 		"@import \"styles\";\n",
