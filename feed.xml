@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-05-04T21:23:08+02:00</updated><id>/feed.xml</id><title type="html">OpMon</title><subtitle>The Official Website of the OpMon Project</subtitle><author><name>OpMon Team</name></author><entry><title type="html">April / May Monthly report</title><link href="/2022/05/04/monthly-report-april-may.html" rel="alternate" type="text/html" title="April / May Monthly report" /><published>2022-05-04T00:00:00+02:00</published><updated>2022-05-04T00:00:00+02:00</updated><id>/2022/05/04/monthly-report-april-may</id><content type="html" xml:base="/2022/05/04/monthly-report-april-may.html">&lt;p&gt;April has been a pretty busy month for me. There is still some progress done during Mars and some in April, and I think the things to do for the next version will be done next month.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-05-27T17:17:44+02:00</updated><id>/feed.xml</id><title type="html">OpMon</title><subtitle>The Official Website of the OpMon Project</subtitle><author><name>OpMon Team</name></author><entry><title type="html">Alpha 0.3 now released!</title><link href="/2022/05/27/alpha-0.3.html" rel="alternate" type="text/html" title="Alpha 0.3 now released!" /><published>2022-05-27T00:00:00+02:00</published><updated>2022-05-27T00:00:00+02:00</updated><id>/2022/05/27/alpha-0.3</id><content type="html" xml:base="/2022/05/27/alpha-0.3.html">&lt;p&gt;This release adds a major feature: teams. The player now has a team they can manage in the team management screen (that can be found in the Game Menu, an in-game menu that can be accessed by pressing the Escape key, note that the assigned key is temporary). The only management feature available now is the reorganisation of the team.&lt;/p&gt;
+
+&lt;p&gt;With the addition of teams, the battles are now over only when a full team is defeated. You can also change OpMon in battle and choose another one when the previous one is K.O. Your opponent will also change OpMon when the previous one is defeated.&lt;/p&gt;
+
+&lt;p&gt;Two other important additions are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Animated moves by &lt;a href=&quot;https://github.com/Kuromeruk&quot;&gt;@Kuromeruk&lt;/a&gt;, moves are now nicely animated when used.&lt;/li&gt;
+  &lt;li&gt;Primitive save and load feature by &lt;a href=&quot;https://github.com/cyriellecentori&quot;&gt;@cyriellecentori&lt;/a&gt;, better described in the associated pull request &lt;a href=&quot;https://github.com/OpMonTeam/OpMon/pull/55&quot;&gt;#55&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Also thanks to &lt;a href=&quot;https://github.com/HasJamOn&quot;&gt;@HasJamOn&lt;/a&gt; for useful quality of life features and improvements and to &lt;a href=&quot;https://github.com/alkaloid99&quot;&gt;@alkaloid99&lt;/a&gt; for adding two maps, the player’s house and room.&lt;/p&gt;
+
+&lt;p&gt;And as always, thank you for following the development of OpMon.&lt;/p&gt;
+
+&lt;h2 id=&quot;changelog&quot;&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Added game menu by &lt;a href=&quot;https://github.com/cyriellecentori&quot;&gt;@cyriellecentori&lt;/a&gt; in &lt;a href=&quot;https://github.com/OpMonTeam/OpMon/pull/38&quot;&gt;#38&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Added Controller Mapping by &lt;a href=&quot;https://github.com/HasJamOn&quot;&gt;@HasJamOn&lt;/a&gt; in &lt;a href=&quot;https://github.com/OpMonTeam/OpMon/pull/42&quot;&gt;#42&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;WASD mapped to ui-directions by &lt;a href=&quot;https://github.com/HasJamOn&quot;&gt;@HasJamOn&lt;/a&gt; in &lt;a href=&quot;https://github.com/OpMonTeam/OpMon/pull/43&quot;&gt;#43&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Doubled WALK_SPEED increasing Character’s Speed in overworld by &lt;a href=&quot;https://github.com/HasJamOn&quot;&gt;@HasJamOn&lt;/a&gt; in &lt;a href=&quot;https://github.com/OpMonTeam/OpMon/pull/44&quot;&gt;#44&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Implements Player House by &lt;a href=&quot;https://github.com/alkaloid99&quot;&gt;@alkaloid99&lt;/a&gt; in &lt;a href=&quot;https://github.com/OpMonTeam/OpMon/pull/45&quot;&gt;#45&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Implements Player Room by &lt;a href=&quot;https://github.com/alkaloid99&quot;&gt;@alkaloid99&lt;/a&gt; in &lt;a href=&quot;https://github.com/OpMonTeam/OpMon/pull/46&quot;&gt;#46&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Team management screen by &lt;a href=&quot;https://github.com/cyriellecentori&quot;&gt;@cyriellecentori&lt;/a&gt; in &lt;a href=&quot;https://github.com/OpMonTeam/OpMon/pull/41&quot;&gt;#41&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Encode translations.csv in UTF-8 for Godot’s tr function by &lt;a href=&quot;https://github.com/Kuromeruk&quot;&gt;@Kuromeruk&lt;/a&gt; in &lt;a href=&quot;https://github.com/OpMonTeam/OpMon/pull/47&quot;&gt;#47&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Add rival’s house and room by &lt;a href=&quot;https://github.com/Kuromeruk&quot;&gt;@Kuromeruk&lt;/a&gt; in &lt;a href=&quot;https://github.com/OpMonTeam/OpMon/pull/48&quot;&gt;#48&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Move animation by &lt;a href=&quot;https://github.com/Kuromeruk&quot;&gt;@Kuromeruk&lt;/a&gt; in &lt;a href=&quot;https://github.com/OpMonTeam/OpMon/pull/50&quot;&gt;#50&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Adding team support in battles by &lt;a href=&quot;https://github.com/cyriellecentori&quot;&gt;@cyriellecentori&lt;/a&gt; in &lt;a href=&quot;https://github.com/OpMonTeam/OpMon/pull/51&quot;&gt;#51&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Primitive save and load feature by &lt;a href=&quot;https://github.com/cyriellecentori&quot;&gt;@cyriellecentori&lt;/a&gt; in &lt;a href=&quot;https://github.com/OpMonTeam/OpMon/pull/55&quot;&gt;#55&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;new-contributors&quot;&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/HasJamOn&quot;&gt;@HasJamOn&lt;/a&gt; made their first contribution in &lt;a href=&quot;https://github.com/OpMonTeam/OpMon/pull/42&quot;&gt;#42&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/alkaloid99&quot;&gt;@alkaloid99&lt;/a&gt; made their first contribution in &lt;a href=&quot;https://github.com/OpMonTeam/OpMon/pull/45&quot;&gt;#45&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Kuromeruk&quot;&gt;@Kuromeruk&lt;/a&gt; made their first contribution in &lt;a href=&quot;https://github.com/OpMonTeam/OpMon/pull/47&quot;&gt;#47&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a href=&quot;https://github.com/OpMonTeam/OpMon/compare/v0.2.0-alpha...v0.3.0-alpha&quot;&gt;v0.2.0-alpha…v0.3.0-alpha&lt;/a&gt;&lt;/p&gt;</content><author><name>OpMon Team</name></author><summary type="html">This release adds a major feature: teams. The player now has a team they can manage in the team management screen (that can be found in the Game Menu, an in-game menu that can be accessed by pressing the Escape key, note that the assigned key is temporary). The only management feature available now is the reorganisation of the team.</summary></entry><entry><title type="html">April / May Monthly report</title><link href="/2022/05/04/monthly-report-april-may.html" rel="alternate" type="text/html" title="April / May Monthly report" /><published>2022-05-04T00:00:00+02:00</published><updated>2022-05-04T00:00:00+02:00</updated><id>/2022/05/04/monthly-report-april-may</id><content type="html" xml:base="/2022/05/04/monthly-report-april-may.html">&lt;p&gt;April has been a pretty busy month for me. There is still some progress done during Mars and some in April, and I think the things to do for the next version will be done next month.&lt;/p&gt;
 
 &lt;h2 id=&quot;in-the-game&quot;&gt;In the game&lt;/h2&gt;
 &lt;p&gt;We’re moving forwards! The big news: the in-game menu and the team management screens are done. Now you can reorganise your team and change your first OpMon. However, the battle system still doesn’t take the team into account, except for the first OpMon that will be the one launch (so you can choose the OpMon you start the test battle with). That’s something that will be added this month.&lt;/p&gt;

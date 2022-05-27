@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    Alpha 0.3 now released! - OpMon
+    
+  </title>
+
+  <meta name="description" content="This release adds a major feature: teams. The player now has a team they can manage in the team management screen (that can be found in the Game Menu, an in-...">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="/assets/vendor/fontawesome-free/css/all.min.css">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="/2022/05/27/alpha-0.3.html">
+  <link rel="alternate" type="application/rss+xml" title="OpMon" href="/feed.xml">
+
+</head>
+
+
+<body>
+
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">OpMon</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/posts">Posts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/download">Download</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Page Header -->
+
+<header class="masthead" style="background-image: url('/img/bg-opmon.png')">
+  
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>Alpha 0.3 now released!</h1>
+            
+            <span class="meta">Posted by
+              <a href="#">OpMon Team</a>
+              on May 27, 2022 &middot; <span class="reading-time" title="Estimated read time">
+  
+   2 mins  read </span>
+
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <p>This release adds a major feature: teams. The player now has a team they can manage in the team management screen (that can be found in the Game Menu, an in-game menu that can be accessed by pressing the Escape key, note that the assigned key is temporary). The only management feature available now is the reorganisation of the team.</p>
+
+<p>With the addition of teams, the battles are now over only when a full team is defeated. You can also change OpMon in battle and choose another one when the previous one is K.O. Your opponent will also change OpMon when the previous one is defeated.</p>
+
+<p>Two other important additions are:</p>
+
+<ul>
+  <li>Animated moves by <a href="https://github.com/Kuromeruk">@Kuromeruk</a>, moves are now nicely animated when used.</li>
+  <li>Primitive save and load feature by <a href="https://github.com/cyriellecentori">@cyriellecentori</a>, better described in the associated pull request <a href="https://github.com/OpMonTeam/OpMon/pull/55">#55</a>.</li>
+</ul>
+
+<p>Also thanks to <a href="https://github.com/HasJamOn">@HasJamOn</a> for useful quality of life features and improvements and to <a href="https://github.com/alkaloid99">@alkaloid99</a> for adding two maps, the player’s house and room.</p>
+
+<p>And as always, thank you for following the development of OpMon.</p>
+
+<h2 id="changelog">Changelog</h2>
+<ul>
+  <li>Added game menu by <a href="https://github.com/cyriellecentori">@cyriellecentori</a> in <a href="https://github.com/OpMonTeam/OpMon/pull/38">#38</a></li>
+  <li>Added Controller Mapping by <a href="https://github.com/HasJamOn">@HasJamOn</a> in <a href="https://github.com/OpMonTeam/OpMon/pull/42">#42</a></li>
+  <li>WASD mapped to ui-directions by <a href="https://github.com/HasJamOn">@HasJamOn</a> in <a href="https://github.com/OpMonTeam/OpMon/pull/43">#43</a></li>
+  <li>Doubled WALK_SPEED increasing Character’s Speed in overworld by <a href="https://github.com/HasJamOn">@HasJamOn</a> in <a href="https://github.com/OpMonTeam/OpMon/pull/44">#44</a></li>
+  <li>Implements Player House by <a href="https://github.com/alkaloid99">@alkaloid99</a> in <a href="https://github.com/OpMonTeam/OpMon/pull/45">#45</a></li>
+  <li>Implements Player Room by <a href="https://github.com/alkaloid99">@alkaloid99</a> in <a href="https://github.com/OpMonTeam/OpMon/pull/46">#46</a></li>
+  <li>Team management screen by <a href="https://github.com/cyriellecentori">@cyriellecentori</a> in <a href="https://github.com/OpMonTeam/OpMon/pull/41">#41</a></li>
+  <li>Encode translations.csv in UTF-8 for Godot’s tr function by <a href="https://github.com/Kuromeruk">@Kuromeruk</a> in <a href="https://github.com/OpMonTeam/OpMon/pull/47">#47</a></li>
+  <li>Add rival’s house and room by <a href="https://github.com/Kuromeruk">@Kuromeruk</a> in <a href="https://github.com/OpMonTeam/OpMon/pull/48">#48</a></li>
+  <li>Move animation by <a href="https://github.com/Kuromeruk">@Kuromeruk</a> in <a href="https://github.com/OpMonTeam/OpMon/pull/50">#50</a></li>
+  <li>Adding team support in battles by <a href="https://github.com/cyriellecentori">@cyriellecentori</a> in <a href="https://github.com/OpMonTeam/OpMon/pull/51">#51</a></li>
+  <li>Primitive save and load feature by <a href="https://github.com/cyriellecentori">@cyriellecentori</a> in <a href="https://github.com/OpMonTeam/OpMon/pull/55">#55</a></li>
+</ul>
+
+<h2 id="new-contributors">New Contributors</h2>
+<ul>
+  <li><a href="https://github.com/HasJamOn">@HasJamOn</a> made their first contribution in <a href="https://github.com/OpMonTeam/OpMon/pull/42">#42</a></li>
+  <li><a href="https://github.com/alkaloid99">@alkaloid99</a> made their first contribution in <a href="https://github.com/OpMonTeam/OpMon/pull/45">#45</a></li>
+  <li><a href="https://github.com/Kuromeruk">@Kuromeruk</a> made their first contribution in <a href="https://github.com/OpMonTeam/OpMon/pull/47">#47</a></li>
+</ul>
+
+<p><strong>Full Changelog</strong>: <a href="https://github.com/OpMonTeam/OpMon/compare/v0.2.0-alpha...v0.3.0-alpha">v0.2.0-alpha…v0.3.0-alpha</a></p>
+
+
+        <hr>
+
+        <div class="clearfix">
+
+          
+          <a class="btn btn-primary float-left" href="/2022/05/04/monthly-report-april-may.html" data-toggle="tooltip" data-placement="top" title="April / May Monthly report">&larr; Previous<span class="d-none d-md-inline">
+              Post</span></a>
+          
+          
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          
+          <li class="list-inline-item">
+            <a href="https://discord.gg/Yj2Fwqvj2G">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-discord fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://github.com/OpMonTeam">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://www.youtube.com/channel/UCcAW70kcQi3I-H49LfB76Gg">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy; OpMon Team 2022</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
+
+<script src="/assets/scripts.js"></script>
+
+
+
+
+</body>
+
+</html>
